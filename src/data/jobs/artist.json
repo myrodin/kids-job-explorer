@@ -1,0 +1,600 @@
+[
+  {
+    "id": "webtoon-artist",
+    "name": "웹툰 작가",
+    "emoji": "📱",
+    "category": "artist",
+    "description": "스마트폰으로 보는 만화를 그려요. 재미있는 이야기와 그림으로 사람들을 즐겁게 해요.",
+    "dailyWork": [
+      "10:00 - 작업 시작",
+      "11:00 - 스토리 구상",
+      "13:00 - 점심",
+      "14:00 - 그림 작업",
+      "22:00 - 마감 및 업로드"
+    ],
+    "requirements": {
+      "education": "만화애니메이션학과 또는 독학",
+      "skills": ["그림 실력", "스토리텔링", "디지털 드로잉"],
+      "personality": ["창의성", "끈기", "마감 잘 지킴"]
+    },
+    "preparation": {
+      "elementary": ["그림 그리기", "만화 많이 읽기"],
+      "middle": ["디지털 드로잉 배우기", "단편 만화 그려보기"],
+      "high": ["포트폴리오 준비", "웹툰 공모전 도전"]
+    },
+    "resources": {
+      "books": [
+        {"title": "웹툰 작가가 되고 싶어!", "author": "만화동화"}
+      ],
+      "videos": [
+        {"title": "웹툰 작가 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["웹툰 그리기 강좌", "만화 캠프"]
+    },
+    "funFacts": [
+      "한국 웹툰은 전 세계에서 인기가 많아요",
+      "인기 웹툰은 드라마나 영화로도 만들어져요"
+    ],
+    "tags": {
+      "interests": ["art", "drawing", "creative", "illustration"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "game-graphic-designer",
+    "name": "게임 그래픽 디자이너",
+    "emoji": "🎮",
+    "category": "artist",
+    "description": "게임 속 캐릭터와 배경을 그려요. 게임 세계를 시각적으로 만들어요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 캐릭터 디자인",
+      "13:00 - 점심",
+      "14:00 - 배경 및 아이템 제작",
+      "18:00 - 팀 회의"
+    ],
+    "requirements": {
+      "education": "게임그래픽학과 또는 미술 전공",
+      "skills": ["그래픽 디자인", "3D 모델링", "색채 감각"],
+      "personality": ["창의성", "협동심", "게임 좋아함"]
+    },
+    "preparation": {
+      "elementary": ["그림 그리기", "게임 관심"],
+      "middle": ["디지털 아트 배우기", "게임 분석"],
+      "high": ["게임학과 준비", "포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "게임 그래픽의 세계", "author": "게임동화"}
+      ],
+      "videos": [
+        {"title": "게임 그래픽 메이킹", "url": "https://youtube.com"}
+      ],
+      "experiences": ["게임 전시회", "그래픽 강좌"]
+    },
+    "funFacts": [
+      "하나의 게임 캐릭터를 만드는 데 수개월이 걸려요",
+      "게임 속 풍경도 실제처럼 빛과 그림자를 계산해요"
+    ],
+    "tags": {
+      "interests": ["art", "game", "tech", "creative"],
+      "workStyle": ["creative", "hands-on", "team"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "animator",
+    "name": "애니메이터",
+    "emoji": "🎬",
+    "category": "artist",
+    "description": "만화영화를 만들어요. 캐릭터가 움직이고 표정을 짓도록 그려요.",
+    "dailyWork": [
+      "09:00 - 스튜디오 출근",
+      "10:00 - 원화 작업",
+      "12:00 - 점심",
+      "13:00 - 동화 작업",
+      "18:00 - 회의 및 수정"
+    ],
+    "requirements": {
+      "education": "애니메이션학과 졸업",
+      "skills": ["드로잉", "움직임 표현", "디지털 툴"],
+      "personality": ["꼼꼼함", "인내심", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["그림 그리기", "애니메이션 보기"],
+      "middle": ["플립북 만들기", "디지털 드로잉"],
+      "high": ["애니메이션학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "애니메이션의 비밀", "author": "애니동화"}
+      ],
+      "videos": [
+        {"title": "애니메이터 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["애니메이션 체험", "캐릭터 그리기 강좌"]
+    },
+    "funFacts": [
+      "1초 영상을 만드는 데 24장의 그림이 필요해요",
+      "디즈니 영화 한 편을 만드는 데 4~5년이 걸려요"
+    ],
+    "tags": {
+      "interests": ["art", "animation", "creative", "video"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "character-designer",
+    "name": "캐릭터 디자이너",
+    "emoji": "🐰",
+    "category": "artist",
+    "description": "카카오프렌즈처럼 귀여운 캐릭터를 만들어요. 사람들이 좋아하는 캐릭터를 디자인해요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 아이디어 스케치",
+      "13:00 - 점심",
+      "14:00 - 캐릭터 디자인",
+      "17:00 - 피드백 및 수정"
+    ],
+    "requirements": {
+      "education": "시각디자인 또는 만화 전공",
+      "skills": ["일러스트", "창의력", "트렌드 파악"],
+      "personality": ["창의성", "귀여움 감각", "대중성"]
+    },
+    "preparation": {
+      "elementary": ["캐릭터 그리기", "좋아하는 캐릭터 분석"],
+      "middle": ["디자인 공부", "나만의 캐릭터 만들기"],
+      "high": ["디자인학과 준비", "포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "캐릭터 만들기", "author": "디자인동화"}
+      ],
+      "videos": [
+        {"title": "캐릭터 디자인 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["캐릭터 전시회", "디자인 강좌"]
+    },
+    "funFacts": [
+      "카카오프렌즈 중 가장 인기 있는 건 '라이언'이에요",
+      "좋은 캐릭터는 말 없이도 감정이 느껴져요"
+    ],
+    "tags": {
+      "interests": ["art", "creative", "design"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "fashion-designer",
+    "name": "패션 디자이너",
+    "emoji": "👗",
+    "category": "artist",
+    "description": "옷을 디자인해요. 사람들이 입는 멋진 옷을 창작해요.",
+    "dailyWork": [
+      "09:00 - 스튜디오 출근",
+      "10:00 - 디자인 스케치",
+      "12:00 - 점심",
+      "14:00 - 원단 선택 및 샘플 제작",
+      "17:00 - 피팅 및 수정"
+    ],
+    "requirements": {
+      "education": "패션디자인학과 졸업",
+      "skills": ["디자인", "재봉", "트렌드 분석"],
+      "personality": ["창의성", "미적 감각", "관찰력"]
+    },
+    "preparation": {
+      "elementary": ["그림 그리기", "옷 코디하기"],
+      "middle": ["패션 잡지 보기", "간단한 재봉 배우기"],
+      "high": ["패션디자인학과 준비", "포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "패션 디자이너의 꿈", "author": "패션동화"}
+      ],
+      "videos": [
+        {"title": "패션쇼 메이킹", "url": "https://youtube.com"}
+      ],
+      "experiences": ["패션 전시회", "재봉 체험"]
+    },
+    "funFacts": [
+      "패션쇼에서 보이는 옷은 반년 후에 매장에 나와요",
+      "유명 디자이너의 옷 한 벌이 자동차보다 비쌀 수도 있어요"
+    ],
+    "tags": {
+      "interests": ["art", "fashion", "creative"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "makeup-artist",
+    "name": "메이크업 아티스트",
+    "emoji": "💄",
+    "category": "artist",
+    "description": "화장으로 사람을 아름답게 꾸며요. 배우, 가수, 신부 등의 메이크업을 담당해요.",
+    "dailyWork": [
+      "06:00 - 촬영장 출근 (이른 콜)",
+      "07:00 - 메이크업 시작",
+      "12:00 - 점심",
+      "13:00 - 터치업",
+      "18:00 - 촬영 종료"
+    ],
+    "requirements": {
+      "education": "미용학과 또는 메이크업 학원",
+      "skills": ["메이크업 기술", "색채 감각", "트렌드 파악"],
+      "personality": ["섬세함", "소통력", "체력"]
+    },
+    "preparation": {
+      "elementary": ["미술 관심", "색 공부"],
+      "middle": ["메이크업에 관심", "그림 그리기"],
+      "high": ["미용학과 준비", "메이크업 자격증"]
+    },
+    "resources": {
+      "books": [
+        {"title": "메이크업 아티스트 되기", "author": "뷰티동화"}
+      ],
+      "videos": [
+        {"title": "메이크업 튜토리얼", "url": "https://youtube.com"}
+      ],
+      "experiences": ["메이크업 체험", "뷰티 전시회"]
+    },
+    "funFacts": [
+      "영화 특수분장으로 사람을 괴물로 만들 수도 있어요",
+      "아이돌 메이크업은 조명에 따라 다르게 보여요"
+    ],
+    "tags": {
+      "interests": ["art", "fashion", "creative"],
+      "workStyle": ["creative", "hands-on", "caring"],
+      "environment": ["studio", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "stage-designer",
+    "name": "무대 디자이너",
+    "emoji": "🎭",
+    "category": "artist",
+    "description": "공연 무대를 디자인해요. 연극, 뮤지컬, 콘서트의 배경을 만들어요.",
+    "dailyWork": [
+      "10:00 - 극장 출근",
+      "11:00 - 무대 디자인 회의",
+      "13:00 - 점심",
+      "14:00 - 세트 제작 감독",
+      "19:00 - 공연 준비"
+    ],
+    "requirements": {
+      "education": "무대디자인학과 졸업",
+      "skills": ["공간 디자인", "3D 설계", "색채 감각"],
+      "personality": ["창의성", "협동심", "문제해결력"]
+    },
+    "preparation": {
+      "elementary": ["공연 관람", "무대 관찰"],
+      "middle": ["미술 공부", "연극 동아리"],
+      "high": ["무대디자인학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "무대의 마법", "author": "공연동화"}
+      ],
+      "videos": [
+        {"title": "무대 세트 제작 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["뮤지컬 관람", "무대 뒷면 체험"]
+    },
+    "funFacts": [
+      "무대 세트는 진짜처럼 보이지만 가벼운 재료로 만들어요",
+      "빠르게 바뀌는 무대는 '전환'이라고 해요"
+    ],
+    "tags": {
+      "interests": ["art", "performance", "creative"],
+      "workStyle": ["creative", "hands-on", "team"],
+      "environment": ["theater", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "photographer",
+    "name": "사진작가",
+    "emoji": "📷",
+    "category": "artist",
+    "description": "멋진 사진을 찍어요. 순간을 포착해서 아름다운 작품을 만들어요.",
+    "dailyWork": [
+      "시간 유동적 - 촬영 스케줄에 따름",
+      "촬영 준비",
+      "현장 촬영",
+      "사진 보정",
+      "클라이언트 전달"
+    ],
+    "requirements": {
+      "education": "사진학과 또는 독학",
+      "skills": ["촬영 기술", "편집 기술", "미적 감각"],
+      "personality": ["관찰력", "창의성", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["사진 찍기", "좋은 사진 분석"],
+      "middle": ["카메라 사용법", "사진 동아리"],
+      "high": ["사진학과 준비", "포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "사진의 기초", "author": "사진동화"}
+      ],
+      "videos": [
+        {"title": "사진 촬영 팁", "url": "https://youtube.com"}
+      ],
+      "experiences": ["사진 전시회", "카메라 체험"]
+    },
+    "funFacts": [
+      "사진 한 장을 위해 수백 장을 찍기도 해요",
+      "빛의 방향에 따라 사진 느낌이 완전히 달라져요"
+    ],
+    "tags": {
+      "interests": ["art", "media", "creative"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["outdoor", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "film-director",
+    "name": "영화감독",
+    "emoji": "🎥",
+    "category": "artist",
+    "description": "영화를 만드는 총책임자예요. 이야기, 연기, 촬영 모든 것을 지휘해요.",
+    "dailyWork": [
+      "06:00 - 촬영장 도착",
+      "07:00 - 촬영 준비",
+      "09:00 - 촬영 시작",
+      "18:00 - 촬영 종료",
+      "19:00 - 러시 확인"
+    ],
+    "requirements": {
+      "education": "영화학과 졸업",
+      "skills": ["연출력", "스토리텔링", "리더십"],
+      "personality": ["창의성", "리더십", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["영화 많이 보기", "이야기 만들기"],
+      "middle": ["단편 영상 만들기", "영화 동아리"],
+      "high": ["영화학과 준비", "단편 영화 제작"]
+    },
+    "resources": {
+      "books": [
+        {"title": "영화감독의 꿈", "author": "영화동화"}
+      ],
+      "videos": [
+        {"title": "영화 메이킹 필름", "url": "https://youtube.com"}
+      ],
+      "experiences": ["영화 촬영장 견학", "영화제 참가"]
+    },
+    "funFacts": [
+      "봉준호 감독의 '기생충'은 아카데미 4관왕을 차지했어요",
+      "영화 1분을 만드는 데 하루가 걸리기도 해요"
+    ],
+    "tags": {
+      "interests": ["art", "media", "creative", "video"],
+      "workStyle": ["creative", "leadership", "team"],
+      "environment": ["studio", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "musical-actor",
+    "name": "뮤지컬 배우",
+    "emoji": "🎤",
+    "category": "artist",
+    "description": "노래하고 연기하고 춤추는 만능 배우예요. 무대에서 이야기를 전해요.",
+    "dailyWork": [
+      "10:00 - 연습실 출근",
+      "11:00 - 발성 및 노래 연습",
+      "13:00 - 점심",
+      "14:00 - 안무 연습",
+      "19:00 - 공연"
+    ],
+    "requirements": {
+      "education": "연극영화과 또는 뮤지컬학과",
+      "skills": ["노래", "연기", "춤"],
+      "personality": ["끈기", "표현력", "체력"]
+    },
+    "preparation": {
+      "elementary": ["뮤지컬 보기", "노래/춤 배우기"],
+      "middle": ["연기 학원", "합창단 활동"],
+      "high": ["예술고 또는 뮤지컬학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "뮤지컬 배우의 하루", "author": "공연동화"}
+      ],
+      "videos": [
+        {"title": "뮤지컬 무대 뒷이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["뮤지컬 관람", "연기 캠프"]
+    },
+    "funFacts": [
+      "뮤지컬 배우는 마이크 없이도 극장 끝까지 소리가 들려요",
+      "하루에 2회 공연하면 몸이 정말 힘들어요"
+    ],
+    "tags": {
+      "interests": ["art", "music", "performance"],
+      "workStyle": ["creative", "performance", "team"],
+      "environment": ["theater", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "composer",
+    "name": "작곡가",
+    "emoji": "🎹",
+    "category": "artist",
+    "description": "노래를 만들어요. 멜로디와 가사를 창작해서 새로운 음악을 탄생시켜요.",
+    "dailyWork": [
+      "자유로운 시간 - 영감이 올 때 작업",
+      "멜로디 구상",
+      "악기 연주 및 녹음",
+      "편곡 작업",
+      "믹싱 및 마스터링"
+    ],
+    "requirements": {
+      "education": "작곡과 또는 독학",
+      "skills": ["작곡", "악기 연주", "음악 이론"],
+      "personality": ["창의성", "감수성", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["악기 배우기", "음악 많이 듣기"],
+      "middle": ["작곡 프로그램 배우기", "곡 만들어보기"],
+      "high": ["실용음악학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "작곡가의 비밀 노트", "author": "음악동화"}
+      ],
+      "videos": [
+        {"title": "K-POP 작곡 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["음악 캠프", "악기 레슨"]
+    },
+    "funFacts": [
+      "히트곡 하나를 만드는 데 수백 번 수정해요",
+      "BTS 노래를 만든 작곡가 중에는 외국인도 있어요"
+    ],
+    "tags": {
+      "interests": ["art", "music", "creative"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "sculptor",
+    "name": "조각가",
+    "emoji": "🗿",
+    "category": "artist",
+    "description": "입체 작품을 만들어요. 돌, 나무, 금속으로 멋진 조각을 창작해요.",
+    "dailyWork": [
+      "09:00 - 작업실 출근",
+      "10:00 - 조각 작업",
+      "12:00 - 점심",
+      "13:00 - 계속 작업",
+      "18:00 - 정리"
+    ],
+    "requirements": {
+      "education": "조소과 졸업",
+      "skills": ["조각 기술", "공간 감각", "체력"],
+      "personality": ["인내심", "창의성", "집중력"]
+    },
+    "preparation": {
+      "elementary": ["찰흙 놀이", "입체 작품 만들기"],
+      "middle": ["조소 수업", "미술관 방문"],
+      "high": ["조소과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "조각의 세계", "author": "예술동화"}
+      ],
+      "videos": [
+        {"title": "조각가 작업 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["조각 공원", "찰흙 체험"]
+    },
+    "funFacts": [
+      "미켈란젤로의 '다비드'는 대리석 한 덩어리로 만들었어요",
+      "조각 하나 만드는 데 몇 년이 걸리기도 해요"
+    ],
+    "tags": {
+      "interests": ["art", "crafts", "creative"],
+      "workStyle": ["creative", "hands-on", "solo"],
+      "environment": ["studio", "outdoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "illustrator",
+    "name": "일러스트레이터",
+    "emoji": "✏️",
+    "category": "artist",
+    "description": "책, 광고, 웹사이트에 그림을 그려요. 글을 그림으로 표현해요.",
+    "dailyWork": [
+      "10:00 - 작업 시작",
+      "11:00 - 스케치",
+      "13:00 - 점심",
+      "14:00 - 채색 작업",
+      "18:00 - 납품"
+    ],
+    "requirements": {
+      "education": "시각디자인 또는 일러스트 전공",
+      "skills": ["드로잉", "디지털 일러스트", "색채 감각"],
+      "personality": ["창의성", "마감 잘 지킴", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["그림 많이 그리기", "다양한 화풍 보기"],
+      "middle": ["디지털 드로잉 배우기"],
+      "high": ["포트폴리오 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "일러스트레이터 되기", "author": "그림동화"}
+      ],
+      "videos": [
+        {"title": "일러스트 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["그림 전시회", "드로잉 클래스"]
+    },
+    "funFacts": [
+      "동화책 그림은 글만큼이나 중요해요",
+      "그림 하나로 천 마디 말을 대신할 수 있어요"
+    ],
+    "tags": {
+      "interests": ["art", "drawing", "creative", "illustration"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]

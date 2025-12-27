@@ -1,0 +1,665 @@
+[
+  {
+    "id": "q1",
+    "phase": "warmup",
+    "type": "single",
+    "text": "마법 지팡이가 있다면 뭘 하고 싶어?",
+    "emoji": "🪄",
+    "options": [
+      {
+        "id": "q1-1",
+        "text": "아픈 사람을 낫게 해줄래",
+        "emoji": "💊",
+        "scores": { "helper": 3, "science": 1 }
+      },
+      {
+        "id": "q1-2",
+        "text": "멋진 성이나 로봇을 만들 거야",
+        "emoji": "🏰",
+        "scores": { "builder": 3, "creative": 1 }
+      },
+      {
+        "id": "q1-3",
+        "text": "우주로 여행 갈래",
+        "emoji": "🚀",
+        "scores": { "explorer": 3, "science": 1 }
+      },
+      {
+        "id": "q1-4",
+        "text": "동물들과 대화할래",
+        "emoji": "🐾",
+        "scores": { "nature": 3, "animals": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "phase": "warmup",
+    "type": "single",
+    "text": "주말에 뭐 하는 게 제일 좋아?",
+    "emoji": "🌈",
+    "options": [
+      {
+        "id": "q2-1",
+        "text": "친구들이랑 놀기",
+        "emoji": "👫",
+        "scores": { "social": 3, "outdoor": 1 }
+      },
+      {
+        "id": "q2-2",
+        "text": "혼자 게임하거나 책 읽기",
+        "emoji": "🎮",
+        "scores": { "solo": 2, "tech": 1, "thinking": 1 }
+      },
+      {
+        "id": "q2-3",
+        "text": "밖에서 뛰어놀기",
+        "emoji": "🏃",
+        "scores": { "physical": 3, "outdoor": 1 }
+      },
+      {
+        "id": "q2-4",
+        "text": "그림 그리거나 만들기",
+        "emoji": "✏️",
+        "scores": { "creative": 3, "art": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "phase": "personality",
+    "type": "single",
+    "text": "학교에서 조별 과제할 때 나는?",
+    "emoji": "📚",
+    "options": [
+      {
+        "id": "q3-1",
+        "text": "친구들을 이끌고 발표해",
+        "emoji": "🎯",
+        "scores": { "leadership": 3, "social": 2 }
+      },
+      {
+        "id": "q3-2",
+        "text": "자료 찾고 정리해",
+        "emoji": "🔍",
+        "scores": { "research": 3, "analytical": 1 }
+      },
+      {
+        "id": "q3-3",
+        "text": "그림이나 PPT 만들어",
+        "emoji": "🎨",
+        "scores": { "creative": 3, "art": 1 }
+      },
+      {
+        "id": "q3-4",
+        "text": "조용히 내 역할만 해",
+        "emoji": "📝",
+        "scores": { "solo": 2, "focused": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "phase": "personality",
+    "type": "single",
+    "text": "새로운 장난감이 생기면 어떻게 해?",
+    "emoji": "🎁",
+    "options": [
+      {
+        "id": "q4-1",
+        "text": "바로 분해해서 속을 봐",
+        "emoji": "🔧",
+        "scores": { "curious": 3, "builder": 2, "analytical": 1 }
+      },
+      {
+        "id": "q4-2",
+        "text": "설명서 먼저 꼼꼼히 읽어",
+        "emoji": "📖",
+        "scores": { "systematic": 3, "careful": 1 }
+      },
+      {
+        "id": "q4-3",
+        "text": "일단 이것저것 눌러보면서 놀아",
+        "emoji": "🕹️",
+        "scores": { "action": 2, "explorer": 2 }
+      },
+      {
+        "id": "q4-4",
+        "text": "친구한테 자랑하러 가",
+        "emoji": "🗣️",
+        "scores": { "social": 3, "communicator": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "phase": "personality",
+    "type": "multiple",
+    "text": "유튜브에서 뭘 제일 많이 봐?",
+    "emoji": "📺",
+    "maxSelections": 2,
+    "options": [
+      {
+        "id": "q5-1",
+        "text": "게임 영상",
+        "emoji": "🎮",
+        "scores": { "tech": 2, "game": 2 }
+      },
+      {
+        "id": "q5-2",
+        "text": "과학 실험 영상",
+        "emoji": "🧪",
+        "scores": { "science": 3, "curious": 1 }
+      },
+      {
+        "id": "q5-3",
+        "text": "요리/만들기 영상",
+        "emoji": "🍳",
+        "scores": { "creative": 2, "builder": 2 }
+      },
+      {
+        "id": "q5-4",
+        "text": "동물 영상",
+        "emoji": "🐶",
+        "scores": { "nature": 3, "animals": 2 }
+      },
+      {
+        "id": "q5-5",
+        "text": "브이로그/먹방",
+        "emoji": "📱",
+        "scores": { "social": 1, "media": 2 }
+      },
+      {
+        "id": "q5-6",
+        "text": "애니메이션/웹툰",
+        "emoji": "🎬",
+        "scores": { "art": 3, "creative": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "phase": "personality",
+    "type": "multiple",
+    "text": "이런 건 정말 싫어!",
+    "emoji": "😣",
+    "maxSelections": 2,
+    "options": [
+      {
+        "id": "q6-1",
+        "text": "오래 앉아 있는 거",
+        "emoji": "🪑",
+        "scores": { "physical": 2, "outdoor": 1 }
+      },
+      {
+        "id": "q6-2",
+        "text": "많은 사람 앞에서 발표",
+        "emoji": "😰",
+        "scores": { "solo": 2, "introvert": 1 }
+      },
+      {
+        "id": "q6-3",
+        "text": "혼자 있는 거",
+        "emoji": "😢",
+        "scores": { "social": 2, "extrovert": 1 }
+      },
+      {
+        "id": "q6-4",
+        "text": "같은 일 반복하는 거",
+        "emoji": "🔄",
+        "scores": { "variety": 2, "creative": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "phase": "personality",
+    "type": "multiple",
+    "text": "내가 잘하는 건?",
+    "emoji": "⭐",
+    "maxSelections": 3,
+    "options": [
+      {
+        "id": "q7-1",
+        "text": "그림 그리기",
+        "emoji": "🎨",
+        "scores": { "art": 3, "creative": 1 }
+      },
+      {
+        "id": "q7-2",
+        "text": "운동/체육",
+        "emoji": "🏅",
+        "scores": { "physical": 3, "outdoor": 1 }
+      },
+      {
+        "id": "q7-3",
+        "text": "수학 문제 풀기",
+        "emoji": "🔢",
+        "scores": { "logic": 3, "analytical": 1 }
+      },
+      {
+        "id": "q7-4",
+        "text": "글쓰기/이야기하기",
+        "emoji": "✍️",
+        "scores": { "communication": 3, "creative": 1 }
+      },
+      {
+        "id": "q7-5",
+        "text": "컴퓨터/게임",
+        "emoji": "💻",
+        "scores": { "tech": 3, "game": 1 }
+      },
+      {
+        "id": "q7-6",
+        "text": "친구 도와주기",
+        "emoji": "🤝",
+        "scores": { "helper": 3, "social": 1 }
+      },
+      {
+        "id": "q7-7",
+        "text": "새로운 것 만들기",
+        "emoji": "🛠️",
+        "scores": { "creative": 2, "builder": 2 }
+      },
+      {
+        "id": "q7-8",
+        "text": "동식물 돌보기",
+        "emoji": "🌱",
+        "scores": { "nature": 3, "animals": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "phase": "personality",
+    "type": "single",
+    "text": "꿈에서 내가 된다면?",
+    "emoji": "💭",
+    "options": [
+      {
+        "id": "q8-1",
+        "text": "영웅이 돼서 사람들을 구해",
+        "emoji": "🦸",
+        "scores": { "helper": 3, "physical": 1, "action": 1 }
+      },
+      {
+        "id": "q8-2",
+        "text": "과학자가 돼서 신기한 발명을 해",
+        "emoji": "👨‍🔬",
+        "scores": { "science": 3, "creative": 1, "thinking": 1 }
+      },
+      {
+        "id": "q8-3",
+        "text": "유명인이 돼서 팬들을 만나",
+        "emoji": "🌟",
+        "scores": { "social": 3, "media": 2, "performance": 1 }
+      },
+      {
+        "id": "q8-4",
+        "text": "마법사가 돼서 신비한 세계를 탐험해",
+        "emoji": "🧙",
+        "scores": { "creative": 3, "explorer": 2, "curious": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "phase": "personality",
+    "type": "scale",
+    "text": "나는 어디에 있는 게 더 좋아?",
+    "emoji": "🏠",
+    "options": [
+      {
+        "id": "q9-1",
+        "text": "실내가 좋아",
+        "emoji": "🏠",
+        "scores": { "indoor": 5 }
+      },
+      {
+        "id": "q9-2",
+        "text": "실내가 조금 더 좋아",
+        "emoji": "🏠",
+        "scores": { "indoor": 3 }
+      },
+      {
+        "id": "q9-3",
+        "text": "둘 다 좋아",
+        "emoji": "😊",
+        "scores": { "indoor": 1, "outdoor": 1 }
+      },
+      {
+        "id": "q9-4",
+        "text": "바깥이 조금 더 좋아",
+        "emoji": "🌳",
+        "scores": { "outdoor": 3 }
+      },
+      {
+        "id": "q9-5",
+        "text": "바깥이 좋아",
+        "emoji": "🌳",
+        "scores": { "outdoor": 5 }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "phase": "personality",
+    "type": "scale",
+    "text": "혼자 하는 거랑 같이 하는 거 중에 뭐가 좋아?",
+    "emoji": "👥",
+    "options": [
+      {
+        "id": "q10-1",
+        "text": "혼자가 좋아",
+        "emoji": "🧑",
+        "scores": { "solo": 5 }
+      },
+      {
+        "id": "q10-2",
+        "text": "혼자가 조금 더 좋아",
+        "emoji": "🧑",
+        "scores": { "solo": 3 }
+      },
+      {
+        "id": "q10-3",
+        "text": "상관없어",
+        "emoji": "😊",
+        "scores": { "solo": 1, "team": 1 }
+      },
+      {
+        "id": "q10-4",
+        "text": "같이가 조금 더 좋아",
+        "emoji": "👥",
+        "scores": { "team": 3 }
+      },
+      {
+        "id": "q10-5",
+        "text": "같이가 좋아",
+        "emoji": "👥",
+        "scores": { "team": 5 }
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "phase": "personality",
+    "type": "scale",
+    "text": "생각하는 거랑 바로 행동하는 거 중에 뭐가 좋아?",
+    "emoji": "🤔",
+    "options": [
+      {
+        "id": "q11-1",
+        "text": "생각이 좋아",
+        "emoji": "💭",
+        "scores": { "thinking": 5, "analytical": 2 }
+      },
+      {
+        "id": "q11-2",
+        "text": "생각이 조금 더 좋아",
+        "emoji": "💭",
+        "scores": { "thinking": 3 }
+      },
+      {
+        "id": "q11-3",
+        "text": "둘 다 좋아",
+        "emoji": "😊",
+        "scores": { "thinking": 1, "action": 1 }
+      },
+      {
+        "id": "q11-4",
+        "text": "행동이 조금 더 좋아",
+        "emoji": "🏃",
+        "scores": { "action": 3 }
+      },
+      {
+        "id": "q11-5",
+        "text": "행동이 좋아",
+        "emoji": "🏃",
+        "scores": { "action": 5, "physical": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "phase": "personality",
+    "type": "scale",
+    "text": "규칙대로 하는 거랑 자유롭게 하는 거 중에 뭐가 좋아?",
+    "emoji": "📋",
+    "options": [
+      {
+        "id": "q12-1",
+        "text": "규칙이 좋아",
+        "emoji": "📋",
+        "scores": { "systematic": 5, "careful": 2 }
+      },
+      {
+        "id": "q12-2",
+        "text": "규칙이 조금 더 좋아",
+        "emoji": "📋",
+        "scores": { "systematic": 3 }
+      },
+      {
+        "id": "q12-3",
+        "text": "상관없어",
+        "emoji": "😊",
+        "scores": { "systematic": 1, "creative": 1 }
+      },
+      {
+        "id": "q12-4",
+        "text": "자유가 조금 더 좋아",
+        "emoji": "🦋",
+        "scores": { "creative": 3 }
+      },
+      {
+        "id": "q12-5",
+        "text": "자유가 좋아",
+        "emoji": "🦋",
+        "scores": { "creative": 5, "variety": 2 }
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "phase": "specific",
+    "type": "single",
+    "text": "어떤 과학이 제일 재미있어?",
+    "emoji": "🔬",
+    "condition": { "tag": "science", "minScore": 3 },
+    "options": [
+      {
+        "id": "q13-1",
+        "text": "동물, 식물, 우리 몸 (생물)",
+        "emoji": "🧬",
+        "scores": { "biology": 3, "nature": 1 }
+      },
+      {
+        "id": "q13-2",
+        "text": "별, 우주, 로켓 (천문학)",
+        "emoji": "🌌",
+        "scores": { "astronomy": 3, "space": 2 }
+      },
+      {
+        "id": "q13-3",
+        "text": "실험, 약품, 폭발 (화학)",
+        "emoji": "⚗️",
+        "scores": { "chemistry": 3, "experiment": 1 }
+      },
+      {
+        "id": "q13-4",
+        "text": "공룡, 화석, 옛날 것 (고생물학)",
+        "emoji": "🦕",
+        "scores": { "paleontology": 3, "history": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "phase": "specific",
+    "type": "single",
+    "text": "뭘로 표현하는 게 제일 좋아?",
+    "emoji": "🎭",
+    "condition": { "tag": "art", "minScore": 3 },
+    "options": [
+      {
+        "id": "q14-1",
+        "text": "그림이나 만화",
+        "emoji": "🖌️",
+        "scores": { "drawing": 3, "illustration": 2 }
+      },
+      {
+        "id": "q14-2",
+        "text": "노래나 악기",
+        "emoji": "🎵",
+        "scores": { "music": 3, "performance": 1 }
+      },
+      {
+        "id": "q14-3",
+        "text": "영상이나 사진",
+        "emoji": "📷",
+        "scores": { "video": 3, "media": 2 }
+      },
+      {
+        "id": "q14-4",
+        "text": "춤이나 연기",
+        "emoji": "💃",
+        "scores": { "performance": 3, "physical": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "phase": "specific",
+    "type": "single",
+    "text": "컴퓨터로 뭘 하고 싶어?",
+    "emoji": "💻",
+    "condition": { "tag": "tech", "minScore": 3 },
+    "options": [
+      {
+        "id": "q15-1",
+        "text": "재미있는 게임 만들기",
+        "emoji": "🎮",
+        "scores": { "gamedev": 3, "creative": 1 }
+      },
+      {
+        "id": "q15-2",
+        "text": "멋진 앱이나 웹사이트 만들기",
+        "emoji": "📱",
+        "scores": { "webdev": 3, "design": 1 }
+      },
+      {
+        "id": "q15-3",
+        "text": "로봇이나 AI 만들기",
+        "emoji": "🤖",
+        "scores": { "ai": 3, "robot": 2 }
+      },
+      {
+        "id": "q15-4",
+        "text": "해킹 막고 보안 지키기",
+        "emoji": "🔒",
+        "scores": { "security": 3, "analytical": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "phase": "specific",
+    "type": "single",
+    "text": "어떤 사람들을 돕고 싶어?",
+    "emoji": "🤲",
+    "condition": { "tag": "helper", "minScore": 3 },
+    "options": [
+      {
+        "id": "q16-1",
+        "text": "아프거나 다친 사람",
+        "emoji": "🏥",
+        "scores": { "medical": 3, "caring": 1 }
+      },
+      {
+        "id": "q16-2",
+        "text": "어린 아이들",
+        "emoji": "👶",
+        "scores": { "children": 3, "teaching": 2 }
+      },
+      {
+        "id": "q16-3",
+        "text": "마음이 힘든 사람",
+        "emoji": "💚",
+        "scores": { "counseling": 3, "psychology": 2 }
+      },
+      {
+        "id": "q16-4",
+        "text": "어려운 환경의 이웃",
+        "emoji": "🏠",
+        "scores": { "welfare": 3, "community": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "phase": "specific",
+    "type": "single",
+    "text": "어떤 동물이 제일 좋아?",
+    "emoji": "🐾",
+    "condition": { "tag": "animals", "minScore": 2 },
+    "options": [
+      {
+        "id": "q17-1",
+        "text": "강아지, 고양이 같은 반려동물",
+        "emoji": "🐕",
+        "scores": { "pets": 3, "domestic": 1 }
+      },
+      {
+        "id": "q17-2",
+        "text": "바다 생물 (돌고래, 상어 등)",
+        "emoji": "🐬",
+        "scores": { "marine": 3, "ocean": 2 }
+      },
+      {
+        "id": "q17-3",
+        "text": "야생동물 (사자, 코끼리 등)",
+        "emoji": "🦁",
+        "scores": { "wildlife": 3, "outdoor": 1 }
+      },
+      {
+        "id": "q17-4",
+        "text": "곤충이나 작은 생물",
+        "emoji": "🐛",
+        "scores": { "insects": 3, "research": 1 }
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "phase": "specific",
+    "type": "single",
+    "text": "뭘 만들 때 가장 신나?",
+    "emoji": "🛠️",
+    "condition": { "tag": "builder", "minScore": 3 },
+    "options": [
+      {
+        "id": "q18-1",
+        "text": "레고, 블록으로 구조물 만들기",
+        "emoji": "🧱",
+        "scores": { "construction": 3, "architecture": 2 }
+      },
+      {
+        "id": "q18-2",
+        "text": "로봇이나 기계 조립하기",
+        "emoji": "🤖",
+        "scores": { "robot": 3, "engineering": 2 }
+      },
+      {
+        "id": "q18-3",
+        "text": "요리나 베이킹",
+        "emoji": "🍰",
+        "scores": { "cooking": 3, "creative": 1 }
+      },
+      {
+        "id": "q18-4",
+        "text": "공예나 DIY",
+        "emoji": "✂️",
+        "scores": { "crafts": 3, "art": 1 }
+      }
+    ]
+  }
+]

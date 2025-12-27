@@ -1,0 +1,554 @@
+[
+  {
+    "id": "kids-show-host",
+    "name": "어린이 프로그램 진행자",
+    "emoji": "📺",
+    "category": "communicator",
+    "description": "TV에서 어린이들과 함께 놀아요. 재미있는 프로그램을 진행해요.",
+    "dailyWork": [
+      "08:00 - 방송국 출근",
+      "09:00 - 리허설",
+      "11:00 - 본방송 녹화",
+      "13:00 - 점심",
+      "14:00 - 다음 회차 준비"
+    ],
+    "requirements": {
+      "education": "방송연예과 또는 연기 경험",
+      "skills": ["진행력", "아이와 소통", "순발력"],
+      "personality": ["밝음", "에너지", "친근함"]
+    },
+    "preparation": {
+      "elementary": ["발표 연습", "연극 활동"],
+      "middle": ["방송반", "MC 연습"],
+      "high": ["방송연예과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "방송인이 되고 싶어!", "author": "미디어동화"}
+      ],
+      "videos": [
+        {"title": "어린이 프로그램 메이킹", "url": "https://youtube.com"}
+      ],
+      "experiences": ["방송국 견학", "아나운서 캠프"]
+    },
+    "funFacts": [
+      "어린이 프로그램 진행자는 체력이 정말 좋아야 해요",
+      "뽀로로 성우도 사람이 연기해요"
+    ],
+    "tags": {
+      "interests": ["media", "children", "performance"],
+      "workStyle": ["performance", "leadership", "creative"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "youtube-pd",
+    "name": "유튜브 PD",
+    "emoji": "🎬",
+    "category": "communicator",
+    "description": "유튜브 영상을 기획하고 만들어요. 채널의 콘텐츠를 총괄해요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 콘텐츠 기획 회의",
+      "13:00 - 점심",
+      "14:00 - 촬영 또는 편집 감독",
+      "18:00 - 콘텐츠 리뷰"
+    ],
+    "requirements": {
+      "education": "영상학과 또는 경험",
+      "skills": ["기획력", "영상 편집", "트렌드 분석"],
+      "personality": ["창의성", "리더십", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["영상 만들기", "아이디어 내기"],
+      "middle": ["편집 배우기", "채널 운영"],
+      "high": ["미디어학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "콘텐츠 PD가 되려면", "author": "미디어동화"}
+      ],
+      "videos": [
+        {"title": "유튜브 PD 하루", "url": "https://youtube.com"}
+      ],
+      "experiences": ["영상 캠프", "채널 운영 체험"]
+    },
+    "funFacts": [
+      "인기 유튜브 채널은 직원이 수십 명이에요",
+      "한 영상을 위해 수백 시간을 준비하기도 해요"
+    ],
+    "tags": {
+      "interests": ["media", "creative", "tech"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "studio"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "podcaster",
+    "name": "팟캐스트 진행자",
+    "emoji": "🎙️",
+    "category": "communicator",
+    "description": "라디오처럼 이야기를 들려줘요. 다양한 주제로 사람들과 소통해요.",
+    "dailyWork": [
+      "자유로운 시간 - 주제 연구",
+      "녹음 준비",
+      "녹음 진행",
+      "편집",
+      "업로드 및 홍보"
+    ],
+    "requirements": {
+      "education": "특별한 학력 없음 (전문성 중요)",
+      "skills": ["말하기", "진행력", "콘텐츠 기획"],
+      "personality": ["재치", "호기심", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["말하기 연습", "다양한 관심사"],
+      "middle": ["라디오 관심", "인터뷰 연습"],
+      "high": ["팟캐스트 시작해보기"]
+    },
+    "resources": {
+      "books": [
+        {"title": "팟캐스트 시작하기", "author": "미디어가이드"}
+      ],
+      "videos": [
+        {"title": "팟캐스트 녹음 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["라디오 견학", "녹음 체험"]
+    },
+    "funFacts": [
+      "출퇴근길에 팟캐스트 듣는 사람이 많아요",
+      "전문 분야가 있으면 더 인기 있어요"
+    ],
+    "tags": {
+      "interests": ["media", "communication", "creative"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "translator",
+    "name": "번역가",
+    "emoji": "📚",
+    "category": "communicator",
+    "description": "외국어를 한국어로 바꿔요. 책, 영화, 문서를 번역해요.",
+    "dailyWork": [
+      "자유로운 시간 - 재택근무 많음",
+      "원문 분석",
+      "번역 작업",
+      "교정 및 수정",
+      "납품"
+    ],
+    "requirements": {
+      "education": "외국어 전공 또는 원어민 수준",
+      "skills": ["외국어", "한국어 표현력", "전문 지식"],
+      "personality": ["꼼꼼함", "인내심", "언어 감각"]
+    },
+    "preparation": {
+      "elementary": ["외국어 배우기", "책 많이 읽기"],
+      "middle": ["언어 공부 집중", "번역 연습"],
+      "high": ["외국어학과 또는 통번역학과"]
+    },
+    "resources": {
+      "books": [
+        {"title": "번역가의 하루", "author": "언어동화"}
+      ],
+      "videos": [
+        {"title": "번역가 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["외국어 캠프", "번역 동아리"]
+    },
+    "funFacts": [
+      "해리포터 한국어 번역에 1년이 걸렸어요",
+      "같은 문장도 번역가마다 다르게 번역해요"
+    ],
+    "tags": {
+      "interests": ["communication", "language", "creative"],
+      "workStyle": ["solo", "analytical", "creative"],
+      "environment": ["home", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "author",
+    "name": "작가",
+    "emoji": "✍️",
+    "category": "communicator",
+    "description": "책을 써요. 소설, 동화, 에세이 등 다양한 글을 창작해요.",
+    "dailyWork": [
+      "자유로운 시간 - 영감 올 때 집필",
+      "자료 조사",
+      "글쓰기",
+      "수정 작업",
+      "출판사 미팅"
+    ],
+    "requirements": {
+      "education": "문예창작과 또는 독학",
+      "skills": ["글쓰기", "스토리텔링", "상상력"],
+      "personality": ["창의성", "끈기", "관찰력"]
+    },
+    "preparation": {
+      "elementary": ["책 많이 읽기", "일기 쓰기"],
+      "middle": ["글쓰기 동아리", "공모전 참가"],
+      "high": ["문예창작과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "작가가 되고 싶어!", "author": "문학동화"}
+      ],
+      "videos": [
+        {"title": "작가 인터뷰", "url": "https://youtube.com"}
+      ],
+      "experiences": ["글쓰기 캠프", "작가와의 만남"]
+    },
+    "funFacts": [
+      "해리포터 작가는 처음에 12번이나 거절당했어요",
+      "베스트셀러 작가도 매일 글을 쓰는 연습을 해요"
+    ],
+    "tags": {
+      "interests": ["creative", "communication", "thinking"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["home", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "journalist",
+    "name": "기자",
+    "emoji": "📰",
+    "category": "communicator",
+    "description": "뉴스를 취재하고 써요. 사실을 정확하게 사람들에게 전달해요.",
+    "dailyWork": [
+      "09:00 - 신문사 출근",
+      "10:00 - 취재 회의",
+      "11:00 - 현장 취재",
+      "15:00 - 기사 작성",
+      "18:00 - 마감"
+    ],
+    "requirements": {
+      "education": "신문방송학과 또는 언론 경험",
+      "skills": ["취재력", "글쓰기", "분석력"],
+      "personality": ["호기심", "정의감", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["뉴스 관심", "글쓰기 연습"],
+      "middle": ["학교 신문반", "시사 관심"],
+      "high": ["신문방송학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "기자의 하루", "author": "언론동화"}
+      ],
+      "videos": [
+        {"title": "기자 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["신문사 견학", "기자 체험"]
+    },
+    "funFacts": [
+      "기자는 마감 시간을 꼭 지켜야 해요",
+      "특종을 잡으면 정말 기뻐요"
+    ],
+    "tags": {
+      "interests": ["communication", "media", "research"],
+      "workStyle": ["analytical", "action", "solo"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "announcer",
+    "name": "아나운서",
+    "emoji": "🎤",
+    "category": "communicator",
+    "description": "TV나 라디오에서 뉴스와 정보를 전해요. 정확하고 바른 말로 전달해요.",
+    "dailyWork": [
+      "05:00 - 방송국 출근 (아침 뉴스)",
+      "06:00 - 뉴스 리허설",
+      "07:00 - 본방송",
+      "09:00 - 다음 방송 준비",
+      "시간대별 다양한 방송"
+    ],
+    "requirements": {
+      "education": "방송학과 또는 아나운서 시험",
+      "skills": ["발음", "발성", "순발력"],
+      "personality": ["차분함", "정확함", "품위"]
+    },
+    "preparation": {
+      "elementary": ["책 소리 내어 읽기", "발표 연습"],
+      "middle": ["스피치 학원", "방송반"],
+      "high": ["아나운서 학원"]
+    },
+    "resources": {
+      "books": [
+        {"title": "아나운서가 되려면", "author": "방송동화"}
+      ],
+      "videos": [
+        {"title": "아나운서 발성 연습", "url": "https://youtube.com"}
+      ],
+      "experiences": ["방송국 견학", "스피치 캠프"]
+    },
+    "funFacts": [
+      "아나운서 시험 경쟁률은 수백 대 일이에요",
+      "생방송 중 실수하면 전국에 나가요"
+    ],
+    "tags": {
+      "interests": ["communication", "media", "performance"],
+      "workStyle": ["performance", "systematic", "solo"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "ad-planner",
+    "name": "광고 기획자",
+    "emoji": "💡",
+    "category": "communicator",
+    "description": "재미있는 광고를 만들어요. 사람들의 관심을 끄는 아이디어를 생각해요.",
+    "dailyWork": [
+      "10:00 - 광고회사 출근",
+      "11:00 - 아이디어 회의",
+      "13:00 - 점심",
+      "14:00 - 기획서 작성",
+      "16:00 - 클라이언트 미팅"
+    ],
+    "requirements": {
+      "education": "광고학과 또는 마케팅 전공",
+      "skills": ["창의력", "기획력", "프레젠테이션"],
+      "personality": ["창의성", "대중성", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["광고 분석하기", "아이디어 내기"],
+      "middle": ["광고 관심", "마케팅 관심"],
+      "high": ["광고학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "광고의 비밀", "author": "마케팅동화"}
+      ],
+      "videos": [
+        {"title": "광고 기획 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["광고 분석", "마케팅 캠프"]
+    },
+    "funFacts": [
+      "슈퍼볼 광고 30초에 수백억 원이에요",
+      "좋은 광고 문구는 수십 년이 지나도 기억돼요"
+    ],
+    "tags": {
+      "interests": ["creative", "communication", "media"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "tour-guide",
+    "name": "여행 가이드",
+    "emoji": "🗺️",
+    "category": "communicator",
+    "description": "여행지를 안내해요. 관광객들에게 재미있는 이야기를 들려줘요.",
+    "dailyWork": [
+      "07:00 - 호텔 픽업",
+      "08:00 - 관광지 이동",
+      "09:00 - 관광 안내",
+      "12:00 - 점심",
+      "18:00 - 투어 종료"
+    ],
+    "requirements": {
+      "education": "관광학과 또는 가이드 자격증",
+      "skills": ["외국어", "역사 지식", "소통력"],
+      "personality": ["친절함", "체력", "유머"]
+    },
+    "preparation": {
+      "elementary": ["여행 관심", "역사 공부"],
+      "middle": ["외국어 공부", "유적지 탐방"],
+      "high": ["관광학과 준비", "가이드 자격증"]
+    },
+    "resources": {
+      "books": [
+        {"title": "세계 여행 가이드", "author": "여행동화"}
+      ],
+      "videos": [
+        {"title": "가이드 일상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["국내 여행", "역사 탐방"]
+    },
+    "funFacts": [
+      "가이드는 걷는 거리만 하루에 수십 km예요",
+      "같은 장소도 가이드에 따라 다르게 느껴져요"
+    ],
+    "tags": {
+      "interests": ["communication", "history", "outdoor"],
+      "workStyle": ["leadership", "action", "teaching"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "museum-curator",
+    "name": "박물관 큐레이터",
+    "emoji": "🏛️",
+    "category": "communicator",
+    "description": "박물관 전시를 기획해요. 유물과 작품을 어떻게 보여줄지 결정해요.",
+    "dailyWork": [
+      "09:00 - 박물관 출근",
+      "10:00 - 전시 기획 회의",
+      "12:00 - 점심",
+      "14:00 - 유물 연구 및 관리",
+      "16:00 - 교육 프로그램 기획"
+    ],
+    "requirements": {
+      "education": "박물관학, 미술사, 역사학 전공",
+      "skills": ["전시 기획", "연구 능력", "소통력"],
+      "personality": ["꼼꼼함", "호기심", "기획력"]
+    },
+    "preparation": {
+      "elementary": ["박물관 방문", "역사 관심"],
+      "middle": ["역사, 미술 공부", "박물관 자원봉사"],
+      "high": ["관련 학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "박물관의 비밀", "author": "역사동화"}
+      ],
+      "videos": [
+        {"title": "큐레이터 인터뷰", "url": "https://youtube.com"}
+      ],
+      "experiences": ["박물관 체험", "전시 관람"]
+    },
+    "funFacts": [
+      "하나의 전시를 준비하는 데 1년 이상 걸려요",
+      "전시 동선도 큐레이터가 설계해요"
+    ],
+    "tags": {
+      "interests": ["art", "history", "communication"],
+      "workStyle": ["analytical", "creative", "research"],
+      "environment": ["museum", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "interpreter",
+    "name": "동시 통역사",
+    "emoji": "🎧",
+    "category": "communicator",
+    "description": "외국어를 바로바로 통역해요. 국제 회의에서 실시간으로 말을 바꿔요.",
+    "dailyWork": [
+      "회의 2시간 전 - 현장 도착",
+      "자료 검토",
+      "실시간 통역",
+      "휴식 (15분마다 교대)",
+      "회의 후 정리"
+    ],
+    "requirements": {
+      "education": "통역대학원 졸업",
+      "skills": ["완벽한 외국어", "순발력", "집중력"],
+      "personality": ["집중력", "침착함", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["외국어 시작", "듣기 연습"],
+      "middle": ["외국어 집중", "다양한 분야 공부"],
+      "high": ["통역대학원 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "통역사의 세계", "author": "언어동화"}
+      ],
+      "videos": [
+        {"title": "동시통역 현장", "url": "https://youtube.com"}
+      ],
+      "experiences": ["외국어 캠프", "통역 체험"]
+    },
+    "funFacts": [
+      "동시통역사는 뇌를 100% 사용하는 느낌이래요",
+      "UN 통역사는 6개 공식 언어 중 최소 2개를 해야 해요"
+    ],
+    "tags": {
+      "interests": ["communication", "language", "analytical"],
+      "workStyle": ["solo", "analytical", "action"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "science-communicator",
+    "name": "과학 커뮤니케이터",
+    "emoji": "🔬",
+    "category": "communicator",
+    "description": "어려운 과학을 쉽게 설명해요. 사람들이 과학을 재미있게 느끼도록 해요.",
+    "dailyWork": [
+      "09:00 - 연구소 또는 재택",
+      "10:00 - 콘텐츠 기획",
+      "12:00 - 점심",
+      "14:00 - 강연 또는 영상 제작",
+      "17:00 - SNS 소통"
+    ],
+    "requirements": {
+      "education": "과학 전공 + 커뮤니케이션 능력",
+      "skills": ["과학 지식", "글쓰기", "발표력"],
+      "personality": ["호기심", "친근함", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["과학에 관심", "설명 연습"],
+      "middle": ["과학 공부", "발표 연습"],
+      "high": ["과학 관련 학과 + 미디어 활동"]
+    },
+    "resources": {
+      "books": [
+        {"title": "과학을 말하다", "author": "과학동화"}
+      ],
+      "videos": [
+        {"title": "과학 유튜버", "url": "https://youtube.com"}
+      ],
+      "experiences": ["과학관 체험", "과학 강연"]
+    },
+    "funFacts": [
+      "넷플릭스 다큐멘터리에 나오는 과학자들도 커뮤니케이터예요",
+      "어려운 것을 쉽게 설명하는 게 가장 어려워요"
+    ],
+    "tags": {
+      "interests": ["science", "communication", "teaching"],
+      "workStyle": ["creative", "teaching", "research"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "id": "zoo-vet",
+    "name": "동물원 수의사",
+    "emoji": "🦁",
+    "category": "nature",
+    "description": "동물원 동물들을 돌봐요. 코끼리부터 펭귄까지 다양한 동물을 치료해요.",
+    "dailyWork": [
+      "08:00 - 동물원 출근",
+      "09:00 - 동물 건강 체크",
+      "12:00 - 점심",
+      "14:00 - 치료 및 수술",
+      "16:00 - 사육사 상담"
+    ],
+    "requirements": {
+      "education": "수의과대학 졸업 + 야생동물 전문",
+      "skills": ["동물 진료", "야생동물 지식", "체력"],
+      "personality": ["동물 사랑", "용기", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["동물원 방문", "동물 관찰"],
+      "middle": ["생물 공부", "동물 봉사"],
+      "high": ["수의과대학 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "동물원 수의사", "author": "동물동화"}
+      ],
+      "videos": [
+        {"title": "동물원 수의사 하루", "url": "https://youtube.com"}
+      ],
+      "experiences": ["동물원 체험", "동물 봉사"]
+    },
+    "funFacts": [
+      "코끼리 체온을 재려면 특별한 방법이 필요해요",
+      "동물원 동물도 건강검진을 받아요"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "science", "helper"],
+      "workStyle": ["caring", "hands-on", "analytical"],
+      "environment": ["zoo", "outdoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "marine-rescue",
+    "name": "해양 구조대원",
+    "emoji": "🌊",
+    "category": "nature",
+    "description": "바다에서 사람과 동물을 구해요. 수영, 다이빙 실력이 뛰어나요.",
+    "dailyWork": [
+      "08:00 - 구조대 출근",
+      "09:00 - 장비 점검 및 훈련",
+      "12:00 - 점심",
+      "14:00 - 해변 순찰",
+      "출동 대기"
+    ],
+    "requirements": {
+      "education": "해경 또는 해양구조사 자격",
+      "skills": ["수영", "다이빙", "응급처치"],
+      "personality": ["용기", "체력", "침착함"]
+    },
+    "preparation": {
+      "elementary": ["수영 배우기", "바다와 친해지기"],
+      "middle": ["수영 실력 키우기", "체력 단련"],
+      "high": ["해양 관련 자격증"]
+    },
+    "resources": {
+      "books": [
+        {"title": "바다를 지키는 사람들", "author": "해양동화"}
+      ],
+      "videos": [
+        {"title": "해양구조대 다큐", "url": "https://youtube.com"}
+      ],
+      "experiences": ["해변 안전 교육", "수영 훈련"]
+    },
+    "funFacts": [
+      "해양구조대원은 파도 속에서도 수영할 수 있어요",
+      "돌고래도 가끔 사람을 구해줘요"
+    ],
+    "tags": {
+      "interests": ["nature", "action", "helper", "marine"],
+      "workStyle": ["action", "hands-on", "team"],
+      "environment": ["ocean", "outdoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "dog-trainer",
+    "name": "반려동물 훈련사",
+    "emoji": "🐕",
+    "category": "nature",
+    "description": "강아지를 훈련시켜요. 앉아, 기다려 같은 기본부터 특수 훈련까지 해요.",
+    "dailyWork": [
+      "09:00 - 훈련센터 출근",
+      "10:00 - 개별 훈련",
+      "12:00 - 점심",
+      "14:00 - 그룹 훈련",
+      "17:00 - 보호자 상담"
+    ],
+    "requirements": {
+      "education": "반려동물학과 또는 자격증",
+      "skills": ["동물 행동 이해", "인내심", "훈련 기술"],
+      "personality": ["동물 사랑", "인내심", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["반려동물 키우기", "동물 관찰"],
+      "middle": ["동물 행동 책 읽기"],
+      "high": ["훈련사 자격증 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "강아지 훈련 비법", "author": "동물동화"}
+      ],
+      "videos": [
+        {"title": "강아지 훈련 영상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["반려동물 카페", "훈련센터 체험"]
+    },
+    "funFacts": [
+      "강아지는 칭찬을 받으면 더 잘 배워요",
+      "경찰견, 안내견도 훈련사가 훈련해요"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "teaching", "pets"],
+      "workStyle": ["teaching", "hands-on", "caring"],
+      "environment": ["outdoor", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "animal-behaviorist",
+    "name": "동물행동학자",
+    "emoji": "🐘",
+    "category": "nature",
+    "description": "동물의 행동을 연구해요. 왜 그렇게 행동하는지 과학적으로 분석해요.",
+    "dailyWork": [
+      "08:00 - 현장 또는 연구소",
+      "09:00 - 동물 관찰",
+      "12:00 - 점심",
+      "14:00 - 데이터 분석",
+      "16:00 - 연구 보고서"
+    ],
+    "requirements": {
+      "education": "동물행동학 또는 생물학 전공",
+      "skills": ["관찰력", "분석력", "연구 능력"],
+      "personality": ["인내심", "호기심", "꼼꼼함"]
+    },
+    "preparation": {
+      "elementary": ["동물 관찰", "동물 다큐 보기"],
+      "middle": ["생물 공부", "관찰 기록"],
+      "high": ["생물학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "동물 행동의 비밀", "author": "동물과학"}
+      ],
+      "videos": [
+        {"title": "동물 행동 다큐", "url": "https://youtube.com"}
+      ],
+      "experiences": ["동물원 관찰", "생태 탐방"]
+    },
+    "funFacts": [
+      "침팬지도 도구를 사용해요",
+      "개미는 농사도 짓고 가축도 길러요"
+    ],
+    "tags": {
+      "interests": ["animals", "science", "nature", "research"],
+      "workStyle": ["research", "analytical", "solo"],
+      "environment": ["outdoor", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "environmental-activist",
+    "name": "환경운동가",
+    "emoji": "🌍",
+    "category": "nature",
+    "description": "지구 환경을 보호해요. 환경 문제를 알리고 변화를 만들어요.",
+    "dailyWork": [
+      "09:00 - 사무실 출근",
+      "10:00 - 캠페인 기획",
+      "12:00 - 점심",
+      "14:00 - 현장 활동 또는 강연",
+      "17:00 - SNS 캠페인"
+    ],
+    "requirements": {
+      "education": "환경학과 또는 관련 경험",
+      "skills": ["기획력", "소통력", "환경 지식"],
+      "personality": ["열정", "책임감", "행동력"]
+    },
+    "preparation": {
+      "elementary": ["환경에 관심", "분리수거 실천"],
+      "middle": ["환경 동아리", "캠페인 참여"],
+      "high": ["환경학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "지구를 지켜요", "author": "환경동화"}
+      ],
+      "videos": [
+        {"title": "환경 다큐멘터리", "url": "https://youtube.com"}
+      ],
+      "experiences": ["환경 캠프", "해변 정화 활동"]
+    },
+    "funFacts": [
+      "그레타 툰베리는 15세에 환경운동을 시작했어요",
+      "플라스틱 빨대 하나가 바다거북을 죽일 수 있어요"
+    ],
+    "tags": {
+      "interests": ["nature", "communication", "helper"],
+      "workStyle": ["leadership", "action", "teaching"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "botanist",
+    "name": "식물학자",
+    "emoji": "🌱",
+    "category": "nature",
+    "description": "식물을 연구해요. 새로운 식물을 발견하고 특성을 분석해요.",
+    "dailyWork": [
+      "08:00 - 연구소 또는 현장",
+      "09:00 - 식물 채집 또는 실험",
+      "12:00 - 점심",
+      "14:00 - 분석 및 연구",
+      "16:00 - 논문 작성"
+    ],
+    "requirements": {
+      "education": "식물학 또는 생물학 전공",
+      "skills": ["관찰력", "연구 능력", "식물 지식"],
+      "personality": ["인내심", "호기심", "꼼꼼함"]
+    },
+    "preparation": {
+      "elementary": ["식물 키우기", "식물 관찰"],
+      "middle": ["생물 공부", "식물원 방문"],
+      "high": ["생물학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "식물의 세계", "author": "자연동화"}
+      ],
+      "videos": [
+        {"title": "식물 다큐", "url": "https://youtube.com"}
+      ],
+      "experiences": ["식물원 체험", "숲 탐방"]
+    },
+    "funFacts": [
+      "아직 발견되지 않은 식물이 수만 종 있어요",
+      "어떤 식물은 100년에 한 번 꽃을 펴요"
+    ],
+    "tags": {
+      "interests": ["nature", "science", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "smart-farmer",
+    "name": "스마트팜 농부",
+    "emoji": "🌾",
+    "category": "nature",
+    "description": "첨단 기술로 농사를 지어요. 컴퓨터와 센서로 작물을 관리해요.",
+    "dailyWork": [
+      "06:00 - 농장 출근",
+      "07:00 - 시스템 체크",
+      "09:00 - 작물 관리",
+      "12:00 - 점심",
+      "14:00 - 데이터 분석 및 조절"
+    ],
+    "requirements": {
+      "education": "농업학과 또는 IT 융합",
+      "skills": ["농업 지식", "IT 기술", "데이터 분석"],
+      "personality": ["꼼꼼함", "혁신적", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["식물 키우기", "기술에 관심"],
+      "middle": ["과학 공부", "코딩 배우기"],
+      "high": ["농업학과 또는 IT 융합"]
+    },
+    "resources": {
+      "books": [
+        {"title": "미래 농업", "author": "농업동화"}
+      ],
+      "videos": [
+        {"title": "스마트팜 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["스마트팜 견학", "농촌 체험"]
+    },
+    "funFacts": [
+      "스마트팜에서는 빌딩에서도 농사를 지어요",
+      "햇빛 대신 LED로 채소를 키워요"
+    ],
+    "tags": {
+      "interests": ["nature", "tech", "science"],
+      "workStyle": ["analytical", "hands-on", "systematic"],
+      "environment": ["farm", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "landscape-architect",
+    "name": "조경사",
+    "emoji": "🏞️",
+    "category": "nature",
+    "description": "공원이나 정원을 디자인해요. 자연과 어우러지는 아름다운 공간을 만들어요.",
+    "dailyWork": [
+      "09:00 - 사무실 출근",
+      "10:00 - 설계 작업",
+      "12:00 - 점심",
+      "14:00 - 현장 방문",
+      "16:00 - 고객 미팅"
+    ],
+    "requirements": {
+      "education": "조경학과 졸업",
+      "skills": ["디자인", "식물 지식", "설계 능력"],
+      "personality": ["미적 감각", "창의성", "자연 사랑"]
+    },
+    "preparation": {
+      "elementary": ["공원에서 놀기", "자연 관찰"],
+      "middle": ["미술 공부", "정원 관심"],
+      "high": ["조경학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "정원 디자인", "author": "조경동화"}
+      ],
+      "videos": [
+        {"title": "조경사 일상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["식물원 방문", "공원 탐방"]
+    },
+    "funFacts": [
+      "한국의 궁궐 정원도 조경의 일종이에요",
+      "도시 숲이 미세먼지를 줄여줘요"
+    ],
+    "tags": {
+      "interests": ["nature", "art", "architecture"],
+      "workStyle": ["creative", "analytical", "hands-on"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "wildlife-ranger",
+    "name": "야생동물 보호관",
+    "emoji": "🦌",
+    "category": "nature",
+    "description": "야생동물을 보호해요. 밀렵을 막고 동물들이 안전하게 살도록 지켜요.",
+    "dailyWork": [
+      "06:00 - 보호구역 순찰",
+      "09:00 - 동물 모니터링",
+      "12:00 - 점심",
+      "14:00 - 밀렵 방지 활동",
+      "17:00 - 보고서 작성"
+    ],
+    "requirements": {
+      "education": "환경학 또는 야생동물학 전공",
+      "skills": ["야생동물 지식", "체력", "추적 능력"],
+      "personality": ["용기", "동물 사랑", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["동물 관심", "자연 탐방"],
+      "middle": ["생물 공부", "캠핑 경험"],
+      "high": ["환경학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "야생동물 보호관", "author": "자연동화"}
+      ],
+      "videos": [
+        {"title": "보호관 다큐", "url": "https://youtube.com"}
+      ],
+      "experiences": ["생태 탐방", "야생동물 관찰"]
+    },
+    "funFacts": [
+      "아프리카 레인저들은 코끼리를 지켜요",
+      "밀렵꾼과 싸우기도 해요"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "action", "wildlife"],
+      "workStyle": ["action", "hands-on", "solo"],
+      "environment": ["outdoor", "nature"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "aquarist",
+    "name": "아쿠아리스트",
+    "emoji": "🐠",
+    "category": "nature",
+    "description": "수족관의 물고기와 해양생물을 돌봐요. 수조 환경을 관리해요.",
+    "dailyWork": [
+      "08:00 - 수족관 출근",
+      "09:00 - 수조 점검 및 청소",
+      "11:00 - 먹이 주기",
+      "12:00 - 점심",
+      "14:00 - 생물 건강 체크"
+    ],
+    "requirements": {
+      "education": "해양생물학 또는 관련 경험",
+      "skills": ["해양생물 지식", "수질 관리", "관찰력"],
+      "personality": ["꼼꼼함", "동물 사랑", "체력"]
+    },
+    "preparation": {
+      "elementary": ["수족관 방문", "물고기 키우기"],
+      "middle": ["해양 생물 공부"],
+      "high": ["해양생물학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "수족관의 비밀", "author": "바다동화"}
+      ],
+      "videos": [
+        {"title": "아쿠아리스트 일상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["아쿠아리움 체험", "스노클링"]
+    },
+    "funFacts": [
+      "상어 수조 청소는 특별한 훈련이 필요해요",
+      "해파리는 97%가 물이에요"
+    ],
+    "tags": {
+      "interests": ["animals", "marine", "nature"],
+      "workStyle": ["caring", "hands-on", "systematic"],
+      "environment": ["aquarium", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "insect-breeder",
+    "name": "곤충 사육사",
+    "emoji": "🦗",
+    "category": "nature",
+    "description": "곤충을 키우고 연구해요. 식용 곤충, 애완 곤충을 사육해요.",
+    "dailyWork": [
+      "08:00 - 사육장 출근",
+      "09:00 - 곤충 상태 체크",
+      "10:00 - 먹이 주기 및 환경 관리",
+      "12:00 - 점심",
+      "14:00 - 번식 관리"
+    ],
+    "requirements": {
+      "education": "곤충학 또는 생물학 전공",
+      "skills": ["곤충 지식", "사육 기술", "관찰력"],
+      "personality": ["곤충 좋아함", "꼼꼼함", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["곤충 관찰", "장수풍뎅이 키우기"],
+      "middle": ["곤충 채집", "사육 경험"],
+      "high": ["생물학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "곤충 키우기", "author": "곤충동화"}
+      ],
+      "videos": [
+        {"title": "곤충 사육 영상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["곤충 박물관", "곤충 채집 체험"]
+    },
+    "funFacts": [
+      "미래 식량으로 곤충이 주목받고 있어요",
+      "애벌레는 단백질이 풍부해요"
+    ],
+    "tags": {
+      "interests": ["nature", "insects", "science"],
+      "workStyle": ["caring", "hands-on", "research"],
+      "environment": ["farm", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "forest-ranger",
+    "name": "산림청 직원(숲 해설사)",
+    "emoji": "🌲",
+    "category": "nature",
+    "description": "숲을 보호하고 사람들에게 숲에 대해 알려줘요. 산불도 예방해요.",
+    "dailyWork": [
+      "08:00 - 국립공원 출근",
+      "09:00 - 숲 순찰",
+      "11:00 - 생태 해설 프로그램",
+      "12:00 - 점심",
+      "14:00 - 산림 관리"
+    ],
+    "requirements": {
+      "education": "산림학 또는 환경학 전공",
+      "skills": ["숲 지식", "해설 능력", "체력"],
+      "personality": ["자연 사랑", "체력", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["숲에서 놀기", "나무 관찰"],
+      "middle": ["등산", "자연 공부"],
+      "high": ["산림학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "숲의 비밀", "author": "자연동화"}
+      ],
+      "videos": [
+        {"title": "숲 해설사 일상", "url": "https://youtube.com"}
+      ],
+      "experiences": ["숲 체험", "국립공원 탐방"]
+    },
+    "funFacts": [
+      "나무 한 그루가 연간 21.8kg의 탄소를 흡수해요",
+      "한국 숲은 국토의 63%를 차지해요"
+    ],
+    "tags": {
+      "interests": ["nature", "teaching", "outdoor"],
+      "workStyle": ["teaching", "action", "hands-on"],
+      "environment": ["outdoor", "forest"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  }
+]

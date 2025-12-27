@@ -1,0 +1,58 @@
+[
+  {
+    "id": "helper",
+    "name": "사람을 도와요",
+    "emoji": "💚",
+    "description": "다른 사람들을 돕고 돌보는 일을 해요",
+    "color": "#10B981"
+  },
+  {
+    "id": "builder",
+    "name": "만들고 고쳐요",
+    "emoji": "🔧",
+    "description": "손으로 무언가를 만들고 고치는 일을 해요",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "thinker",
+    "name": "생각하고 연구해요",
+    "emoji": "🔬",
+    "description": "새로운 것을 발견하고 연구하는 일을 해요",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "artist",
+    "name": "그리고 꾸며요",
+    "emoji": "🎨",
+    "description": "아름다운 것을 만들고 표현하는 일을 해요",
+    "color": "#EC4899"
+  },
+  {
+    "id": "mover",
+    "name": "몸을 움직여요",
+    "emoji": "⚽",
+    "description": "몸을 활발하게 움직이는 일을 해요",
+    "color": "#EF4444"
+  },
+  {
+    "id": "communicator",
+    "name": "이야기하고 알려요",
+    "emoji": "🎤",
+    "description": "사람들에게 이야기하고 정보를 전달해요",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "nature",
+    "name": "자연과 함께해요",
+    "emoji": "🌿",
+    "description": "동물, 식물, 자연과 함께 일해요",
+    "color": "#22C55E"
+  },
+  {
+    "id": "tech",
+    "name": "컴퓨터로 일해요",
+    "emoji": "💻",
+    "description": "컴퓨터와 기술을 활용해서 일해요",
+    "color": "#6366F1"
+  }
+]

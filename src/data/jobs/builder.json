@@ -1,0 +1,556 @@
+[
+  {
+    "id": "car-engineer",
+    "name": "자동차 설계 엔지니어",
+    "emoji": "🚗",
+    "category": "builder",
+    "description": "새로운 자동차를 디자인하고 설계해요. 더 안전하고 빠른 차를 만들어요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 설계 도면 작업",
+      "12:00 - 점심",
+      "14:00 - 팀 회의 및 테스트",
+      "17:00 - 결과 분석"
+    ],
+    "requirements": {
+      "education": "기계공학 또는 자동차공학 전공",
+      "skills": ["CAD 설계", "기계 이해", "문제 해결"],
+      "personality": ["꼼꼼함", "창의성", "분석력"]
+    },
+    "preparation": {
+      "elementary": ["자동차에 관심 갖기", "레고 조립하기", "과학 공부"],
+      "middle": ["수학, 과학 집중", "자동차 관련 책 읽기"],
+      "high": ["기계공학과 준비", "자동차 전시회 방문"]
+    },
+    "resources": {
+      "books": [
+        {"title": "자동차 박사가 되자", "author": "과학동아"},
+        {"title": "자동차는 어떻게 달릴까", "author": "DK출판사"}
+      ],
+      "videos": [
+        {"title": "자동차 만드는 과정", "url": "https://youtube.com"},
+        {"title": "미래 자동차 이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["자동차 공장 견학", "자동차 박물관", "카트 체험"]
+    },
+    "funFacts": [
+      "하나의 자동차를 만드는 데 3만 개가 넘는 부품이 필요해요",
+      "미래에는 하늘을 나는 자동차가 나올 수도 있어요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "engineering"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "factory"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "robot-engineer",
+    "name": "로봇 엔지니어",
+    "emoji": "🤖",
+    "category": "builder",
+    "description": "로봇을 만들고 프로그래밍해요. 사람을 도와주는 똑똑한 로봇을 개발해요.",
+    "dailyWork": [
+      "09:00 - 연구소 출근",
+      "10:00 - 로봇 설계 및 조립",
+      "12:00 - 점심",
+      "14:00 - 프로그래밍",
+      "16:00 - 테스트 및 수정"
+    ],
+    "requirements": {
+      "education": "로봇공학 또는 전자공학 전공",
+      "skills": ["프로그래밍", "기계 설계", "전자 지식"],
+      "personality": ["호기심", "끈기", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["로봇 장난감 조립", "코딩 기초 배우기"],
+      "middle": ["코딩 공부", "로봇 동아리"],
+      "high": ["로봇공학과 준비", "로봇 대회 참가"]
+    },
+    "resources": {
+      "books": [
+        {"title": "로봇 친구 만들기", "author": "과학동아"}
+      ],
+      "videos": [
+        {"title": "로봇 만드는 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["로봇 체험관", "코딩 교실", "로봇 대회"]
+    },
+    "funFacts": [
+      "세계에서 가장 유명한 로봇은 보스턴 다이내믹스의 '스팟'이에요",
+      "로봇 팔은 사람보다 더 정밀하게 움직일 수 있어요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "robot", "ai"],
+      "workStyle": ["creative", "analytical", "hands-on"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "architect",
+    "name": "건축가",
+    "emoji": "🏛️",
+    "category": "builder",
+    "description": "건물을 설계해요. 집, 학교, 빌딩 같은 멋진 건물을 그려요.",
+    "dailyWork": [
+      "09:00 - 사무실 출근",
+      "10:00 - 건물 설계",
+      "12:00 - 점심",
+      "14:00 - 고객 미팅",
+      "16:00 - 도면 수정"
+    ],
+    "requirements": {
+      "education": "건축학과 졸업",
+      "skills": ["설계 능력", "3D 모델링", "미적 감각"],
+      "personality": ["창의성", "꼼꼼함", "공간감각"]
+    },
+    "preparation": {
+      "elementary": ["레고로 건물 짓기", "그림 그리기"],
+      "middle": ["미술 공부", "건축물 관찰"],
+      "high": ["건축학과 준비", "포트폴리오 만들기"]
+    },
+    "resources": {
+      "books": [
+        {"title": "세계의 유명 건축물", "author": "건축동화"}
+      ],
+      "videos": [
+        {"title": "건축가의 하루", "url": "https://youtube.com"}
+      ],
+      "experiences": ["건축 전시회", "유명 건물 탐방"]
+    },
+    "funFacts": [
+      "에펠탑은 처음엔 사람들이 싫어했지만 지금은 파리의 상징이에요",
+      "건축가는 건물이 안전하고 아름답게 만들어야 해요"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "architecture"],
+      "workStyle": ["creative", "analytical", "systematic"],
+      "environment": ["office", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "aerospace-engineer",
+    "name": "항공우주 엔지니어",
+    "emoji": "🚀",
+    "category": "builder",
+    "description": "비행기와 로켓을 만들어요. 하늘과 우주를 나는 기계를 설계해요.",
+    "dailyWork": [
+      "09:00 - 연구소 출근",
+      "10:00 - 설계 및 시뮬레이션",
+      "12:00 - 점심",
+      "14:00 - 팀 회의",
+      "16:00 - 테스트 분석"
+    ],
+    "requirements": {
+      "education": "항공우주공학과 졸업",
+      "skills": ["물리학", "수학", "설계 능력"],
+      "personality": ["분석력", "꼼꼼함", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["비행기 만들기", "우주에 관심 갖기"],
+      "middle": ["수학, 과학 열심히", "천문대 방문"],
+      "high": ["항공우주공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "로켓 박사 되기", "author": "우주과학동화"}
+      ],
+      "videos": [
+        {"title": "로켓 발사 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["항공우주박물관", "천문대 방문"]
+    },
+    "funFacts": [
+      "우주로 가려면 시속 28,000km 이상으로 날아야 해요",
+      "로켓은 대부분 연료예요"
+    ],
+    "tags": {
+      "interests": ["builder", "space", "science", "engineering"],
+      "workStyle": ["analytical", "systematic", "research"],
+      "environment": ["office", "lab"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "electronics-developer",
+    "name": "전자제품 개발자",
+    "emoji": "📱",
+    "category": "builder",
+    "description": "스마트폰, TV 같은 전자제품을 개발해요. 우리가 쓰는 기기를 만들어요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 회로 설계",
+      "12:00 - 점심",
+      "14:00 - 프로토타입 제작",
+      "16:00 - 테스트"
+    ],
+    "requirements": {
+      "education": "전자공학과 졸업",
+      "skills": ["회로 설계", "프로그래밍", "테스트"],
+      "personality": ["꼼꼼함", "창의성", "문제해결력"]
+    },
+    "preparation": {
+      "elementary": ["전자키트 만들기", "과학에 관심"],
+      "middle": ["코딩 배우기", "전자 동아리"],
+      "high": ["전자공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "전자제품의 비밀", "author": "과학동아"}
+      ],
+      "videos": [
+        {"title": "스마트폰 만드는 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["전자키트 조립", "과학관 방문"]
+    },
+    "funFacts": [
+      "스마트폰 안에는 수십억 개의 작은 부품이 들어있어요",
+      "요즘 전자제품은 점점 더 작아지고 있어요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "engineering"],
+      "workStyle": ["analytical", "hands-on", "systematic"],
+      "environment": ["office", "lab"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "3d-print-specialist",
+    "name": "3D 프린터 전문가",
+    "emoji": "🖨️",
+    "category": "builder",
+    "description": "3D 프린터로 다양한 물건을 만들어요. 상상하는 모든 것을 출력해요.",
+    "dailyWork": [
+      "09:00 - 작업실 출근",
+      "10:00 - 3D 모델링",
+      "12:00 - 점심",
+      "14:00 - 프린팅 및 후가공",
+      "16:00 - 품질 검사"
+    ],
+    "requirements": {
+      "education": "산업디자인 또는 기계공학 전공",
+      "skills": ["3D 모델링", "프린터 운용", "디자인"],
+      "personality": ["창의성", "꼼꼼함", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["3D 펜 체험", "만들기 좋아하기"],
+      "middle": ["3D 모델링 배우기"],
+      "high": ["관련 학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "3D 프린터의 마법", "author": "메이커 동화"}
+      ],
+      "videos": [
+        {"title": "3D 프린터로 만드는 것들", "url": "https://youtube.com"}
+      ],
+      "experiences": ["메이커 스페이스", "3D 프린팅 체험"]
+    },
+    "funFacts": [
+      "3D 프린터로 집도 만들 수 있어요",
+      "의료용 인공 뼈도 3D 프린터로 만들어요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "creative"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "drone-engineer",
+    "name": "드론 엔지니어",
+    "emoji": "🛸",
+    "category": "builder",
+    "description": "드론을 개발하고 조종해요. 배달, 촬영, 농업 등 다양한 분야에서 활용해요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 드론 설계",
+      "12:00 - 점심",
+      "14:00 - 비행 테스트",
+      "16:00 - 데이터 분석"
+    ],
+    "requirements": {
+      "education": "전자공학 또는 항공학 전공",
+      "skills": ["드론 조종", "프로그래밍", "설계"],
+      "personality": ["집중력", "꼼꼼함", "모험심"]
+    },
+    "preparation": {
+      "elementary": ["드론 조종 배우기", "비행기에 관심"],
+      "middle": ["코딩 배우기", "드론 동아리"],
+      "high": ["관련 학과 준비", "드론 자격증"]
+    },
+    "resources": {
+      "books": [
+        {"title": "드론의 모든 것", "author": "기술동화"}
+      ],
+      "videos": [
+        {"title": "드론 조종 배우기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["드론 체험장", "드론 대회"]
+    },
+    "funFacts": [
+      "드론으로 피자를 배달하는 시대가 왔어요",
+      "드론은 사람이 가기 어려운 곳도 갈 수 있어요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "outdoor"],
+      "workStyle": ["hands-on", "analytical", "action"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "interior-designer",
+    "name": "인테리어 디자이너",
+    "emoji": "🏠",
+    "category": "builder",
+    "description": "집 안을 예쁘고 편하게 꾸며요. 가구 배치와 색상을 디자인해요.",
+    "dailyWork": [
+      "09:00 - 사무실 출근",
+      "10:00 - 고객 미팅",
+      "12:00 - 점심",
+      "14:00 - 디자인 작업",
+      "16:00 - 현장 방문"
+    ],
+    "requirements": {
+      "education": "실내디자인학과 졸업",
+      "skills": ["공간 설계", "색채 감각", "3D 디자인"],
+      "personality": ["미적 감각", "소통력", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["방 꾸미기", "그림 그리기"],
+      "middle": ["미술 공부", "인테리어 잡지 보기"],
+      "high": ["실내디자인학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "예쁜 방 꾸미기", "author": "인테리어동화"}
+      ],
+      "videos": [
+        {"title": "방 꾸미기 팁", "url": "https://youtube.com"}
+      ],
+      "experiences": ["가구점 방문", "인테리어 전시회"]
+    },
+    "funFacts": [
+      "색상만 바꿔도 방 분위기가 완전히 달라져요",
+      "좁은 방도 디자인으로 넓어 보이게 할 수 있어요"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "architecture"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "mechanic",
+    "name": "자동차 정비사",
+    "emoji": "🔧",
+    "category": "builder",
+    "description": "고장 난 자동차를 고쳐요. 엔진부터 타이어까지 모든 부분을 수리해요.",
+    "dailyWork": [
+      "09:00 - 정비소 출근",
+      "09:30 - 차량 점검",
+      "12:00 - 점심",
+      "13:00 - 수리 작업",
+      "17:00 - 정리"
+    ],
+    "requirements": {
+      "education": "자동차정비학과 또는 기술 교육",
+      "skills": ["정비 기술", "문제 진단", "도구 사용"],
+      "personality": ["손재주", "꼼꼼함", "인내심"]
+    },
+    "preparation": {
+      "elementary": ["자동차에 관심", "도구 사용법 배우기"],
+      "middle": ["기술 수업 집중"],
+      "high": ["정비학과 준비", "자격증 취득"]
+    },
+    "resources": {
+      "books": [
+        {"title": "자동차 정비사가 되려면", "author": "직업가이드"}
+      ],
+      "videos": [
+        {"title": "자동차 정비 과정", "url": "https://youtube.com"}
+      ],
+      "experiences": ["정비소 견학", "자동차 체험"]
+    },
+    "funFacts": [
+      "자동차 소리만 듣고 어디가 고장났는지 알 수 있어요",
+      "전기차 시대가 오면서 정비사도 배워야 할 게 많아졌어요"
+    ],
+    "tags": {
+      "interests": ["builder", "action"],
+      "workStyle": ["hands-on", "analytical", "systematic"],
+      "environment": ["garage", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "carpenter",
+    "name": "목수",
+    "emoji": "🪵",
+    "category": "builder",
+    "description": "나무로 가구나 집을 만들어요. 손으로 아름다운 목재 작품을 만들어요.",
+    "dailyWork": [
+      "08:00 - 작업장 출근",
+      "09:00 - 재료 준비 및 재단",
+      "12:00 - 점심",
+      "13:00 - 조립 및 마감",
+      "17:00 - 정리"
+    ],
+    "requirements": {
+      "education": "목공 기술 교육",
+      "skills": ["목공 기술", "도면 읽기", "도구 사용"],
+      "personality": ["손재주", "인내심", "꼼꼼함"]
+    },
+    "preparation": {
+      "elementary": ["나무로 만들기", "손으로 만드는 활동"],
+      "middle": ["기술 수업", "DIY 활동"],
+      "high": ["목공학과 또는 기술 학교"]
+    },
+    "resources": {
+      "books": [
+        {"title": "나무 공예 첫걸음", "author": "목공동화"}
+      ],
+      "videos": [
+        {"title": "목공 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["목공 체험", "가구 만들기 클래스"]
+    },
+    "funFacts": [
+      "나무마다 특징이 달라서 용도에 맞게 써야 해요",
+      "수백 년 된 가구도 목수가 만든 거예요"
+    ],
+    "tags": {
+      "interests": ["builder", "crafts"],
+      "workStyle": ["hands-on", "creative", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "electrician",
+    "name": "전기기사",
+    "emoji": "⚡",
+    "category": "builder",
+    "description": "전기 시설을 설치하고 고쳐요. 집과 건물에 전기가 잘 흐르게 해요.",
+    "dailyWork": [
+      "08:00 - 현장 출근",
+      "09:00 - 전기 배선 작업",
+      "12:00 - 점심",
+      "13:00 - 점검 및 수리",
+      "17:00 - 안전 확인"
+    ],
+    "requirements": {
+      "education": "전기공학 또는 기술 교육",
+      "skills": ["전기 지식", "배선 기술", "안전 관리"],
+      "personality": ["꼼꼼함", "안전의식", "체력"]
+    },
+    "preparation": {
+      "elementary": ["전기에 관심", "안전 교육"],
+      "middle": ["과학 공부", "기술 수업"],
+      "high": ["전기 관련 자격증 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "전기의 비밀", "author": "과학동화"}
+      ],
+      "videos": [
+        {"title": "전기기사 하루", "url": "https://youtube.com"}
+      ],
+      "experiences": ["과학관 전기 체험"]
+    },
+    "funFacts": [
+      "전기는 눈에 보이지 않아서 항상 조심해야 해요",
+      "번개는 자연의 전기예요"
+    ],
+    "tags": {
+      "interests": ["builder", "tech"],
+      "workStyle": ["hands-on", "systematic", "analytical"],
+      "environment": ["field", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "lego-master",
+    "name": "레고 마스터 빌더",
+    "emoji": "🧱",
+    "category": "builder",
+    "description": "레고로 놀라운 작품을 만들어요. 전 세계에 단 몇 명뿐인 특별한 직업이에요.",
+    "dailyWork": [
+      "09:00 - 스튜디오 출근",
+      "10:00 - 설계 및 계획",
+      "12:00 - 점심",
+      "13:00 - 조립 작업",
+      "17:00 - 작품 검토"
+    ],
+    "requirements": {
+      "education": "미술 또는 디자인 관련 전공",
+      "skills": ["창의력", "공간 감각", "인내심"],
+      "personality": ["창의성", "끈기", "세심함"]
+    },
+    "preparation": {
+      "elementary": ["레고 많이 하기", "창작 작품 만들기"],
+      "middle": ["미술 공부", "레고 대회 참가"],
+      "high": ["디자인 관련 공부", "포트폴리오 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "레고 마스터의 비밀", "author": "레고 공식"}
+      ],
+      "videos": [
+        {"title": "레고 마스터 빌더 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["레고랜드 방문", "레고 대회"]
+    },
+    "funFacts": [
+      "전 세계에 공식 레고 마스터 빌더는 40명도 안 돼요",
+      "레고랜드의 거대한 조형물은 수백만 개의 블록으로 만들어져요"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "creative"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  }
+]

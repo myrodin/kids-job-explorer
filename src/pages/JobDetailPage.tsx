@@ -1,0 +1,379 @@
+import { useEffect, useState } from 'react';
+import { Link, useParams, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { getJobById } from '../data/jobs';
+import type { Job } from '../types';
+import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
+
+// Get icon for job based on category
+const getJobIcon = (categoryId: string): string => {
+  return CategoryIcons[categoryId as keyof typeof CategoryIcons] || 'briefcase';
+};
+
+export function JobDetailPage() {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const [job, setJob] = useState<Job | null>(null);
+  const [activeTab, setActiveTab] = useState<'overview' | 'preparation' | 'resources'>('overview');
+
+  useEffect(() => {
+    if (id) {
+      const foundJob = getJobById(id);
+      if (foundJob) {
+        setJob(foundJob);
+      } else {
+        navigate('/jobs');
+      }
+    }
+  }, [id, navigate]);
+
+  if (!job) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <motion.div
+          animate={{ rotate: 360 }}
+          transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
+          className="text-primary-500"
+        >
+          <Icon name="star" size="3x" spin />
+        </motion.div>
+      </div>
+    );
+  }
+
+  const tabs = [
+    { id: 'overview', label: '직업 소개', icon: 'clipboard-list' },
+    { id: 'preparation', label: '준비 방법', icon: 'book-open' },
+    { id: 'resources', label: '더 알아보기', icon: 'link' },
+  ] as const;
+
+  return (
+    <div className="space-y-12">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-center"
+      >
+        <motion.div
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="inline-flex items-center justify-center w-24 h-24 rounded-2xl bg-primary-100 mb-4"
+        >
+          <Icon name={getJobIcon(job.category)} size="3x" className="text-primary-500" />
+        </motion.div>
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+          {job.name}
+        </h1>
+        <p className="text-gray-500 flex items-center justify-center gap-2">
+          <Icon name="briefcase" size="sm" />
+          {job.category}
+        </p>
+      </motion.div>
+
+      {/* Description */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Card className="bg-primary-50" padding="lg">
+          <p className="text-lg text-gray-700 leading-relaxed">{job.description}</p>
+        </Card>
+      </motion.div>
+
+      {/* Tabs */}
+      <div className="flex gap-3 overflow-x-auto pb-2">
+        {tabs.map((tab) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full font-medium transition-all whitespace-nowrap ${
+              activeTab === tab.id
+                ? 'bg-primary-500 text-white shadow-lg'
+                : 'bg-white text-gray-600 hover:bg-gray-100'
+            }`}
+          >
+            <Icon name={tab.icon} size="sm" />
+            <span>{tab.label}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Tab Content */}
+      <motion.div
+        key={activeTab}
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3 }}
+      >
+        {activeTab === 'overview' && (
+          <div className="space-y-8">
+            {/* Daily Work */}
+            <Card>
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="clock" className="text-primary-500" />
+                하루 일과
+              </h3>
+              <StaggerContainer className="space-y-3">
+                {job.dailyWork.map((work, index) => (
+                  <StaggerItem key={index}>
+                    <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                      <span className="flex items-center justify-center w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-bold">
+                        {index + 1}
+                      </span>
+                      <p className="text-gray-700">{work}</p>
+                    </div>
+                  </StaggerItem>
+                ))}
+              </StaggerContainer>
+            </Card>
+
+            {/* Requirements */}
+            <Card>
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="star" className="text-accent-500" />
+                이런 능력이 필요해요
+              </h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                    <Icon name="graduation-cap" size="sm" className="text-gray-500" />
+                    학력
+                  </h4>
+                  <p className="text-gray-600 bg-gray-50 px-4 py-3 rounded-lg">
+                    {job.requirements.education}
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                    <Icon name="dumbbell" size="sm" className="text-gray-500" />
+                    필요한 능력
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {job.requirements.skills.map((skill, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1.5 bg-secondary-100 text-secondary-700 rounded-full text-sm font-medium"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                    <Icon name="heart" size="sm" className="text-gray-500" />
+                    이런 성격이면 좋아요
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {job.requirements.personality.map((trait, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1.5 bg-accent-100 text-accent-700 rounded-full text-sm font-medium"
+                      >
+                        {trait}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            {/* Fun Facts */}
+            <Card className="bg-accent-50">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="gem" className="text-accent-600" />
+                재미있는 사실
+              </h3>
+              <ul className="space-y-3">
+                {job.funFacts.map((fact, index) => (
+                  <li key={index} className="flex items-start gap-3 text-gray-700">
+                    <Icon name="lightbulb" className="text-accent-500 mt-1" />
+                    {fact}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
+        )}
+
+        {activeTab === 'preparation' && (
+          <div className="space-y-8">
+            {/* Elementary */}
+            <Card className="border-l-4 border-l-green-400">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="seedling" className="text-green-500" />
+                초등학교 때 준비할 것
+              </h3>
+              <ul className="space-y-2">
+                {job.preparation.elementary.map((item, index) => (
+                  <li key={index} className="flex items-start gap-3 text-gray-700">
+                    <Icon name="circle-check" className="text-green-500 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+
+            {/* Middle School */}
+            <Card className="border-l-4 border-l-blue-400">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="leaf" className="text-blue-500" />
+                중학교 때 준비할 것
+              </h3>
+              <ul className="space-y-2">
+                {job.preparation.middle.map((item, index) => (
+                  <li key={index} className="flex items-start gap-3 text-gray-700">
+                    <Icon name="circle-check" className="text-blue-500 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+
+            {/* High School */}
+            <Card className="border-l-4 border-l-purple-400">
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="tree" className="text-purple-500" />
+                고등학교 때 준비할 것
+              </h3>
+              <ul className="space-y-2">
+                {job.preparation.high.map((item, index) => (
+                  <li key={index} className="flex items-start gap-3 text-gray-700">
+                    <Icon name="circle-check" className="text-purple-500 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
+        )}
+
+        {activeTab === 'resources' && (
+          <div className="space-y-8">
+            {/* Books */}
+            <Card>
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="book" className="text-primary-500" />
+                관련 도서 찾기
+              </h3>
+              <div className="space-y-4">
+                <p className="text-gray-600 leading-relaxed">
+                  도서관이나 서점에서 <span className="font-semibold text-primary-600">"{job.name}"</span> 관련 책을 찾아보세요!
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                    #{job.name}
+                  </span>
+                  <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                    #어린이직업
+                  </span>
+                  <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                    #진로탐색
+                  </span>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                  <a
+                    href={`https://search.kyobobook.co.kr/search?keyword=${encodeURIComponent(job.name + ' 어린이')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-50 hover:bg-primary-100 text-primary-600 rounded-xl transition-colors font-medium"
+                  >
+                    <Icon name="search" size="sm" />
+                    교보문고에서 검색
+                  </a>
+                  <a
+                    href={`https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&pageNum=1&pageSize=30&kwd=${encodeURIComponent(job.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 px-4 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl transition-colors font-medium"
+                  >
+                    <Icon name="book-open" size="sm" />
+                    국립중앙도서관 검색
+                  </a>
+                </div>
+              </div>
+            </Card>
+
+            {/* Videos */}
+            <Card>
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="video" className="text-red-500" />
+                추천 영상
+              </h3>
+              <StaggerContainer className="space-y-3">
+                {job.resources.videos.map((video, index) => {
+                  // 직업 이름과 영상 제목을 조합해서 유튜브 검색 URL 생성
+                  const searchQuery = encodeURIComponent(`${job.name} ${video.title}`);
+                  const youtubeSearchUrl = `https://www.youtube.com/results?search_query=${searchQuery}`;
+
+                  return (
+                    <StaggerItem key={index}>
+                      <a
+                        href={youtubeSearchUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-4 p-4 bg-red-50 rounded-xl hover:bg-red-100 transition-colors group"
+                      >
+                        <div className="flex items-center justify-center w-12 h-12 bg-red-100 rounded-lg group-hover:bg-red-200 transition-colors">
+                          <Icon name="play" size="lg" className="text-red-500" />
+                        </div>
+                        <div className="flex-1">
+                          <p className="font-medium text-gray-800">{video.title}</p>
+                          <p className="text-sm text-red-500 flex items-center gap-1">
+                            <Icon name="search" size="xs" />
+                            YouTube에서 검색하기
+                          </p>
+                        </div>
+                      </a>
+                    </StaggerItem>
+                  );
+                })}
+              </StaggerContainer>
+            </Card>
+
+            {/* Experiences */}
+            <Card>
+              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Icon name="bullseye" className="text-secondary-500" />
+                체험 활동
+              </h3>
+              <ul className="space-y-3">
+                {job.resources.experiences.map((exp, index) => (
+                  <li key={index} className="flex items-start gap-3 text-gray-700">
+                    <Icon name="hand-point-right" className="text-secondary-500 mt-0.5" />
+                    {exp}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
+        )}
+      </motion.div>
+
+      {/* Actions */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+        className="flex flex-col sm:flex-row gap-4 justify-center"
+      >
+        <Link to="/jobs">
+          <Button variant="outline">
+            <Icon name="arrow-left" size="sm" />
+            다른 직업 보기
+          </Button>
+        </Link>
+        <Link to="/quiz">
+          <Button variant="primary">
+            <Icon name="wand-magic-sparkles" size="sm" />
+            나에게 맞는 직업 찾기
+          </Button>
+        </Link>
+      </motion.div>
+    </div>
+  );
+}
+
+export default JobDetailPage;

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E8FF"/>
+      <stop offset="50%" style="stop-color:#FCE7F3"/>
+      <stop offset="100%" style="stop-color:#FEF3C7"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="#8B5CF6" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="120" fill="#EC4899" opacity="0.1"/>
+  <circle cx="1000" cy="100" r="60" fill="#FBBF24" opacity="0.15"/>
+  <circle cx="200" cy="500" r="100" fill="#10B981" opacity="0.1"/>
+
+  <!-- Main star icon -->
+  <g transform="translate(540, 150)">
+    <circle cx="60" cy="60" r="55" fill="url(#starGrad)"/>
+    <path d="M60 20 L68 45 L95 45 L73 62 L82 90 L60 72 L38 90 L47 62 L25 45 L52 45 Z" fill="#FBBF24"/>
+    <circle cx="90" cy="25" r="5" fill="white" opacity="0.8"/>
+    <circle cx="30" cy="30" r="4" fill="white" opacity="0.6"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#1F2937">내 꿈 찾기</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#6B7280">어린이 직업 탐색</text>
+
+  <!-- Description -->
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#8B5CF6">100가지 직업 중 나만의 꿈을 찾아보세요!</text>
+
+  <!-- Small decorative stars -->
+  <path d="M150 300 L155 315 L170 315 L158 325 L163 340 L150 330 L137 340 L142 325 L130 315 L145 315 Z" fill="#FBBF24" opacity="0.6"/>
+  <path d="M1050 250 L1055 265 L1070 265 L1058 275 L1063 290 L1050 280 L1037 290 L1042 275 L1030 265 L1045 265 Z" fill="#FBBF24" opacity="0.6"/>
+  <path d="M250 450 L253 460 L263 460 L255 467 L258 477 L250 470 L242 477 L245 467 L237 460 L247 460 Z" fill="#EC4899" opacity="0.5"/>
+  <path d="M950 420 L953 430 L963 430 L955 437 L958 447 L950 440 L942 447 L945 437 L937 430 L947 430 Z" fill="#8B5CF6" opacity="0.5"/>
+
+  <!-- Bottom decorative dots -->
+  <circle cx="400" cy="550" r="8" fill="#8B5CF6" opacity="0.3"/>
+  <circle cx="450" cy="560" r="6" fill="#EC4899" opacity="0.3"/>
+  <circle cx="750" cy="555" r="7" fill="#FBBF24" opacity="0.4"/>
+  <circle cx="800" cy="545" r="5" fill="#10B981" opacity="0.3"/>
+</svg>

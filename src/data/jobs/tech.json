@@ -1,0 +1,600 @@
+[
+  {
+    "id": "game-developer",
+    "name": "게임 개발자",
+    "emoji": "🎮",
+    "category": "tech",
+    "description": "게임을 프로그래밍해요. 캐릭터가 움직이고 아이템을 얻는 기능을 만들어요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 팀 스탠드업 미팅",
+      "11:30 - 코딩 작업",
+      "13:00 - 점심",
+      "14:00 - 버그 수정 및 테스트"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 또는 게임공학 전공",
+      "skills": ["프로그래밍", "게임엔진", "수학"],
+      "personality": ["문제해결력", "창의성", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["게임 좋아하기", "코딩 기초 배우기"],
+      "middle": ["프로그래밍 공부", "간단한 게임 만들기"],
+      "high": ["게임공학과 준비", "포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "게임 개발자 되기", "author": "게임동화"}
+      ],
+      "videos": [
+        {"title": "유니티 게임 만들기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["코딩 캠프", "게임잼 참가"]
+    },
+    "funFacts": [
+      "마인크래프트는 한 사람이 처음 만들었어요",
+      "게임 하나를 만드는 데 수년이 걸려요"
+    ],
+    "tags": {
+      "interests": ["tech", "game", "creative", "gamedev"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "app-developer",
+    "name": "앱 개발자",
+    "emoji": "📱",
+    "category": "tech",
+    "description": "스마트폰 앱을 만들어요. 우리가 매일 쓰는 앱을 개발해요.",
+    "dailyWork": [
+      "09:30 - 회사 출근",
+      "10:00 - 코드 리뷰",
+      "11:00 - 개발 작업",
+      "13:00 - 점심",
+      "14:00 - 테스트 및 배포"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 전공",
+      "skills": ["프로그래밍", "앱 개발", "UI 이해"],
+      "personality": ["논리력", "꼼꼼함", "학습욕"]
+    },
+    "preparation": {
+      "elementary": ["코딩 기초", "앱에 관심"],
+      "middle": ["프로그래밍 언어 배우기"],
+      "high": ["컴퓨터공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "앱 개발 첫걸음", "author": "코딩동화"}
+      ],
+      "videos": [
+        {"title": "앱 만들기 강좌", "url": "https://youtube.com"}
+      ],
+      "experiences": ["코딩 교실", "앱 공모전"]
+    },
+    "funFacts": [
+      "앱스토어에는 수백만 개의 앱이 있어요",
+      "틱톡 앱은 전 세계에서 30억 번 다운로드됐어요"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "webdev"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "web-developer",
+    "name": "웹 개발자",
+    "emoji": "🌐",
+    "category": "tech",
+    "description": "웹사이트를 만들어요. 인터넷에서 보는 모든 페이지를 개발해요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 프론트엔드 개발",
+      "12:00 - 점심",
+      "13:00 - 백엔드 개발",
+      "17:00 - 배포"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 또는 독학",
+      "skills": ["HTML/CSS/JS", "서버 개발", "데이터베이스"],
+      "personality": ["논리력", "문제해결력", "꾸준함"]
+    },
+    "preparation": {
+      "elementary": ["컴퓨터 관심", "코딩 기초"],
+      "middle": ["웹 코딩 배우기", "개인 웹사이트 만들기"],
+      "high": ["컴퓨터공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "웹 개발 입문", "author": "IT동화"}
+      ],
+      "videos": [
+        {"title": "HTML 기초", "url": "https://youtube.com"}
+      ],
+      "experiences": ["코딩 부트캠프", "웹 개발 캠프"]
+    },
+    "funFacts": [
+      "전 세계 웹사이트는 20억 개가 넘어요",
+      "첫 번째 웹사이트는 1991년에 만들어졌어요"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "webdev"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "cybersecurity-expert",
+    "name": "사이버 보안 전문가",
+    "emoji": "🔒",
+    "category": "tech",
+    "description": "해킹을 막아요. 컴퓨터와 인터넷을 안전하게 지켜요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 보안 점검",
+      "12:00 - 점심",
+      "14:00 - 취약점 분석",
+      "16:00 - 보안 리포트"
+    ],
+    "requirements": {
+      "education": "정보보안학과 또는 컴퓨터공학",
+      "skills": ["네트워크 지식", "해킹 방어", "프로그래밍"],
+      "personality": ["꼼꼼함", "논리력", "책임감"]
+    },
+    "preparation": {
+      "elementary": ["컴퓨터 관심", "보안의 중요성 이해"],
+      "middle": ["프로그래밍 배우기", "네트워크 공부"],
+      "high": ["정보보안학과 준비", "자격증"]
+    },
+    "resources": {
+      "books": [
+        {"title": "해킹과 보안", "author": "보안동화"}
+      ],
+      "videos": [
+        {"title": "화이트해커 이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["보안 캠프", "CTF 대회"]
+    },
+    "funFacts": [
+      "좋은 해커를 '화이트해커'라고 불러요",
+      "비밀번호는 길고 복잡할수록 안전해요"
+    ],
+    "tags": {
+      "interests": ["tech", "security", "analytical"],
+      "workStyle": ["analytical", "systematic", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "data-scientist",
+    "name": "데이터 과학자",
+    "emoji": "📊",
+    "category": "tech",
+    "description": "데이터로 미래를 예측해요. 수많은 정보 속에서 의미를 찾아요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 데이터 수집 및 정제",
+      "12:00 - 점심",
+      "14:00 - 분석 및 모델링",
+      "17:00 - 결과 발표"
+    ],
+    "requirements": {
+      "education": "통계학 또는 컴퓨터공학 전공",
+      "skills": ["통계", "프로그래밍", "머신러닝"],
+      "personality": ["분석력", "호기심", "꼼꼼함"]
+    },
+    "preparation": {
+      "elementary": ["수학 관심", "패턴 찾기"],
+      "middle": ["통계 공부", "코딩 배우기"],
+      "high": ["데이터사이언스학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "데이터 과학 입문", "author": "IT동화"}
+      ],
+      "videos": [
+        {"title": "데이터 분석 기초", "url": "https://youtube.com"}
+      ],
+      "experiences": ["데이터 분석 캠프", "통계 경시대회"]
+    },
+    "funFacts": [
+      "넷플릭스는 데이터로 영화를 추천해요",
+      "빅데이터로 전염병을 예측할 수 있어요"
+    ],
+    "tags": {
+      "interests": ["tech", "science", "analytical"],
+      "workStyle": ["analytical", "research", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "vr-developer",
+    "name": "VR/AR 개발자",
+    "emoji": "🥽",
+    "category": "tech",
+    "description": "가상현실과 증강현실을 만들어요. 새로운 세계를 경험하게 해요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 3D 환경 개발",
+      "13:00 - 점심",
+      "14:00 - 인터랙션 개발",
+      "17:00 - VR 테스트"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 또는 게임공학",
+      "skills": ["3D 개발", "프로그래밍", "게임엔진"],
+      "personality": ["창의성", "문제해결력", "혁신적"]
+    },
+    "preparation": {
+      "elementary": ["VR 체험", "3D에 관심"],
+      "middle": ["유니티/언리얼 배우기", "3D 모델링"],
+      "high": ["컴퓨터공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "VR 세계 만들기", "author": "IT동화"}
+      ],
+      "videos": [
+        {"title": "VR 개발 튜토리얼", "url": "https://youtube.com"}
+      ],
+      "experiences": ["VR 체험관", "VR 개발 캠프"]
+    },
+    "funFacts": [
+      "VR로 공포증을 치료하기도 해요",
+      "AR로 가구 배치를 미리 볼 수 있어요"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "game"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "video-editor",
+    "name": "영상 편집자",
+    "emoji": "🎬",
+    "category": "tech",
+    "description": "영상을 편집해요. 촬영한 영상을 멋지게 다듬어요.",
+    "dailyWork": [
+      "10:00 - 작업 시작",
+      "11:00 - 영상 편집",
+      "13:00 - 점심",
+      "14:00 - 효과 및 색보정",
+      "18:00 - 최종 렌더링"
+    ],
+    "requirements": {
+      "education": "영상학과 또는 독학",
+      "skills": ["편집 프로그램", "색보정", "사운드"],
+      "personality": ["꼼꼼함", "창의성", "마감 준수"]
+    },
+    "preparation": {
+      "elementary": ["영상 관심", "간단한 편집 해보기"],
+      "middle": ["편집 프로그램 배우기"],
+      "high": ["영상학과 또는 포트폴리오"]
+    },
+    "resources": {
+      "books": [
+        {"title": "영상 편집 입문", "author": "미디어동화"}
+      ],
+      "videos": [
+        {"title": "프리미어 프로 강좌", "url": "https://youtube.com"}
+      ],
+      "experiences": ["영상 캠프", "유튜브 채널 운영"]
+    },
+    "funFacts": [
+      "영화 1분을 편집하는 데 몇 시간이 걸려요",
+      "유튜브 1분 영상도 수십 분 촬영해요"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "media", "video"],
+      "workStyle": ["creative", "solo", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "ux-designer",
+    "name": "UI/UX 디자이너",
+    "emoji": "🎨",
+    "category": "tech",
+    "description": "앱과 웹을 쓰기 쉽게 디자인해요. 사용자 경험을 설계해요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 사용자 리서치",
+      "13:00 - 점심",
+      "14:00 - 와이어프레임 및 디자인",
+      "17:00 - 피드백 반영"
+    ],
+    "requirements": {
+      "education": "디자인학과 또는 HCI 전공",
+      "skills": ["UI 디자인", "사용자 리서치", "프로토타이핑"],
+      "personality": ["공감력", "창의성", "분석력"]
+    },
+    "preparation": {
+      "elementary": ["좋은 앱 분석", "그림 그리기"],
+      "middle": ["디자인 툴 배우기"],
+      "high": ["디자인학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "UX 디자인 입문", "author": "디자인동화"}
+      ],
+      "videos": [
+        {"title": "피그마 강좌", "url": "https://youtube.com"}
+      ],
+      "experiences": ["디자인 캠프", "앱 분석 활동"]
+    },
+    "funFacts": [
+      "좋은 UX는 사용자가 느끼지 못해요",
+      "버튼 하나의 위치도 많은 연구 끝에 결정돼요"
+    ],
+    "tags": {
+      "interests": ["tech", "art", "design", "creative"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "클라우드 엔지니어",
+    "emoji": "☁️",
+    "category": "tech",
+    "description": "인터넷 서버를 관리해요. 데이터를 안전하게 저장하고 처리해요.",
+    "dailyWork": [
+      "09:00 - 회사 출근",
+      "10:00 - 서버 모니터링",
+      "12:00 - 점심",
+      "14:00 - 인프라 구축 및 관리",
+      "17:00 - 보안 점검"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 전공",
+      "skills": ["클라우드 플랫폼", "네트워크", "보안"],
+      "personality": ["꼼꼼함", "논리력", "책임감"]
+    },
+    "preparation": {
+      "elementary": ["컴퓨터 관심", "인터넷 이해"],
+      "middle": ["네트워크 공부"],
+      "high": ["컴퓨터공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "클라우드 입문", "author": "IT동화"}
+      ],
+      "videos": [
+        {"title": "AWS 기초", "url": "https://youtube.com"}
+      ],
+      "experiences": ["IT 캠프", "서버 구축 체험"]
+    },
+    "funFacts": [
+      "넷플릭스, 유튜브 모두 클라우드를 써요",
+      "전 세계 데이터센터는 엄청난 전기를 써요"
+    ],
+    "tags": {
+      "interests": ["tech", "analytical"],
+      "workStyle": ["analytical", "systematic", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "robot-programmer",
+    "name": "로봇 프로그래머",
+    "emoji": "🤖",
+    "category": "tech",
+    "description": "로봇이 움직이도록 코딩해요. 로봇에게 명령을 내려요.",
+    "dailyWork": [
+      "09:00 - 연구소 출근",
+      "10:00 - 알고리즘 개발",
+      "12:00 - 점심",
+      "14:00 - 로봇 테스트",
+      "17:00 - 결과 분석"
+    ],
+    "requirements": {
+      "education": "로봇공학 또는 컴퓨터공학",
+      "skills": ["프로그래밍", "로봇 제어", "AI"],
+      "personality": ["논리력", "창의성", "끈기"]
+    },
+    "preparation": {
+      "elementary": ["로봇에 관심", "코딩 기초"],
+      "middle": ["로봇 코딩 배우기", "로봇 대회"],
+      "high": ["로봇공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "로봇 프로그래밍 입문", "author": "로봇동화"}
+      ],
+      "videos": [
+        {"title": "로봇 코딩 강좌", "url": "https://youtube.com"}
+      ],
+      "experiences": ["로봇 대회", "코딩 캠프"]
+    },
+    "funFacts": [
+      "보스턴 다이내믹스 로봇은 춤도 춰요",
+      "수술용 로봇은 사람보다 정확해요"
+    ],
+    "tags": {
+      "interests": ["tech", "robot", "ai"],
+      "workStyle": ["analytical", "creative", "research"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "metaverse-planner",
+    "name": "메타버스 기획자",
+    "emoji": "🌐",
+    "category": "tech",
+    "description": "가상세계를 기획해요. 사람들이 아바타로 활동하는 세계를 만들어요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 컨셉 기획",
+      "13:00 - 점심",
+      "14:00 - 콘텐츠 설계",
+      "17:00 - 팀 회의"
+    ],
+    "requirements": {
+      "education": "게임기획 또는 IT 관련 전공",
+      "skills": ["기획력", "3D 이해", "트렌드 분석"],
+      "personality": ["창의성", "혁신적", "소통력"]
+    },
+    "preparation": {
+      "elementary": ["게임/VR 관심", "상상력 키우기"],
+      "middle": ["메타버스 경험", "기획 연습"],
+      "high": ["게임기획학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "메타버스란?", "author": "미래동화"}
+      ],
+      "videos": [
+        {"title": "메타버스 세계 탐험", "url": "https://youtube.com"}
+      ],
+      "experiences": ["제페토, 로블록스 체험"]
+    },
+    "funFacts": [
+      "제페토에는 3억 명이 가입했어요",
+      "가상 공연으로 수십억을 벌기도 해요"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "game"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "blockchain-developer",
+    "name": "블록체인 개발자",
+    "emoji": "🔗",
+    "category": "tech",
+    "description": "블록체인 기술을 개발해요. 암호화폐와 NFT 같은 새로운 기술을 만들어요.",
+    "dailyWork": [
+      "10:00 - 회사 출근",
+      "11:00 - 스마트 컨트랙트 개발",
+      "13:00 - 점심",
+      "14:00 - 보안 테스트",
+      "17:00 - 리뷰"
+    ],
+    "requirements": {
+      "education": "컴퓨터공학 전공",
+      "skills": ["프로그래밍", "암호학", "분산시스템"],
+      "personality": ["논리력", "혁신적", "학습욕"]
+    },
+    "preparation": {
+      "elementary": ["컴퓨터 관심", "수학 좋아하기"],
+      "middle": ["프로그래밍 배우기"],
+      "high": ["컴퓨터공학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "블록체인 이해하기", "author": "IT동화"}
+      ],
+      "videos": [
+        {"title": "블록체인 기초", "url": "https://youtube.com"}
+      ],
+      "experiences": ["코딩 캠프", "블록체인 강연"]
+    },
+    "funFacts": [
+      "비트코인을 만든 사람은 아직 정체가 미스터리예요",
+      "NFT 그림 하나가 수백억에 팔렸어요"
+    ],
+    "tags": {
+      "interests": ["tech", "analytical"],
+      "workStyle": ["analytical", "research", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "it-teacher",
+    "name": "코딩 교육자",
+    "emoji": "👨‍🏫",
+    "category": "tech",
+    "description": "코딩을 가르쳐요. 아이들에게 프로그래밍의 재미를 알려줘요.",
+    "dailyWork": [
+      "09:00 - 학원 출근",
+      "10:00 - 초등반 수업",
+      "12:00 - 점심",
+      "14:00 - 중등반 수업",
+      "17:00 - 수업 준비"
+    ],
+    "requirements": {
+      "education": "컴퓨터교육과 또는 IT 관련",
+      "skills": ["프로그래밍", "교육 능력", "소통력"],
+      "personality": ["인내심", "친절함", "설명력"]
+    },
+    "preparation": {
+      "elementary": ["코딩 배우기", "친구 가르쳐보기"],
+      "middle": ["프로그래밍 실력 키우기"],
+      "high": ["컴퓨터교육과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "코딩 선생님 되기", "author": "교육동화"}
+      ],
+      "videos": [
+        {"title": "코딩 강의법", "url": "https://youtube.com"}
+      ],
+      "experiences": ["코딩 봉사", "교육 봉사"]
+    },
+    "funFacts": [
+      "코딩은 미래의 영어라고 불려요",
+      "블록 코딩부터 시작하면 쉬워요"
+    ],
+    "tags": {
+      "interests": ["tech", "teaching", "children"],
+      "workStyle": ["teaching", "caring", "creative"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  }
+]

@@ -1,0 +1,609 @@
+[
+  {
+    "id": "pediatrician",
+    "name": "소아과 의사",
+    "emoji": "👶",
+    "category": "helper",
+    "description": "아픈 아이들을 진찰하고 치료해요. 아이들이 건강하게 자랄 수 있도록 도와주는 의사예요.",
+    "dailyWork": [
+      "09:00 - 병원 출근, 환자 차트 확인",
+      "10:00 - 아픈 아이들 진찰",
+      "12:00 - 점심 식사",
+      "14:00 - 오후 진료 및 예방접종",
+      "17:00 - 의료 기록 정리"
+    ],
+    "requirements": {
+      "education": "의과대학 졸업 후 소아과 전문의 과정",
+      "skills": ["진찰 능력", "의학 지식", "소통 능력"],
+      "personality": ["친절함", "인내심", "세심함"]
+    },
+    "preparation": {
+      "elementary": ["과학 공부 열심히 하기", "생물에 관심 갖기", "봉사활동 참여하기"],
+      "middle": ["생물, 화학 과목 집중", "의학 관련 책 읽기"],
+      "high": ["이과 선택", "의대 입시 준비", "병원 봉사활동"]
+    },
+    "resources": {
+      "books": [
+        {"title": "우리 몸 대탐험", "author": "DK출판사"},
+        {"title": "의사가 되고 싶어!", "author": "직업동화 시리즈"}
+      ],
+      "videos": [
+        {"title": "소아과 의사의 하루", "url": "https://youtube.com"},
+        {"title": "우리 몸은 어떻게 작동할까?", "url": "https://youtube.com"}
+      ],
+      "experiences": ["병원 직업체험", "어린이 의사 체험관", "생명과학관 방문"]
+    },
+    "funFacts": [
+      "소아과 의사들은 아이들을 안심시키기 위해 장난감을 많이 사용해요",
+      "아이들은 어른과 다르게 성장하기 때문에 전문 의사가 필요해요"
+    ],
+    "tags": {
+      "interests": ["science", "helper", "medical", "children"],
+      "workStyle": ["caring", "analytical", "hands-on"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "veterinarian",
+    "name": "수의사",
+    "emoji": "🐾",
+    "category": "helper",
+    "description": "아픈 동물들을 치료해요. 강아지, 고양이부터 큰 동물까지 모든 동물의 건강을 돌봐요.",
+    "dailyWork": [
+      "09:00 - 동물병원 출근",
+      "10:00 - 아픈 동물 진찰",
+      "12:00 - 점심 식사",
+      "14:00 - 수술 또는 치료",
+      "17:00 - 보호자 상담"
+    ],
+    "requirements": {
+      "education": "수의과대학 졸업",
+      "skills": ["동물 진료", "수술 능력", "동물 행동 이해"],
+      "personality": ["동물 사랑", "침착함", "체력"]
+    },
+    "preparation": {
+      "elementary": ["동물 관찰하기", "과학 공부", "동물 관련 책 읽기"],
+      "middle": ["생물 과목 집중", "동물보호소 봉사"],
+      "high": ["수의대 입시 준비", "동물 관련 활동"]
+    },
+    "resources": {
+      "books": [
+        {"title": "동물병원 수의사", "author": "직업동화"},
+        {"title": "동물 박사가 되고 싶어!", "author": "꿈꾸는 어린이"}
+      ],
+      "videos": [
+        {"title": "수의사의 하루", "url": "https://youtube.com"},
+        {"title": "동물병원 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["동물병원 견학", "동물보호소 봉사", "동물원 수의사 체험"]
+    },
+    "funFacts": [
+      "수의사는 말 못하는 동물의 아픈 곳을 찾아내야 해서 탐정 같아요",
+      "세상에는 동물원 전문 수의사, 야생동물 전문 수의사도 있어요"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "science", "helper"],
+      "workStyle": ["caring", "hands-on", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "paramedic",
+    "name": "응급구조사",
+    "emoji": "🚑",
+    "category": "helper",
+    "description": "위급한 상황에서 사람들을 구해요. 119에 전화가 오면 구급차를 타고 현장으로 달려가요.",
+    "dailyWork": [
+      "08:00 - 소방서 출근, 장비 점검",
+      "09:00 - 응급 출동 대기",
+      "12:00 - 교대로 식사",
+      "14:00 - 응급처치 훈련",
+      "18:00 - 장비 정리 및 보고서 작성"
+    ],
+    "requirements": {
+      "education": "응급구조학과 졸업",
+      "skills": ["응급처치", "빠른 판단력", "체력"],
+      "personality": ["용감함", "침착함", "책임감"]
+    },
+    "preparation": {
+      "elementary": ["체육 활동", "응급처치 기초 배우기", "봉사활동"],
+      "middle": ["체력 기르기", "생물 공부"],
+      "high": ["응급구조학과 준비", "소방서 체험"]
+    },
+    "resources": {
+      "books": [
+        {"title": "119 응급대원", "author": "직업동화"},
+        {"title": "응급처치 이야기", "author": "안전교육연구회"}
+      ],
+      "videos": [
+        {"title": "응급구조사 브이로그", "url": "https://youtube.com"},
+        {"title": "119 구조대 다큐", "url": "https://youtube.com"}
+      ],
+      "experiences": ["소방서 견학", "심폐소생술 교육", "안전체험관"]
+    },
+    "funFacts": [
+      "응급구조사는 골든타임 안에 환자를 살려야 해서 1분 1초가 중요해요",
+      "구급차 안에는 작은 병원처럼 많은 장비가 있어요"
+    ],
+    "tags": {
+      "interests": ["helper", "action", "medical"],
+      "workStyle": ["hands-on", "leadership", "action"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "physical-therapist",
+    "name": "물리치료사",
+    "emoji": "💪",
+    "category": "helper",
+    "description": "다치거나 아픈 사람이 다시 움직일 수 있도록 도와줘요. 운동과 마사지로 치료해요.",
+    "dailyWork": [
+      "09:00 - 병원 출근",
+      "09:30 - 환자 상태 확인",
+      "10:00 - 운동치료 및 물리치료",
+      "12:00 - 점심",
+      "14:00 - 오후 치료 진행"
+    ],
+    "requirements": {
+      "education": "물리치료학과 졸업",
+      "skills": ["운동치료", "환자 소통", "해부학 지식"],
+      "personality": ["인내심", "격려하는 성격", "체력"]
+    },
+    "preparation": {
+      "elementary": ["운동 좋아하기", "과학 공부", "친구 돕기"],
+      "middle": ["생물 과목 집중", "운동 꾸준히 하기"],
+      "high": ["물리치료학과 준비", "재활병원 봉사"]
+    },
+    "resources": {
+      "books": [
+        {"title": "우리 몸 근육 이야기", "author": "과학동아"},
+        {"title": "물리치료사가 되려면", "author": "진로가이드"}
+      ],
+      "videos": [
+        {"title": "물리치료사 직업 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["재활병원 견학", "스포츠센터 체험"]
+    },
+    "funFacts": [
+      "운동선수들도 물리치료사의 도움을 받아 부상에서 회복해요",
+      "물리치료사는 환자와 함께 운동하며 응원해주는 코치 같아요"
+    ],
+    "tags": {
+      "interests": ["helper", "physical", "medical"],
+      "workStyle": ["caring", "hands-on", "teaching"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "nutritionist",
+    "name": "영양사",
+    "emoji": "🥗",
+    "category": "helper",
+    "description": "건강한 식단을 설계해요. 학교 급식이나 병원 환자식을 계획하는 음식 전문가예요.",
+    "dailyWork": [
+      "08:00 - 출근, 급식 준비 확인",
+      "09:00 - 식단 계획",
+      "11:00 - 조리 과정 점검",
+      "12:00 - 급식 배식 확인",
+      "14:00 - 영양 상담"
+    ],
+    "requirements": {
+      "education": "식품영양학과 졸업",
+      "skills": ["영양 지식", "식단 계획", "위생 관리"],
+      "personality": ["꼼꼼함", "책임감", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["건강한 음식에 관심 갖기", "요리 체험"],
+      "middle": ["가정 과목 집중", "영양소 공부"],
+      "high": ["식품영양학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "영양소 캐릭터 대탐험", "author": "건강동화"},
+        {"title": "급식실의 비밀", "author": "학교생활 시리즈"}
+      ],
+      "videos": [
+        {"title": "영양사 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["급식실 견학", "요리 교실", "식품박람회"]
+    },
+    "funFacts": [
+      "학교 급식 메뉴는 영양사가 영양소를 계산해서 만들어요",
+      "좋아하는 반찬만 먹으면 영양 균형이 깨져요"
+    ],
+    "tags": {
+      "interests": ["helper", "cooking", "science"],
+      "workStyle": ["systematic", "caring", "analytical"],
+      "environment": ["school", "hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "counselor",
+    "name": "심리상담사",
+    "emoji": "💚",
+    "category": "helper",
+    "description": "마음이 힘든 사람들의 이야기를 듣고 도와줘요. 걱정과 고민을 함께 해결해요.",
+    "dailyWork": [
+      "09:00 - 상담센터 출근",
+      "10:00 - 개인 상담",
+      "12:00 - 점심",
+      "14:00 - 집단 상담 또는 심리검사",
+      "16:00 - 상담 기록 정리"
+    ],
+    "requirements": {
+      "education": "심리학과 또는 상담학과 졸업",
+      "skills": ["경청 능력", "공감 능력", "심리학 지식"],
+      "personality": ["따뜻함", "인내심", "비밀을 지킴"]
+    },
+    "preparation": {
+      "elementary": ["친구 이야기 잘 들어주기", "책 많이 읽기"],
+      "middle": ["심리학 관련 책 읽기", "또래상담 활동"],
+      "high": ["심리학과 준비", "봉사활동"]
+    },
+    "resources": {
+      "books": [
+        {"title": "마음을 읽는 사람", "author": "심리동화"},
+        {"title": "감정의 비밀", "author": "어린이 심리학"}
+      ],
+      "videos": [
+        {"title": "심리상담사 이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["상담센터 견학", "또래상담 프로그램"]
+    },
+    "funFacts": [
+      "상담사는 남의 비밀을 절대 말하지 않는 약속을 해요",
+      "마음도 감기처럼 치료가 필요해요"
+    ],
+    "tags": {
+      "interests": ["helper", "psychology", "counseling"],
+      "workStyle": ["caring", "analytical", "teaching"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "social-worker",
+    "name": "사회복지사",
+    "emoji": "🏠",
+    "category": "helper",
+    "description": "어려운 이웃을 도와요. 도움이 필요한 사람들이 행복하게 살 수 있도록 지원해요.",
+    "dailyWork": [
+      "09:00 - 복지관 출근",
+      "10:00 - 가정 방문",
+      "12:00 - 점심",
+      "14:00 - 복지 프로그램 진행",
+      "16:00 - 상담 및 서류 작업"
+    ],
+    "requirements": {
+      "education": "사회복지학과 졸업",
+      "skills": ["상담 능력", "문서 작성", "네트워킹"],
+      "personality": ["봉사정신", "인내심", "따뜻함"]
+    },
+    "preparation": {
+      "elementary": ["봉사활동 참여", "이웃 돕기"],
+      "middle": ["사회 과목 관심", "청소년 봉사"],
+      "high": ["사회복지학과 준비", "복지관 봉사"]
+    },
+    "resources": {
+      "books": [
+        {"title": "따뜻한 이웃 이야기", "author": "복지동화"}
+      ],
+      "videos": [
+        {"title": "사회복지사 직업 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["복지관 봉사", "나눔장터 참여"]
+    },
+    "funFacts": [
+      "사회복지사는 사회의 안전망 역할을 해요",
+      "어려울 때 도움받을 수 있는 곳을 연결해주는 다리 같아요"
+    ],
+    "tags": {
+      "interests": ["helper", "welfare", "community"],
+      "workStyle": ["caring", "leadership", "teaching"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "special-ed-teacher",
+    "name": "특수교육 교사",
+    "emoji": "🌈",
+    "category": "helper",
+    "description": "도움이 필요한 친구들을 가르쳐요. 각자의 속도에 맞춰 함께 배우고 성장해요.",
+    "dailyWork": [
+      "08:30 - 학교 출근",
+      "09:00 - 개별화 수업",
+      "12:00 - 점심 지도",
+      "14:00 - 오후 수업",
+      "16:00 - 학부모 상담"
+    ],
+    "requirements": {
+      "education": "특수교육학과 졸업, 교사 자격증",
+      "skills": ["개별화 교육", "인내심", "특수교육 지식"],
+      "personality": ["인내심", "사랑", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["친구 도와주기", "봉사정신 기르기"],
+      "middle": ["봉사활동", "교육에 관심 갖기"],
+      "high": ["특수교육학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "모두가 다 특별해", "author": "인성동화"}
+      ],
+      "videos": [
+        {"title": "특수교사 이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["특수학급 봉사", "장애인식 개선 활동"]
+    },
+    "funFacts": [
+      "모든 아이는 배우는 속도가 달라요",
+      "특수교사는 각 학생에게 맞는 특별한 방법으로 가르쳐요"
+    ],
+    "tags": {
+      "interests": ["helper", "teaching", "children"],
+      "workStyle": ["caring", "teaching", "creative"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "kindergarten-teacher",
+    "name": "유치원 교사",
+    "emoji": "🧒",
+    "category": "helper",
+    "description": "어린 아이들을 돌보고 가르쳐요. 놀이를 통해 세상을 배우도록 도와줘요.",
+    "dailyWork": [
+      "08:00 - 등원 맞이",
+      "09:00 - 아침 활동",
+      "10:00 - 놀이 및 학습",
+      "12:00 - 점심 지도",
+      "14:00 - 낮잠 및 오후 활동"
+    ],
+    "requirements": {
+      "education": "유아교육학과 졸업",
+      "skills": ["아이 돌봄", "놀이 지도", "창의적 수업"],
+      "personality": ["밝음", "인내심", "사랑"]
+    },
+    "preparation": {
+      "elementary": ["동생 돌보기", "선생님 놀이"],
+      "middle": ["유아 관련 책 읽기"],
+      "high": ["유아교육학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "유치원 선생님의 하루", "author": "직업동화"}
+      ],
+      "videos": [
+        {"title": "유치원 교사 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["유치원 봉사", "아이돌봄 체험"]
+    },
+    "funFacts": [
+      "유치원에서 하는 놀이는 다 배움이 숨어 있어요",
+      "아이들에게는 선생님이 두 번째 엄마 같아요"
+    ],
+    "tags": {
+      "interests": ["helper", "children", "teaching"],
+      "workStyle": ["caring", "creative", "teaching"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "nurse",
+    "name": "간호사",
+    "emoji": "👩‍⚕️",
+    "category": "helper",
+    "description": "환자를 가까이서 돌봐요. 주사도 놓고, 약도 주고, 환자 상태를 체크해요.",
+    "dailyWork": [
+      "07:00 - 병원 출근, 인수인계",
+      "08:00 - 환자 상태 체크",
+      "10:00 - 투약 및 처치",
+      "12:00 - 교대 점심",
+      "14:00 - 환자 돌봄 및 기록"
+    ],
+    "requirements": {
+      "education": "간호학과 졸업",
+      "skills": ["환자 간호", "의료 기술", "소통"],
+      "personality": ["세심함", "인내심", "책임감"]
+    },
+    "preparation": {
+      "elementary": ["봉사활동", "생물에 관심"],
+      "middle": ["생물, 화학 공부"],
+      "high": ["간호학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "간호사가 되고 싶어!", "author": "직업동화"}
+      ],
+      "videos": [
+        {"title": "간호사 브이로그", "url": "https://youtube.com"}
+      ],
+      "experiences": ["병원 견학", "적십자 활동"]
+    },
+    "funFacts": [
+      "간호사는 24시간 교대로 환자를 돌봐요",
+      "환자에게 가장 가까운 의료인이에요"
+    ],
+    "tags": {
+      "interests": ["helper", "medical", "caring"],
+      "workStyle": ["caring", "hands-on", "systematic"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "speech-therapist",
+    "name": "언어치료사",
+    "emoji": "🗣️",
+    "category": "helper",
+    "description": "말하기 어려운 사람을 도와요. 발음, 말더듬, 언어 발달을 치료해요.",
+    "dailyWork": [
+      "09:00 - 치료실 출근",
+      "10:00 - 언어 평가",
+      "11:00 - 개별 치료",
+      "12:00 - 점심",
+      "14:00 - 치료 및 상담"
+    ],
+    "requirements": {
+      "education": "언어치료학과 졸업",
+      "skills": ["언어 평가", "치료 기법", "인내심"],
+      "personality": ["인내심", "격려", "세심함"]
+    },
+    "preparation": {
+      "elementary": ["정확한 발음 연습", "친구와 대화 많이 하기"],
+      "middle": ["국어 공부", "심리 관련 책 읽기"],
+      "high": ["언어치료학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "말하는 게 어려운 친구", "author": "이해동화"}
+      ],
+      "videos": [
+        {"title": "언어치료사 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["치료센터 견학"]
+    },
+    "funFacts": [
+      "노래 부르기가 말하기 연습에 도움이 돼요",
+      "거울 보고 입 모양 연습하는 게 중요해요"
+    ],
+    "tags": {
+      "interests": ["helper", "communication", "children"],
+      "workStyle": ["caring", "teaching", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "play-therapist",
+    "name": "놀이치료사",
+    "emoji": "🧸",
+    "category": "helper",
+    "description": "놀이를 통해 아이들의 마음을 치료해요. 장난감으로 놀면서 상처받은 마음을 치유해요.",
+    "dailyWork": [
+      "09:00 - 치료실 준비",
+      "10:00 - 놀이치료 세션",
+      "12:00 - 점심",
+      "14:00 - 오후 치료",
+      "16:00 - 부모 상담"
+    ],
+    "requirements": {
+      "education": "심리학 또는 놀이치료 전공",
+      "skills": ["놀이 관찰", "심리 이해", "아이와 소통"],
+      "personality": ["따뜻함", "관찰력", "창의성"]
+    },
+    "preparation": {
+      "elementary": ["친구와 잘 놀기", "감정 표현하기"],
+      "middle": ["심리 관련 책 읽기"],
+      "high": ["심리학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "마음을 치료하는 놀이", "author": "심리동화"}
+      ],
+      "videos": [
+        {"title": "놀이치료사 이야기", "url": "https://youtube.com"}
+      ],
+      "experiences": ["심리상담센터 견학"]
+    },
+    "funFacts": [
+      "놀이는 아이들의 언어예요",
+      "인형놀이로 마음속 이야기를 표현해요"
+    ],
+    "tags": {
+      "interests": ["helper", "children", "psychology"],
+      "workStyle": ["caring", "creative", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "dental-hygienist",
+    "name": "치과위생사",
+    "emoji": "🦷",
+    "category": "helper",
+    "description": "치아를 깨끗하고 건강하게 관리해줘요. 스케일링도 하고 양치 방법도 알려줘요.",
+    "dailyWork": [
+      "09:00 - 치과 출근",
+      "09:30 - 환자 스케일링",
+      "12:00 - 점심",
+      "14:00 - 진료 보조",
+      "16:00 - 구강 위생 교육"
+    ],
+    "requirements": {
+      "education": "치위생학과 졸업",
+      "skills": ["스케일링", "구강 관리", "환자 교육"],
+      "personality": ["섬세함", "친절함", "꼼꼼함"]
+    },
+    "preparation": {
+      "elementary": ["양치 잘하기", "치과 무서워하지 않기"],
+      "middle": ["과학 공부"],
+      "high": ["치위생학과 준비"]
+    },
+    "resources": {
+      "books": [
+        {"title": "치아 건강 지킴이", "author": "건강동화"}
+      ],
+      "videos": [
+        {"title": "치과위생사 직업 소개", "url": "https://youtube.com"}
+      ],
+      "experiences": ["치과 견학", "구강건강 교육"]
+    },
+    "funFacts": [
+      "하루 3번, 3분씩 양치하면 충치를 예방할 수 있어요",
+      "치아는 다시 자라지 않아서 관리가 중요해요"
+    ],
+    "tags": {
+      "interests": ["helper", "medical"],
+      "workStyle": ["caring", "hands-on", "teaching"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]
