@@ -56,7 +56,7 @@ export function ResultPage() {
 
     const topJob = results[0];
     const shareText = `나에게 어울리는 직업은 "${topJob.job.name}"이래요! (${topJob.matchScore}% 매칭)\n\n내 꿈 찾기에서 나만의 직업을 찾아보세요!`;
-    const shareUrl = window.location.origin;
+    const shareUrl = window.location.origin + import.meta.env.BASE_URL;
 
     // Web Share API 지원 확인
     if (navigator.share) {

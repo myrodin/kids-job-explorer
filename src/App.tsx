@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <QuizProvider>
-      <Router>
+      <Router basename="/kids-job-explorer">
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />

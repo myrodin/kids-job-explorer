@@ -35,7 +35,7 @@ export function HomePage() {
           className="mb-6 flex justify-center"
         >
           <img
-            src="/favicon.svg"
+            src={import.meta.env.BASE_URL + 'favicon.svg'}
             alt="내 꿈 찾기"
             className="w-28 h-28 drop-shadow-lg"
           />
