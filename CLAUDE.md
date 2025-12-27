@@ -39,3 +39,7 @@ src/
 - `src/data/questions.json` - 18개 질문 데이터
 - `src/utils/matching.ts` - 직업 매칭 알고리즘
 - `src/context/QuizContext.tsx` - 퀴즈 상태 관리
+
+## Git 커밋 규칙
+- **커밋 메시지는 한글로 작성**
+- 예시: `기능: Google Analytics 추가`, `수정: 라우터 basename 설정`, `문서: README 업데이트`
