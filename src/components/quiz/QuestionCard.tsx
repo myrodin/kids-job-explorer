@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import type { Question } from '../../types';
 import { OptionButton } from './OptionButton';
 import { ScaleSlider } from './ScaleSlider';
@@ -22,6 +23,7 @@ export function QuestionCard({
   canGoBack,
   existingAnswer = [],
 }: QuestionCardProps) {
+  const { t } = useTranslation();
   const [selectedOptions, setSelectedOptions] = useState<string[]>(existingAnswer);
   const [scaleIndex, setScaleIndex] = useState<number | null>(null);
   const prevQuestionId = useRef(question.id);
@@ -93,7 +95,7 @@ export function QuestionCard({
           {question.type === 'multiple' && question.maxSelections && (
             <p className="mt-2 text-gray-500 flex items-center justify-center gap-2">
               <Icon name="info-circle" size="sm" />
-              최대 {question.maxSelections}개까지 선택할 수 있어요
+              {t('pages:quiz.maxSelections', { count: question.maxSelections })}
               <span className="ml-2 text-primary-500 font-medium">
                 ({selectedOptions.length}/{question.maxSelections})
               </span>
@@ -133,7 +135,7 @@ export function QuestionCard({
           {canGoBack && (
             <Button variant="outline" onClick={onPrev} className="flex-1">
               <Icon name="chevron-left" size="sm" />
-              이전
+              {t('common:buttons.prev')}
             </Button>
           )}
           <Button
@@ -142,7 +144,7 @@ export function QuestionCard({
             fullWidth={!canGoBack}
             className="flex-1"
           >
-            다음
+            {t('common:buttons.next')}
             <Icon name="chevron-right" size="sm" />
           </Button>
         </div>

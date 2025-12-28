@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { getJobById } from '../data/jobs';
 import type { Job } from '../types';
 import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
@@ -13,19 +14,20 @@ const getJobIcon = (categoryId: string): string => {
 export function JobDetailPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
   const [job, setJob] = useState<Job | null>(null);
   const [activeTab, setActiveTab] = useState<'overview' | 'preparation' | 'resources'>('overview');
 
   useEffect(() => {
     if (id) {
-      const foundJob = getJobById(id);
+      const foundJob = getJobById(id, i18n.language);
       if (foundJob) {
         setJob(foundJob);
       } else {
         navigate('/jobs');
       }
     }
-  }, [id, navigate]);
+  }, [id, navigate, i18n.language]);
 
   if (!job) {
     return (
@@ -42,9 +44,9 @@ export function JobDetailPage() {
   }
 
   const tabs = [
-    { id: 'overview', label: '직업 소개', icon: 'clipboard-list' },
-    { id: 'preparation', label: '준비 방법', icon: 'book-open' },
-    { id: 'resources', label: '더 알아보기', icon: 'link' },
+    { id: 'overview', label: t('pages:jobDetail.tabs.intro'), icon: 'clipboard-list' },
+    { id: 'preparation', label: t('pages:jobDetail.tabs.preparation'), icon: 'book-open' },
+    { id: 'resources', label: t('pages:jobDetail.tabs.resources'), icon: 'link' },
   ] as const;
 
   return (
@@ -113,7 +115,7 @@ export function JobDetailPage() {
             <Card>
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="clock" className="text-primary-500" />
-                하루 일과
+                {t('pages:jobDetail.sections.dailyWork')}
               </h3>
               <StaggerContainer className="space-y-3">
                 {job.dailyWork.map((work, index) => (
@@ -133,13 +135,13 @@ export function JobDetailPage() {
             <Card>
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="star" className="text-accent-500" />
-                이런 능력이 필요해요
+                {t('pages:jobDetail.sections.requirements')}
               </h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
                     <Icon name="graduation-cap" size="sm" className="text-gray-500" />
-                    학력
+                    {t('pages:jobDetail.sections.education')}
                   </h4>
                   <p className="text-gray-600 bg-gray-50 px-4 py-3 rounded-lg">
                     {job.requirements.education}
@@ -148,7 +150,7 @@ export function JobDetailPage() {
                 <div>
                   <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
                     <Icon name="dumbbell" size="sm" className="text-gray-500" />
-                    필요한 능력
+                    {t('pages:jobDetail.sections.skills')}
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {job.requirements.skills.map((skill, index) => (
@@ -164,7 +166,7 @@ export function JobDetailPage() {
                 <div>
                   <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
                     <Icon name="heart" size="sm" className="text-gray-500" />
-                    이런 성격이면 좋아요
+                    {t('pages:jobDetail.sections.personality')}
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {job.requirements.personality.map((trait, index) => (
@@ -184,7 +186,7 @@ export function JobDetailPage() {
             <Card className="bg-accent-50">
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="gem" className="text-accent-600" />
-                재미있는 사실
+                {t('pages:jobDetail.sections.funFacts')}
               </h3>
               <ul className="space-y-3">
                 {job.funFacts.map((fact, index) => (
@@ -204,7 +206,7 @@ export function JobDetailPage() {
             <Card className="border-l-4 border-l-green-400">
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="seedling" className="text-green-500" />
-                초등학교 때 준비할 것
+                {t('pages:jobDetail.preparation.elementary')}
               </h3>
               <ul className="space-y-2">
                 {job.preparation.elementary.map((item, index) => (
@@ -220,7 +222,7 @@ export function JobDetailPage() {
             <Card className="border-l-4 border-l-blue-400">
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="leaf" className="text-blue-500" />
-                중학교 때 준비할 것
+                {t('pages:jobDetail.preparation.middle')}
               </h3>
               <ul className="space-y-2">
                 {job.preparation.middle.map((item, index) => (
@@ -236,7 +238,7 @@ export function JobDetailPage() {
             <Card className="border-l-4 border-l-purple-400">
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="tree" className="text-purple-500" />
-                고등학교 때 준비할 것
+                {t('pages:jobDetail.preparation.high')}
               </h3>
               <ul className="space-y-2">
                 {job.preparation.high.map((item, index) => (
@@ -256,42 +258,67 @@ export function JobDetailPage() {
             <Card>
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="book" className="text-primary-500" />
-                관련 도서 찾기
+                {t('common:resources.books.title')}
               </h3>
               <div className="space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-                  도서관이나 서점에서 <span className="font-semibold text-primary-600">"{job.name}"</span> 관련 책을 찾아보세요!
+                  {t('common:resources.books.description', { jobName: job.name })}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
                     #{job.name}
                   </span>
                   <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                    #어린이직업
+                    {t('pages:jobDetail.hashtags.kidsJob')}
                   </span>
                   <span className="px-3 py-1.5 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                    #진로탐색
+                    {t('pages:jobDetail.hashtags.careerExplore')}
                   </span>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                  <a
-                    href={`https://search.kyobobook.co.kr/search?keyword=${encodeURIComponent(job.name + ' 어린이')}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-50 hover:bg-primary-100 text-primary-600 rounded-xl transition-colors font-medium"
-                  >
-                    <Icon name="search" size="sm" />
-                    교보문고에서 검색
-                  </a>
-                  <a
-                    href={`https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&pageNum=1&pageSize=30&kwd=${encodeURIComponent(job.name)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 px-4 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl transition-colors font-medium"
-                  >
-                    <Icon name="book-open" size="sm" />
-                    국립중앙도서관 검색
-                  </a>
+                  {i18n.language === 'ko' ? (
+                    <>
+                      <a
+                        href={`https://search.kyobobook.co.kr/search?keyword=${encodeURIComponent(job.name + ' 어린이')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-50 hover:bg-primary-100 text-primary-600 rounded-xl transition-colors font-medium"
+                      >
+                        <Icon name="search" size="sm" />
+                        {t('common:resources.books.kyobo')}
+                      </a>
+                      <a
+                        href={`https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&pageNum=1&pageSize=30&kwd=${encodeURIComponent(job.name)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl transition-colors font-medium"
+                      >
+                        <Icon name="book-open" size="sm" />
+                        {t('common:resources.books.library')}
+                      </a>
+                    </>
+                  ) : (
+                    <>
+                      <a
+                        href={`https://www.amazon.com/s?k=${encodeURIComponent(job.name + ' kids career')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-50 hover:bg-primary-100 text-primary-600 rounded-xl transition-colors font-medium"
+                      >
+                        <Icon name="search" size="sm" />
+                        {t('common:resources.books.amazon')}
+                      </a>
+                      <a
+                        href={`https://www.worldcat.org/search?q=${encodeURIComponent(job.name)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl transition-colors font-medium"
+                      >
+                        <Icon name="book-open" size="sm" />
+                        {t('common:resources.books.worldcat')}
+                      </a>
+                    </>
+                  )}
                 </div>
               </div>
             </Card>
@@ -300,7 +327,7 @@ export function JobDetailPage() {
             <Card>
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="video" className="text-red-500" />
-                추천 영상
+                {t('common:resources.videos.title')}
               </h3>
               <StaggerContainer className="space-y-3">
                 {job.resources.videos.map((video, index) => {
@@ -323,7 +350,7 @@ export function JobDetailPage() {
                           <p className="font-medium text-gray-800">{video.title}</p>
                           <p className="text-sm text-red-500 flex items-center gap-1">
                             <Icon name="search" size="xs" />
-                            YouTube에서 검색하기
+                            {t('common:resources.videos.searchOnYoutube')}
                           </p>
                         </div>
                       </a>
@@ -337,7 +364,7 @@ export function JobDetailPage() {
             <Card>
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Icon name="bullseye" className="text-secondary-500" />
-                체험 활동
+                {t('common:resources.experiences.title')}
               </h3>
               <ul className="space-y-3">
                 {job.resources.experiences.map((exp, index) => (
@@ -362,13 +389,13 @@ export function JobDetailPage() {
         <Link to="/jobs">
           <Button variant="outline">
             <Icon name="arrow-left" size="sm" />
-            다른 직업 보기
+            {t('pages:jobDetail.otherJobs')}
           </Button>
         </Link>
         <Link to="/quiz">
           <Button variant="primary">
             <Icon name="wand-magic-sparkles" size="sm" />
-            나에게 맞는 직업 찾기
+            {t('common:buttons.findMyJob')}
           </Button>
         </Link>
       </motion.div>

@@ -1,0 +1,6 @@
+{
+  "_note": "Job data is loaded from src/data/jobs/*.json. This file is for dynamic text translations.",
+  "searchKeyword": {
+    "suffix": "for kids"
+  }
+}

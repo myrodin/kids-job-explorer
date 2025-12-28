@@ -1,0 +1,556 @@
+[
+  {
+    "id": "car-engineer",
+    "name": "Automotive Engineer",
+    "emoji": "🚗",
+    "category": "builder",
+    "description": "I design new cars. I make safer and faster vehicles!",
+    "dailyWork": [
+      "09:00 - Arrive at company",
+      "10:00 - Work on design blueprints",
+      "12:00 - Lunch",
+      "14:00 - Team meetings and testing",
+      "17:00 - Analyze results"
+    ],
+    "requirements": {
+      "education": "Mechanical or Automotive Engineering degree",
+      "skills": ["CAD design", "Mechanical understanding", "Problem solving"],
+      "personality": ["Detail-oriented", "Creative", "Analytical"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in cars", "Build with LEGO", "Study science"],
+      "middle": ["Focus on math and science", "Read car-related books"],
+      "high": ["Prepare for Engineering major", "Visit car exhibitions"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Become a Car Expert", "author": "Science Kids"},
+        {"title": "How Do Cars Move?", "author": "DK Publishing"}
+      ],
+      "videos": [
+        {"title": "How Cars Are Made", "url": "https://youtube.com"},
+        {"title": "Future Cars", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Car factory tour", "Car museum", "Go-kart experience"]
+    },
+    "funFacts": [
+      "A single car needs over 30,000 parts to be made",
+      "In the future, there might be flying cars"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "engineering"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "factory"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "robot-engineer",
+    "name": "Robot Engineer",
+    "emoji": "🤖",
+    "category": "builder",
+    "description": "I build and program robots. I develop smart robots that help people!",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Design and assemble robots",
+      "12:00 - Lunch",
+      "14:00 - Programming",
+      "16:00 - Testing and adjustments"
+    ],
+    "requirements": {
+      "education": "Robotics or Electronics Engineering degree",
+      "skills": ["Programming", "Mechanical design", "Electronics knowledge"],
+      "personality": ["Curious", "Persistent", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Assemble robot toys", "Learn basic coding"],
+      "middle": ["Study coding", "Join robotics club"],
+      "high": ["Prepare for Robotics major", "Enter robot competitions"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Making Robot Friends", "author": "Science Kids"}
+      ],
+      "videos": [
+        {"title": "How Robots Are Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Robot experience center", "Coding classes", "Robot competitions"]
+    },
+    "funFacts": [
+      "Boston Dynamics' 'Spot' is one of the world's most famous robots",
+      "Robot arms can move more precisely than humans"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "robot", "ai"],
+      "workStyle": ["creative", "analytical", "hands-on"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "architect",
+    "name": "Architect",
+    "emoji": "🏛️",
+    "category": "builder",
+    "description": "I design buildings. I draw amazing homes, schools, and skyscrapers!",
+    "dailyWork": [
+      "09:00 - Arrive at office",
+      "10:00 - Building design work",
+      "12:00 - Lunch",
+      "14:00 - Client meetings",
+      "16:00 - Revise blueprints"
+    ],
+    "requirements": {
+      "education": "Architecture degree",
+      "skills": ["Design ability", "3D modeling", "Aesthetic sense"],
+      "personality": ["Creative", "Detail-oriented", "Spatial awareness"]
+    },
+    "preparation": {
+      "elementary": ["Build with LEGO", "Draw pictures"],
+      "middle": ["Study art", "Observe buildings"],
+      "high": ["Prepare for Architecture major", "Create portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Famous Buildings of the World", "author": "Architecture Stories"}
+      ],
+      "videos": [
+        {"title": "A Day of an Architect", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Architecture exhibitions", "Famous building tours"]
+    },
+    "funFacts": [
+      "The Eiffel Tower was hated at first but is now Paris' symbol",
+      "Architects must make buildings both safe and beautiful"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "architecture"],
+      "workStyle": ["creative", "analytical", "systematic"],
+      "environment": ["office", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "aerospace-engineer",
+    "name": "Aerospace Engineer",
+    "emoji": "🚀",
+    "category": "builder",
+    "description": "I build airplanes and rockets. I design machines that fly in the sky and space!",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Design and simulation",
+      "12:00 - Lunch",
+      "14:00 - Team meetings",
+      "16:00 - Test analysis"
+    ],
+    "requirements": {
+      "education": "Aerospace Engineering degree",
+      "skills": ["Physics", "Mathematics", "Design ability"],
+      "personality": ["Analytical", "Detail-oriented", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Make paper airplanes", "Be interested in space"],
+      "middle": ["Study math and science hard", "Visit observatory"],
+      "high": ["Prepare for Aerospace Engineering major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Becoming a Rocket Scientist", "author": "Space Science Stories"}
+      ],
+      "videos": [
+        {"title": "Rocket Launch Process", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Aerospace museum", "Observatory visit"]
+    },
+    "funFacts": [
+      "You need to travel at over 28,000 km/h to reach space",
+      "Rockets are mostly made of fuel"
+    ],
+    "tags": {
+      "interests": ["builder", "space", "science", "engineering"],
+      "workStyle": ["analytical", "systematic", "research"],
+      "environment": ["office", "lab"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "electronics-developer",
+    "name": "Electronics Developer",
+    "emoji": "📱",
+    "category": "builder",
+    "description": "I develop electronics like smartphones and TVs. I make the devices we use every day!",
+    "dailyWork": [
+      "09:00 - Arrive at company",
+      "10:00 - Circuit design",
+      "12:00 - Lunch",
+      "14:00 - Prototype creation",
+      "16:00 - Testing"
+    ],
+    "requirements": {
+      "education": "Electronics Engineering degree",
+      "skills": ["Circuit design", "Programming", "Testing"],
+      "personality": ["Detail-oriented", "Creative", "Problem-solver"]
+    },
+    "preparation": {
+      "elementary": ["Build electronics kits", "Interest in science"],
+      "middle": ["Learn coding", "Join electronics club"],
+      "high": ["Prepare for Electronics Engineering major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Electronics", "author": "Science Kids"}
+      ],
+      "videos": [
+        {"title": "How Smartphones Are Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Build electronics kits", "Science museum visit"]
+    },
+    "funFacts": [
+      "Smartphones have billions of tiny parts inside",
+      "Electronics are getting smaller and smaller these days"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "engineering"],
+      "workStyle": ["analytical", "hands-on", "systematic"],
+      "environment": ["office", "lab"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "3d-print-specialist",
+    "name": "3D Printing Specialist",
+    "emoji": "🖨️",
+    "category": "builder",
+    "description": "I make various things with 3D printers. I print anything you can imagine!",
+    "dailyWork": [
+      "09:00 - Arrive at workshop",
+      "10:00 - 3D modeling",
+      "12:00 - Lunch",
+      "14:00 - Printing and finishing",
+      "16:00 - Quality inspection"
+    ],
+    "requirements": {
+      "education": "Industrial Design or Mechanical Engineering degree",
+      "skills": ["3D modeling", "Printer operation", "Design"],
+      "personality": ["Creative", "Detail-oriented", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Try 3D pens", "Love making things"],
+      "middle": ["Learn 3D modeling"],
+      "high": ["Prepare for related major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Magic of 3D Printers", "author": "Maker Stories"}
+      ],
+      "videos": [
+        {"title": "Things Made with 3D Printers", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Maker space", "3D printing experience"]
+    },
+    "funFacts": [
+      "You can even build houses with 3D printers",
+      "Medical artificial bones are made with 3D printers too"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "creative"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "drone-engineer",
+    "name": "Drone Engineer",
+    "emoji": "🛸",
+    "category": "builder",
+    "description": "I develop and fly drones. They're used for delivery, filming, farming, and more!",
+    "dailyWork": [
+      "09:00 - Arrive at company",
+      "10:00 - Drone design",
+      "12:00 - Lunch",
+      "14:00 - Flight testing",
+      "16:00 - Data analysis"
+    ],
+    "requirements": {
+      "education": "Electronics or Aviation Engineering degree",
+      "skills": ["Drone operation", "Programming", "Design"],
+      "personality": ["Focused", "Detail-oriented", "Adventurous"]
+    },
+    "preparation": {
+      "elementary": ["Learn to fly drones", "Interest in aircraft"],
+      "middle": ["Learn coding", "Join drone club"],
+      "high": ["Prepare for related major", "Get drone certification"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Everything About Drones", "author": "Tech Stories"}
+      ],
+      "videos": [
+        {"title": "Learning to Fly Drones", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Drone experience center", "Drone competitions"]
+    },
+    "funFacts": [
+      "The era of pizza delivery by drone has arrived",
+      "Drones can go places that are hard for humans to reach"
+    ],
+    "tags": {
+      "interests": ["builder", "tech", "outdoor"],
+      "workStyle": ["hands-on", "analytical", "action"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "interior-designer",
+    "name": "Interior Designer",
+    "emoji": "🏠",
+    "category": "builder",
+    "description": "I make homes beautiful and comfortable. I design furniture layouts and color schemes!",
+    "dailyWork": [
+      "09:00 - Arrive at office",
+      "10:00 - Client meetings",
+      "12:00 - Lunch",
+      "14:00 - Design work",
+      "16:00 - Site visits"
+    ],
+    "requirements": {
+      "education": "Interior Design degree",
+      "skills": ["Space design", "Color sense", "3D design"],
+      "personality": ["Aesthetic sense", "Communication skills", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Decorate your room", "Draw pictures"],
+      "middle": ["Study art", "Read interior magazines"],
+      "high": ["Prepare for Interior Design major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Decorating Beautiful Rooms", "author": "Interior Stories"}
+      ],
+      "videos": [
+        {"title": "Room Decorating Tips", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Furniture store visits", "Interior exhibitions"]
+    },
+    "funFacts": [
+      "Just changing colors can completely transform a room's atmosphere",
+      "Good design can make even small rooms look bigger"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "architecture"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "mechanic",
+    "name": "Auto Mechanic",
+    "emoji": "🔧",
+    "category": "builder",
+    "description": "I fix broken cars. I repair everything from engines to tires!",
+    "dailyWork": [
+      "09:00 - Arrive at garage",
+      "09:30 - Vehicle inspection",
+      "12:00 - Lunch",
+      "13:00 - Repair work",
+      "17:00 - Clean up"
+    ],
+    "requirements": {
+      "education": "Auto Mechanics program or technical training",
+      "skills": ["Repair skills", "Problem diagnosis", "Tool usage"],
+      "personality": ["Handy", "Detail-oriented", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in cars", "Learn tool usage"],
+      "middle": ["Focus on tech classes"],
+      "high": ["Prepare for mechanics program", "Get certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Become an Auto Mechanic", "author": "Career Guide"}
+      ],
+      "videos": [
+        {"title": "Car Repair Process", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Garage tour", "Car experience"]
+    },
+    "funFacts": [
+      "Experienced mechanics can tell what's wrong just by listening to the sound",
+      "With electric cars coming, mechanics have a lot of new things to learn"
+    ],
+    "tags": {
+      "interests": ["builder", "action"],
+      "workStyle": ["hands-on", "analytical", "systematic"],
+      "environment": ["garage", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "carpenter",
+    "name": "Carpenter",
+    "emoji": "🪵",
+    "category": "builder",
+    "description": "I make furniture and buildings from wood. I create beautiful wooden works by hand!",
+    "dailyWork": [
+      "08:00 - Arrive at workshop",
+      "09:00 - Prepare and cut materials",
+      "12:00 - Lunch",
+      "13:00 - Assembly and finishing",
+      "17:00 - Clean up"
+    ],
+    "requirements": {
+      "education": "Woodworking training",
+      "skills": ["Woodworking skills", "Reading blueprints", "Tool usage"],
+      "personality": ["Handy", "Patient", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Make things with wood", "Hands-on activities"],
+      "middle": ["Tech classes", "DIY activities"],
+      "high": ["Woodworking school or technical school"]
+    },
+    "resources": {
+      "books": [
+        {"title": "First Steps in Woodcraft", "author": "Woodworking Stories"}
+      ],
+      "videos": [
+        {"title": "Woodworking Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Woodworking experience", "Furniture making class"]
+    },
+    "funFacts": [
+      "Different types of wood have different characteristics and uses",
+      "Furniture that's hundreds of years old was made by carpenters"
+    ],
+    "tags": {
+      "interests": ["builder", "crafts"],
+      "workStyle": ["hands-on", "creative", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "emoji": "⚡",
+    "category": "builder",
+    "description": "I install and fix electrical systems. I make sure electricity flows properly in homes and buildings!",
+    "dailyWork": [
+      "08:00 - Arrive at site",
+      "09:00 - Electrical wiring work",
+      "12:00 - Lunch",
+      "13:00 - Inspection and repairs",
+      "17:00 - Safety check"
+    ],
+    "requirements": {
+      "education": "Electrical Engineering or technical training",
+      "skills": ["Electrical knowledge", "Wiring skills", "Safety management"],
+      "personality": ["Detail-oriented", "Safety-conscious", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Interest in electricity", "Safety education"],
+      "middle": ["Study science", "Tech classes"],
+      "high": ["Prepare for electrical certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Electricity", "author": "Science Stories"}
+      ],
+      "videos": [
+        {"title": "A Day of an Electrician", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum electricity exhibits"]
+    },
+    "funFacts": [
+      "Electricity is invisible so you always have to be careful",
+      "Lightning is nature's electricity"
+    ],
+    "tags": {
+      "interests": ["builder", "tech"],
+      "workStyle": ["hands-on", "systematic", "analytical"],
+      "environment": ["field", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "lego-master",
+    "name": "LEGO Master Builder",
+    "emoji": "🧱",
+    "category": "builder",
+    "description": "I create amazing works with LEGO. It's a special job with only a few people in the world!",
+    "dailyWork": [
+      "09:00 - Arrive at studio",
+      "10:00 - Design and planning",
+      "12:00 - Lunch",
+      "13:00 - Building work",
+      "17:00 - Work review"
+    ],
+    "requirements": {
+      "education": "Art or Design related major",
+      "skills": ["Creativity", "Spatial sense", "Patience"],
+      "personality": ["Creative", "Persistent", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Play with LEGO a lot", "Create original works"],
+      "middle": ["Study art", "Enter LEGO competitions"],
+      "high": ["Study design", "Prepare portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of LEGO Masters", "author": "LEGO Official"}
+      ],
+      "videos": [
+        {"title": "LEGO Master Builder Introduction", "url": "https://youtube.com"}
+      ],
+      "experiences": ["LEGOLAND visit", "LEGO competitions"]
+    },
+    "funFacts": [
+      "There are fewer than 40 official LEGO Master Builders in the world",
+      "Giant sculptures at LEGOLAND are made of millions of bricks"
+    ],
+    "tags": {
+      "interests": ["builder", "art", "creative"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  }
+]

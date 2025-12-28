@@ -1,5 +1,6 @@
 import type { Job, UserScores, MatchingResult } from '../types';
-import { jobs } from '../data/jobs';
+import { jobs, getTranslatedJobs } from '../data/jobs';
+import i18n from '../i18n';
 
 // Tag to category mapping for scoring
 const interestTagMapping: Record<string, string[]> = {
@@ -57,51 +58,28 @@ function calculateLevelMatch(
 
 function generateMatchReasons(userScores: UserScores, job: Job): string[] {
   const reasons: string[] = [];
+  const t = i18n.t.bind(i18n);
 
   // Check interest matches
+  const interestKeys = ['science', 'art', 'tech', 'nature', 'helper', 'animals', 'creative', 'game'];
   job.tags.interests.forEach((interest) => {
-    if (userScores[interest] && userScores[interest] >= 3) {
-      switch (interest) {
-        case 'science':
-          reasons.push('과학에 관심이 많아요');
-          break;
-        case 'art':
-          reasons.push('예술적 감각이 있어요');
-          break;
-        case 'tech':
-          reasons.push('기술을 좋아해요');
-          break;
-        case 'nature':
-          reasons.push('자연을 사랑해요');
-          break;
-        case 'helper':
-          reasons.push('다른 사람을 돕고 싶어해요');
-          break;
-        case 'animals':
-          reasons.push('동물을 좋아해요');
-          break;
-        case 'creative':
-          reasons.push('창의력이 뛰어나요');
-          break;
-        case 'game':
-          reasons.push('게임에 관심이 많아요');
-          break;
-      }
+    if (userScores[interest] && userScores[interest] >= 3 && interestKeys.includes(interest)) {
+      reasons.push(t(`common:matchReasons.${interest}`));
     }
   });
 
   // Check work style matches
   if (userScores['social'] >= 3 && job.tags.socialLevel === 'high') {
-    reasons.push('사람들과 어울리는 걸 좋아해요');
+    reasons.push(t('common:matchReasons.social'));
   }
   if (userScores['solo'] >= 3 && job.tags.socialLevel === 'low') {
-    reasons.push('혼자 집중하는 걸 좋아해요');
+    reasons.push(t('common:matchReasons.solo'));
   }
   if (userScores['creative'] >= 3 && job.tags.creativityLevel === 'high') {
-    reasons.push('새로운 것을 만드는 걸 좋아해요');
+    reasons.push(t('common:matchReasons.newThings'));
   }
   if (userScores['physical'] >= 3 && job.tags.physicalLevel === 'high') {
-    reasons.push('몸을 움직이는 활동을 좋아해요');
+    reasons.push(t('common:matchReasons.physical'));
   }
 
   // Limit to 3 reasons
@@ -110,22 +88,14 @@ function generateMatchReasons(userScores: UserScores, job: Job): string[] {
 
 function identifyStrengths(userScores: UserScores, job: Job): string[] {
   const strengths: string[] = [];
+  const t = i18n.t.bind(i18n);
 
   // Map scores to strengths
-  const strengthMap: Record<string, string> = {
-    leadership: '리더십',
-    research: '탐구력',
-    creative: '창의력',
-    analytical: '분석력',
-    social: '소통 능력',
-    physical: '체력',
-    curious: '호기심',
-    helper: '배려심',
-    systematic: '꼼꼼함',
-  };
+  const strengthKeys = ['leadership', 'research', 'creative', 'analytical', 'social', 'physical', 'curious', 'helper', 'systematic'];
 
-  Object.entries(strengthMap).forEach(([tag, strength]) => {
+  strengthKeys.forEach((tag) => {
     if (userScores[tag] && userScores[tag] >= 3) {
+      const strength = t(`common:strengths.${tag}`);
       if (job.requirements.skills.some((skill) =>
         skill.toLowerCase().includes(strength.toLowerCase())
       ) || job.requirements.personality.some((p) =>
@@ -188,9 +158,12 @@ export function calculateMatch(userScores: UserScores, job: Job): number {
   return Math.round(Math.min(finalScore, 100));
 }
 
-export function getMatchingResults(userScores: UserScores, count: number = 5): MatchingResult[] {
+export function getMatchingResults(userScores: UserScores, count: number = 5, language?: string): MatchingResult[] {
+  // Get translated jobs based on language
+  const translatedJobs = language ? getTranslatedJobs(language) : jobs;
+
   // Calculate scores for all jobs
-  const scoredJobs = jobs.map((job) => ({
+  const scoredJobs = translatedJobs.map((job) => ({
     job,
     score: calculateMatch(userScores, job),
   }));
@@ -220,6 +193,6 @@ export function getMatchingResults(userScores: UserScores, count: number = 5): M
   }));
 }
 
-export function getJobRecommendations(userScores: UserScores): MatchingResult[] {
-  return getMatchingResults(userScores, 5);
+export function getJobRecommendations(userScores: UserScores, language?: string): MatchingResult[] {
+  return getMatchingResults(userScores, 5, language);
 }

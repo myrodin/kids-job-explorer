@@ -1,0 +1,600 @@
+[
+  {
+    "id": "webtoon-artist",
+    "name": "Webtoon Artist",
+    "emoji": "📱",
+    "category": "artist",
+    "description": "I draw digital comics that people read on smartphones. I entertain readers with fun stories and drawings!",
+    "dailyWork": [
+      "10:00 - Start working",
+      "11:00 - Plan the story",
+      "13:00 - Lunch break",
+      "14:00 - Draw and color",
+      "22:00 - Finish and upload"
+    ],
+    "requirements": {
+      "education": "Animation/Illustration degree or self-taught",
+      "skills": ["Drawing", "Storytelling", "Digital art"],
+      "personality": ["Creative", "Persistent", "Meets deadlines"]
+    },
+    "preparation": {
+      "elementary": ["Practice drawing", "Read lots of comics"],
+      "middle": ["Learn digital drawing", "Try making short comics"],
+      "high": ["Build a portfolio", "Enter webtoon contests"]
+    },
+    "resources": {
+      "books": [
+        {"title": "I Want to Be a Webtoon Artist!", "author": "Comics Stories"}
+      ],
+      "videos": [
+        {"title": "Day in the Life of a Webtoon Artist", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Webtoon drawing classes", "Comic camp"]
+    },
+    "funFacts": [
+      "Korean webtoons are popular all around the world",
+      "Popular webtoons often become TV dramas or movies"
+    ],
+    "tags": {
+      "interests": ["art", "drawing", "creative", "illustration"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "game-graphic-designer",
+    "name": "Game Graphic Designer",
+    "emoji": "🎮",
+    "category": "artist",
+    "description": "I create characters and backgrounds for video games. I bring game worlds to life with my artwork!",
+    "dailyWork": [
+      "10:00 - Arrive at office",
+      "11:00 - Design characters",
+      "13:00 - Lunch break",
+      "14:00 - Create backgrounds and items",
+      "18:00 - Team meeting"
+    ],
+    "requirements": {
+      "education": "Game Graphics or Art degree",
+      "skills": ["Graphic design", "3D modeling", "Color sense"],
+      "personality": ["Creative", "Team player", "Loves games"]
+    },
+    "preparation": {
+      "elementary": ["Practice drawing", "Play and analyze games"],
+      "middle": ["Learn digital art", "Study game design"],
+      "high": ["Prepare for game design program", "Build portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Game Graphics", "author": "Game Stories"}
+      ],
+      "videos": [
+        {"title": "Game Graphics Making Of", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Game exhibitions", "Graphics workshops"]
+    },
+    "funFacts": [
+      "Creating one game character can take several months",
+      "Game scenery uses realistic light and shadow calculations"
+    ],
+    "tags": {
+      "interests": ["art", "game", "tech", "creative"],
+      "workStyle": ["creative", "hands-on", "team"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "animator",
+    "name": "Animator",
+    "emoji": "🎬",
+    "category": "artist",
+    "description": "I create animated movies and shows. I draw characters that move and show emotions!",
+    "dailyWork": [
+      "09:00 - Arrive at studio",
+      "10:00 - Work on key frames",
+      "12:00 - Lunch break",
+      "13:00 - Work on in-between frames",
+      "18:00 - Review meeting and revisions"
+    ],
+    "requirements": {
+      "education": "Animation degree",
+      "skills": ["Drawing", "Motion expression", "Digital tools"],
+      "personality": ["Detail-oriented", "Patient", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Practice drawing", "Watch animated movies"],
+      "middle": ["Make flipbooks", "Learn digital drawing"],
+      "high": ["Prepare for animation program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Secrets of Animation", "author": "Animation Stories"}
+      ],
+      "videos": [
+        {"title": "Day in the Life of an Animator", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Animation workshops", "Character drawing classes"]
+    },
+    "funFacts": [
+      "One second of animation needs 24 drawings",
+      "A Disney movie takes 4-5 years to make"
+    ],
+    "tags": {
+      "interests": ["art", "animation", "creative", "video"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "character-designer",
+    "name": "Character Designer",
+    "emoji": "🐰",
+    "category": "artist",
+    "description": "I create cute characters that people love! Like the characters you see on stickers and merchandise!",
+    "dailyWork": [
+      "10:00 - Arrive at office",
+      "11:00 - Sketch ideas",
+      "13:00 - Lunch break",
+      "14:00 - Design characters",
+      "17:00 - Get feedback and make changes"
+    ],
+    "requirements": {
+      "education": "Visual Design or Illustration degree",
+      "skills": ["Illustration", "Creativity", "Understanding trends"],
+      "personality": ["Creative", "Sense of cuteness", "Understands what people like"]
+    },
+    "preparation": {
+      "elementary": ["Draw characters", "Study favorite characters"],
+      "middle": ["Study design", "Create your own characters"],
+      "high": ["Prepare for design program", "Build portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Create Characters", "author": "Design Stories"}
+      ],
+      "videos": [
+        {"title": "Character Design Process", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Character exhibitions", "Design workshops"]
+    },
+    "funFacts": [
+      "The most popular characters can express emotions without words",
+      "Good character design can be recognized even as a tiny icon"
+    ],
+    "tags": {
+      "interests": ["art", "creative", "design"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "fashion-designer",
+    "name": "Fashion Designer",
+    "emoji": "👗",
+    "category": "artist",
+    "description": "I design clothes that people wear. I create beautiful outfits that make people look amazing!",
+    "dailyWork": [
+      "09:00 - Arrive at studio",
+      "10:00 - Sketch designs",
+      "12:00 - Lunch break",
+      "14:00 - Select fabrics and make samples",
+      "17:00 - Fittings and adjustments"
+    ],
+    "requirements": {
+      "education": "Fashion Design degree",
+      "skills": ["Design", "Sewing", "Trend analysis"],
+      "personality": ["Creative", "Artistic eye", "Observant"]
+    },
+    "preparation": {
+      "elementary": ["Draw outfits", "Practice mixing and matching clothes"],
+      "middle": ["Read fashion magazines", "Learn basic sewing"],
+      "high": ["Prepare for fashion design program", "Build portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Dreams of a Fashion Designer", "author": "Fashion Stories"}
+      ],
+      "videos": [
+        {"title": "Fashion Show Making Of", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Fashion exhibitions", "Sewing workshops"]
+    },
+    "funFacts": [
+      "Clothes seen at fashion shows appear in stores 6 months later",
+      "One outfit by a famous designer can cost more than a car"
+    ],
+    "tags": {
+      "interests": ["art", "fashion", "creative"],
+      "workStyle": ["creative", "hands-on", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "makeup-artist",
+    "name": "Makeup Artist",
+    "emoji": "💄",
+    "category": "artist",
+    "description": "I use makeup to make people look beautiful. I do makeup for actors, singers, and brides!",
+    "dailyWork": [
+      "06:00 - Arrive at set (early call)",
+      "07:00 - Start makeup",
+      "12:00 - Lunch break",
+      "13:00 - Touch-ups",
+      "18:00 - Wrap up filming"
+    ],
+    "requirements": {
+      "education": "Cosmetology school or makeup academy",
+      "skills": ["Makeup techniques", "Color sense", "Trend awareness"],
+      "personality": ["Delicate", "Good communicator", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in art", "Study colors"],
+      "middle": ["Get interested in makeup", "Practice drawing"],
+      "high": ["Prepare for cosmetology school", "Get makeup certification"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Becoming a Makeup Artist", "author": "Beauty Stories"}
+      ],
+      "videos": [
+        {"title": "Makeup Tutorial", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Makeup workshops", "Beauty exhibitions"]
+    },
+    "funFacts": [
+      "Movie special effects makeup can transform people into monsters",
+      "K-pop idol makeup looks different depending on the stage lighting"
+    ],
+    "tags": {
+      "interests": ["art", "fashion", "creative"],
+      "workStyle": ["creative", "hands-on", "caring"],
+      "environment": ["studio", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "stage-designer",
+    "name": "Stage Designer",
+    "emoji": "🎭",
+    "category": "artist",
+    "description": "I design stages for performances. I create the backgrounds for plays, musicals, and concerts!",
+    "dailyWork": [
+      "10:00 - Arrive at theater",
+      "11:00 - Stage design meeting",
+      "13:00 - Lunch break",
+      "14:00 - Supervise set construction",
+      "19:00 - Prepare for show"
+    ],
+    "requirements": {
+      "education": "Stage Design degree",
+      "skills": ["Space design", "3D modeling", "Color sense"],
+      "personality": ["Creative", "Team player", "Problem solver"]
+    },
+    "preparation": {
+      "elementary": ["Watch performances", "Observe stages"],
+      "middle": ["Study art", "Join drama club"],
+      "high": ["Prepare for stage design program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Magic of Stage Design", "author": "Theater Stories"}
+      ],
+      "videos": [
+        {"title": "How Stage Sets Are Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Watch musicals", "Backstage tours"]
+    },
+    "funFacts": [
+      "Stage sets look real but are made of lightweight materials",
+      "Quick stage changes between scenes are called 'transitions'"
+    ],
+    "tags": {
+      "interests": ["art", "performance", "creative"],
+      "workStyle": ["creative", "hands-on", "team"],
+      "environment": ["theater", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "photographer",
+    "name": "Photographer",
+    "emoji": "📷",
+    "category": "artist",
+    "description": "I take beautiful photos. I capture special moments and turn them into amazing pictures!",
+    "dailyWork": [
+      "Flexible schedule - depends on shoots",
+      "Prepare for photo shoot",
+      "Take photos on location",
+      "Edit and retouch photos",
+      "Deliver to clients"
+    ],
+    "requirements": {
+      "education": "Photography degree or self-taught",
+      "skills": ["Photography", "Photo editing", "Artistic eye"],
+      "personality": ["Observant", "Creative", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Take photos", "Study good photographs"],
+      "middle": ["Learn camera basics", "Join photography club"],
+      "high": ["Prepare for photography program", "Build portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Photography Basics", "author": "Photo Stories"}
+      ],
+      "videos": [
+        {"title": "Photography Tips", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Photo exhibitions", "Camera workshops"]
+    },
+    "funFacts": [
+      "Photographers sometimes take hundreds of shots for one perfect photo",
+      "The direction of light completely changes how a photo looks"
+    ],
+    "tags": {
+      "interests": ["art", "media", "creative"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["outdoor", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "film-director",
+    "name": "Film Director",
+    "emoji": "🎥",
+    "category": "artist",
+    "description": "I'm the boss of making movies! I guide the story, the actors, and the camera work!",
+    "dailyWork": [
+      "06:00 - Arrive at set",
+      "07:00 - Prepare for filming",
+      "09:00 - Start filming",
+      "18:00 - Finish filming",
+      "19:00 - Review daily footage"
+    ],
+    "requirements": {
+      "education": "Film studies degree",
+      "skills": ["Directing", "Storytelling", "Leadership"],
+      "personality": ["Creative", "Leader", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Watch lots of movies", "Make up stories"],
+      "middle": ["Make short videos", "Join film club"],
+      "high": ["Prepare for film school", "Make short films"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Dreams of a Film Director", "author": "Film Stories"}
+      ],
+      "videos": [
+        {"title": "Movie Making Of", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Visit movie sets", "Attend film festivals"]
+    },
+    "funFacts": [
+      "Director Bong Joon-ho's 'Parasite' won 4 Academy Awards",
+      "One minute of movie footage can take a whole day to film"
+    ],
+    "tags": {
+      "interests": ["art", "media", "creative", "video"],
+      "workStyle": ["creative", "leadership", "team"],
+      "environment": ["studio", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "musical-actor",
+    "name": "Musical Actor",
+    "emoji": "🎤",
+    "category": "artist",
+    "description": "I sing, act, and dance all at once! I tell stories on stage through performance!",
+    "dailyWork": [
+      "10:00 - Arrive at rehearsal",
+      "11:00 - Vocal practice",
+      "13:00 - Lunch break",
+      "14:00 - Dance practice",
+      "19:00 - Evening performance"
+    ],
+    "requirements": {
+      "education": "Theater or Musical Theater degree",
+      "skills": ["Singing", "Acting", "Dancing"],
+      "personality": ["Persistent", "Expressive", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Watch musicals", "Learn singing and dancing"],
+      "middle": ["Take acting lessons", "Join chorus"],
+      "high": ["Prepare for performing arts school or musical theater program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day in the Life of a Musical Actor", "author": "Theater Stories"}
+      ],
+      "videos": [
+        {"title": "Behind the Scenes of a Musical", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Watch musicals", "Acting camps"]
+    },
+    "funFacts": [
+      "Musical actors can project their voice to the back of the theater without a microphone",
+      "Doing two shows a day is really exhausting"
+    ],
+    "tags": {
+      "interests": ["art", "music", "performance"],
+      "workStyle": ["creative", "performance", "team"],
+      "environment": ["theater", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "composer",
+    "name": "Composer",
+    "emoji": "🎹",
+    "category": "artist",
+    "description": "I create songs and music. I write melodies and lyrics to bring new music into the world!",
+    "dailyWork": [
+      "Flexible hours - work when inspiration strikes",
+      "Come up with melodies",
+      "Play instruments and record",
+      "Arrange the music",
+      "Mix and master tracks"
+    ],
+    "requirements": {
+      "education": "Music composition degree or self-taught",
+      "skills": ["Composing", "Playing instruments", "Music theory"],
+      "personality": ["Creative", "Sensitive", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Learn an instrument", "Listen to lots of music"],
+      "middle": ["Learn music software", "Try writing songs"],
+      "high": ["Prepare for music program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Composer's Secret Notebook", "author": "Music Stories"}
+      ],
+      "videos": [
+        {"title": "How K-Pop Songs Are Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Music camps", "Instrument lessons"]
+    },
+    "funFacts": [
+      "A hit song goes through hundreds of revisions before it's finished",
+      "Some composers who write for BTS are from other countries"
+    ],
+    "tags": {
+      "interests": ["art", "music", "creative"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "sculptor",
+    "name": "Sculptor",
+    "emoji": "🗿",
+    "category": "artist",
+    "description": "I create 3D artworks. I make beautiful sculptures from stone, wood, and metal!",
+    "dailyWork": [
+      "09:00 - Arrive at studio",
+      "10:00 - Work on sculpture",
+      "12:00 - Lunch break",
+      "13:00 - Continue working",
+      "18:00 - Clean up"
+    ],
+    "requirements": {
+      "education": "Sculpture degree",
+      "skills": ["Sculpting techniques", "Spatial awareness", "Physical strength"],
+      "personality": ["Patient", "Creative", "Focused"]
+    },
+    "preparation": {
+      "elementary": ["Play with clay", "Make 3D art projects"],
+      "middle": ["Take sculpture classes", "Visit art museums"],
+      "high": ["Prepare for sculpture program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Sculpture", "author": "Art Stories"}
+      ],
+      "videos": [
+        {"title": "Sculptor at Work", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Sculpture parks", "Clay workshops"]
+    },
+    "funFacts": [
+      "Michelangelo's 'David' was carved from a single block of marble",
+      "Some sculptures take years to complete"
+    ],
+    "tags": {
+      "interests": ["art", "crafts", "creative"],
+      "workStyle": ["creative", "hands-on", "solo"],
+      "environment": ["studio", "outdoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "illustrator",
+    "name": "Illustrator",
+    "emoji": "✏️",
+    "category": "artist",
+    "description": "I draw pictures for books, ads, and websites. I turn words into beautiful images!",
+    "dailyWork": [
+      "10:00 - Start working",
+      "11:00 - Sketching",
+      "13:00 - Lunch break",
+      "14:00 - Coloring",
+      "18:00 - Deliver to client"
+    ],
+    "requirements": {
+      "education": "Visual Design or Illustration degree",
+      "skills": ["Drawing", "Digital illustration", "Color sense"],
+      "personality": ["Creative", "Meets deadlines", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Draw a lot", "Study different art styles"],
+      "middle": ["Learn digital drawing"],
+      "high": ["Build a portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Becoming an Illustrator", "author": "Art Stories"}
+      ],
+      "videos": [
+        {"title": "Day in the Life of an Illustrator", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Art exhibitions", "Drawing classes"]
+    },
+    "funFacts": [
+      "Picture book illustrations are just as important as the story",
+      "One picture can say a thousand words"
+    ],
+    "tags": {
+      "interests": ["art", "drawing", "creative", "illustration"],
+      "workStyle": ["creative", "solo", "hands-on"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]

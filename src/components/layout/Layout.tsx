@@ -1,7 +1,8 @@
 import type { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Icon } from '../common';
+import { useTranslation } from 'react-i18next';
+import { Icon, LanguageSwitch } from '../common';
 
 interface LayoutProps {
   children: ReactNode;
@@ -9,6 +10,7 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   const location = useLocation();
+  const { t } = useTranslation();
   const isHome = location.pathname === '/';
 
   return (
@@ -25,7 +27,7 @@ export function Layout({ children }: LayoutProps) {
               <Icon name="wand-magic-sparkles" size="xl" />
             </motion.div>
             <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent group-hover:from-primary-700 group-hover:to-secondary-600 transition-all">
-              내 꿈 찾기
+              {t('common:nav.title')}
             </span>
           </Link>
 
@@ -39,7 +41,7 @@ export function Layout({ children }: LayoutProps) {
               }`}
             >
               <Icon name="briefcase" size="sm" />
-              <span className="hidden sm:inline">직업 둘러보기</span>
+              <span className="hidden sm:inline">{t('common:nav.jobs')}</span>
             </Link>
             <Link
               to="/history"
@@ -50,8 +52,9 @@ export function Layout({ children }: LayoutProps) {
               }`}
             >
               <Icon name="history" size="sm" />
-              <span className="hidden sm:inline">이전 결과</span>
+              <span className="hidden sm:inline">{t('common:nav.history')}</span>
             </Link>
+            <LanguageSwitch />
           </nav>
         </div>
       </header>
@@ -68,11 +71,11 @@ export function Layout({ children }: LayoutProps) {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center text-gray-500 text-sm">
           <p className="flex items-center justify-center gap-2">
             <Icon name="graduation-cap" className="text-primary-400" />
-            초등학생을 위한 장래희망 탐색 서비스
+            {t('common:footer.tagline')}
           </p>
           <p className="mt-1 flex items-center justify-center gap-2">
             <Icon name="lightbulb" className="text-accent-500" />
-            질문에 답하면 나에게 맞는 직업을 찾아줘요!
+            {t('common:footer.description')}
           </p>
         </div>
       </footer>

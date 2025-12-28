@@ -1,0 +1,602 @@
+[
+  {
+    "id": "marine-biologist",
+    "name": "Marine Biologist",
+    "emoji": "🐬",
+    "category": "thinker",
+    "description": "I study ocean creatures! I observe fish, coral, and whales to discover the secrets of the sea.",
+    "dailyWork": [
+      "08:00 - Arrive at research lab",
+      "09:00 - Ocean survey or experiments",
+      "12:00 - Lunch break",
+      "14:00 - Data analysis",
+      "16:00 - Write research reports"
+    ],
+    "requirements": {
+      "education": "Marine Biology or Biology degree",
+      "skills": ["Scuba diving", "Research skills", "Observation"],
+      "personality": ["Curious", "Patient", "Nature lover"]
+    },
+    "preparation": {
+      "elementary": ["Observe sea creatures", "Visit aquariums", "Study science"],
+      "middle": ["Focus on biology", "Read marine-related books"],
+      "high": ["Prepare for Marine Biology major", "Learn scuba diving"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Ocean Explorer", "author": "DK Publishing"},
+        {"title": "Sea Creatures Encyclopedia", "author": "Nature Watch"}
+      ],
+      "videos": [
+        {"title": "Ocean Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Marine science center", "Aquarium field trip", "Tide pool exploration"]
+    },
+    "funFacts": [
+      "The ocean covers 70% of Earth but we've only explored about 5% of it",
+      "Some deep-sea creatures glow in the dark because there's no sunlight down there"
+    ],
+    "tags": {
+      "interests": ["science", "nature", "marine", "research"],
+      "workStyle": ["research", "analytical", "hands-on"],
+      "environment": ["outdoor", "lab", "ocean"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "astronomer",
+    "name": "Astronomer",
+    "emoji": "🔭",
+    "category": "thinker",
+    "description": "I study stars and space! I observe galaxies and planets through telescopes to solve the mysteries of the universe.",
+    "dailyWork": [
+      "14:00 - Arrive at observatory (night observations)",
+      "15:00 - Data analysis",
+      "18:00 - Dinner break",
+      "20:00 - Begin stargazing",
+      "02:00 - End observation session"
+    ],
+    "requirements": {
+      "education": "Astronomy or Physics degree",
+      "skills": ["Math", "Physics", "Data analysis"],
+      "personality": ["Curious", "Persistent", "Logical"]
+    },
+    "preparation": {
+      "elementary": ["Stargaze at night", "Read space books", "Visit planetarium"],
+      "middle": ["Focus on math and science", "Join astronomy club"],
+      "high": ["Prepare for Astronomy or Physics major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Space Adventure", "author": "Stephen Hawking"},
+        {"title": "Following the Stars", "author": "Space Stories"}
+      ],
+      "videos": [
+        {"title": "NASA Space Exploration", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Observatory visit", "Stargazing events", "Space science museum"]
+    },
+    "funFacts": [
+      "The starlight you see now started traveling hundreds of years ago",
+      "Black holes are so powerful that even light cannot escape from them"
+    ],
+    "tags": {
+      "interests": ["science", "space", "astronomy", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["observatory", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "archaeologist",
+    "name": "Archaeologist",
+    "emoji": "🏺",
+    "category": "thinker",
+    "description": "I dig up and study ancient artifacts! I discover how people lived long, long ago.",
+    "dailyWork": [
+      "07:00 - Arrive at excavation site",
+      "08:00 - Dig for artifacts",
+      "12:00 - Lunch break",
+      "13:00 - Organize and record findings",
+      "17:00 - Write reports"
+    ],
+    "requirements": {
+      "education": "Archaeology or History degree",
+      "skills": ["Excavation techniques", "History knowledge", "Analysis"],
+      "personality": ["Patient", "Detail-oriented", "Curious"]
+    },
+    "preparation": {
+      "elementary": ["Get interested in history", "Visit museums"],
+      "middle": ["Study history", "Explore historical sites"],
+      "high": ["Prepare for Archaeology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Time Machine Archaeology", "author": "History Tales"}
+      ],
+      "videos": [
+        {"title": "Excavation Site Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Museum tours", "Historical site visits"]
+    },
+    "funFacts": [
+      "Archaeologists use tiny brushes to carefully dust off dirt from artifacts",
+      "It can take years to fully excavate just one artifact"
+    ],
+    "tags": {
+      "interests": ["science", "history", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "paleontologist",
+    "name": "Paleontologist",
+    "emoji": "🦕",
+    "category": "thinker",
+    "description": "I study dinosaurs and fossils! I uncover the secrets of creatures that lived millions of years ago.",
+    "dailyWork": [
+      "08:00 - Arrive at dig site or lab",
+      "09:00 - Fossil excavation or analysis",
+      "12:00 - Lunch break",
+      "14:00 - Restoration and research",
+      "16:00 - Write research papers"
+    ],
+    "requirements": {
+      "education": "Paleontology or Geology degree",
+      "skills": ["Fossil excavation", "Analysis", "Science knowledge"],
+      "personality": ["Curious", "Patient", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Read lots of dinosaur books", "Visit natural history museum"],
+      "middle": ["Focus on science", "Fossil-related activities"],
+      "high": ["Prepare for Geology or Biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Dinosaur Encyclopedia", "author": "DK Publishing"}
+      ],
+      "videos": [
+        {"title": "Dinosaur Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Natural history museum", "Fossil digging experience"]
+    },
+    "funFacts": [
+      "There are only a few T-Rex fossils in the entire world",
+      "Dinosaurs went extinct 65 million years ago"
+    ],
+    "tags": {
+      "interests": ["science", "paleontology", "history", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "lab", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "ai-researcher",
+    "name": "AI Researcher",
+    "emoji": "🤖",
+    "category": "thinker",
+    "description": "I develop and study artificial intelligence! I teach computers to think like humans.",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Develop algorithms",
+      "12:00 - Lunch break",
+      "14:00 - Run experiments and tests",
+      "17:00 - Research meetings"
+    ],
+    "requirements": {
+      "education": "Computer Science or AI degree",
+      "skills": ["Programming", "Math", "Data analysis"],
+      "personality": ["Logical", "Creative", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Learn coding", "Study math"],
+      "middle": ["Study programming", "Read AI books"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "AI First Steps", "author": "Science Discovery"}
+      ],
+      "videos": [
+        {"title": "What Is AI?", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding camps", "AI experience programs"]
+    },
+    "funFacts": [
+      "ChatGPT was created by AI researchers",
+      "AI-made paintings have sold for millions of dollars"
+    ],
+    "tags": {
+      "interests": ["tech", "science", "ai", "research"],
+      "workStyle": ["research", "analytical", "creative"],
+      "environment": ["office", "lab"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "vaccine-researcher",
+    "name": "Vaccine Researcher",
+    "emoji": "💉",
+    "category": "thinker",
+    "description": "I create new vaccines! I develop medicines that protect people from diseases.",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Conduct experiments",
+      "12:00 - Lunch break",
+      "14:00 - Analyze data",
+      "16:00 - Research meetings"
+    ],
+    "requirements": {
+      "education": "Bioengineering or Medical Science degree",
+      "skills": ["Lab techniques", "Analysis", "Science knowledge"],
+      "personality": ["Detail-oriented", "Patient", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in science experiments", "Study biology"],
+      "middle": ["Focus on biology and chemistry"],
+      "high": ["Prepare for Bioengineering major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Secret of Vaccines", "author": "Science Tales"}
+      ],
+      "videos": [
+        {"title": "How Vaccines Are Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum visit", "Research lab tour"]
+    },
+    "funFacts": [
+      "The COVID vaccine was developed in just 1 year (normally it takes 10+ years)",
+      "Vaccines helped eliminate smallpox completely"
+    ],
+    "tags": {
+      "interests": ["science", "medical", "biology", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "climate-scientist",
+    "name": "Climate Scientist",
+    "emoji": "🌡️",
+    "category": "thinker",
+    "description": "I study weather and climate change! I find out what causes global warming and how to solve it.",
+    "dailyWork": [
+      "09:00 - Arrive at research center",
+      "10:00 - Analyze climate data",
+      "12:00 - Lunch break",
+      "14:00 - Run computer simulations",
+      "16:00 - Write reports"
+    ],
+    "requirements": {
+      "education": "Atmospheric Science or Environmental Engineering degree",
+      "skills": ["Data analysis", "Computer modeling", "Science knowledge"],
+      "personality": ["Analytical", "Responsible", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Care about the environment", "Study science"],
+      "middle": ["Focus on Earth science", "Join environmental club"],
+      "high": ["Prepare for Atmospheric Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Our Earth Is Hurting", "author": "Environmental Tales"}
+      ],
+      "videos": [
+        {"title": "Climate Change Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Weather station tour", "Environmental camp"]
+    },
+    "funFacts": [
+      "Even 1 degree of global warming causes huge changes",
+      "Polar bears are in danger because the ice is melting"
+    ],
+    "tags": {
+      "interests": ["science", "nature", "environment", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["lab", "office"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "neuroscientist",
+    "name": "Neuroscientist",
+    "emoji": "🧠",
+    "category": "thinker",
+    "description": "I study how the brain works! I uncover the secrets of thoughts, emotions, and memories.",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Brain scan experiments",
+      "12:00 - Lunch break",
+      "14:00 - Data analysis",
+      "16:00 - Write research papers"
+    ],
+    "requirements": {
+      "education": "Neuroscience or Biology degree",
+      "skills": ["Lab techniques", "Analysis", "Biology knowledge"],
+      "personality": ["Curious", "Detail-oriented", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Get interested in the brain", "Read science books"],
+      "middle": ["Focus on biology", "Learn about psychology"],
+      "high": ["Prepare for Neuroscience major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of the Brain", "author": "Science Tales"}
+      ],
+      "videos": [
+        {"title": "Brain Science Stories", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum brain exhibit", "Psychology experiment activities"]
+    },
+    "funFacts": [
+      "Your brain has about 100 billion nerve cells",
+      "The brain is only 2% of your body weight but uses 20% of your energy"
+    ],
+    "tags": {
+      "interests": ["science", "biology", "psychology", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "geneticist",
+    "name": "Geneticist",
+    "emoji": "🧬",
+    "category": "thinker",
+    "description": "I study DNA and genes! I research why we look like our parents and how genetic diseases happen.",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - DNA analysis experiments",
+      "12:00 - Lunch break",
+      "14:00 - Gene research",
+      "16:00 - Organize results"
+    ],
+    "requirements": {
+      "education": "Genetics or Bioengineering degree",
+      "skills": ["Lab techniques", "Analysis", "Biology knowledge"],
+      "personality": ["Detail-oriented", "Logical", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in science experiments", "Study biology"],
+      "middle": ["Focus on biology", "Read genetics books"],
+      "high": ["Prepare for Life Sciences major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of DNA", "author": "Science Tales"}
+      ],
+      "videos": [
+        {"title": "Genetics Stories", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum visit", "DNA extraction experiment"]
+    },
+    "funFacts": [
+      "If you stretched out all your DNA, it could reach from Earth to the Sun and back",
+      "Humans and chimpanzees share 98% of the same DNA"
+    ],
+    "tags": {
+      "interests": ["science", "biology", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "chemist",
+    "name": "Chemist",
+    "emoji": "⚗️",
+    "category": "thinker",
+    "description": "I create and study new materials! I develop things we use every day like medicine, plastic, and cosmetics.",
+    "dailyWork": [
+      "09:00 - Arrive at research lab",
+      "10:00 - Conduct experiments",
+      "12:00 - Lunch break",
+      "14:00 - Analyze results",
+      "16:00 - Plan new experiments"
+    ],
+    "requirements": {
+      "education": "Chemistry degree",
+      "skills": ["Lab techniques", "Analysis", "Chemistry knowledge"],
+      "personality": ["Curious", "Detail-oriented", "Safety-conscious"]
+    },
+    "preparation": {
+      "elementary": ["Love doing science experiments", "Get interested in chemistry"],
+      "middle": ["Focus on chemistry", "Join science club"],
+      "high": ["Prepare for Chemistry major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Amazing Chemistry Experiments", "author": "Science Discovery"}
+      ],
+      "videos": [
+        {"title": "Chemistry Experiment Videos", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum chemistry exhibit", "Experiment classes"]
+    },
+    "funFacts": [
+      "Water is made of 2 hydrogen atoms and 1 oxygen atom (H2O)",
+      "Firework colors are created using different chemicals"
+    ],
+    "tags": {
+      "interests": ["science", "chemistry", "experiment", "research"],
+      "workStyle": ["research", "analytical", "hands-on"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "forensic-scientist",
+    "name": "Forensic Scientist",
+    "emoji": "🔍",
+    "category": "thinker",
+    "description": "I use science to catch criminals! I analyze fingerprints, DNA, and clues to solve cases.",
+    "dailyWork": [
+      "09:00 - Arrive at lab",
+      "10:00 - Analyze crime scene evidence",
+      "12:00 - Lunch break",
+      "14:00 - DNA and fingerprint testing",
+      "16:00 - Write reports"
+    ],
+    "requirements": {
+      "education": "Forensic Science or Chemistry degree",
+      "skills": ["Evidence analysis", "Science knowledge", "Observation"],
+      "personality": ["Detail-oriented", "Logical", "Focused"]
+    },
+    "preparation": {
+      "elementary": ["Play detective games", "Do science experiments"],
+      "middle": ["Focus on science", "Read mystery novels"],
+      "high": ["Prepare for Forensic Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Crime Science", "author": "Mystery Tales"}
+      ],
+      "videos": [
+        {"title": "CSI Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Forensic science museum", "Detective camp"]
+    },
+    "funFacts": [
+      "No two people in the world have the same fingerprints",
+      "A single strand of hair can help catch a criminal"
+    ],
+    "tags": {
+      "interests": ["science", "analytical", "research"],
+      "workStyle": ["research", "analytical", "systematic"],
+      "environment": ["lab", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "entomologist",
+    "name": "Entomologist",
+    "emoji": "🐛",
+    "category": "thinker",
+    "description": "I study insects! I explore the world of tiny creatures like butterflies, ants, and beetles.",
+    "dailyWork": [
+      "08:00 - Field survey",
+      "10:00 - Collect insects",
+      "12:00 - Lunch break",
+      "14:00 - Organize specimens and research",
+      "16:00 - Record data"
+    ],
+    "requirements": {
+      "education": "Entomology or Biology degree",
+      "skills": ["Observation", "Research skills", "Biology knowledge"],
+      "personality": ["Curious", "Patient", "Nature lover"]
+    },
+    "preparation": {
+      "elementary": ["Observe insects", "Look at insect field guides"],
+      "middle": ["Focus on biology", "Collect insects"],
+      "high": ["Prepare for Biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Fabre's Book of Insects", "author": "Jean-Henri Fabre"}
+      ],
+      "videos": [
+        {"title": "The World of Insects", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Insect museum", "Bug collecting experience"]
+    },
+    "funFacts": [
+      "80% of all creatures on Earth are insects",
+      "Ants can lift 50 times their own body weight"
+    ],
+    "tags": {
+      "interests": ["science", "nature", "insects", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "volcanologist",
+    "name": "Volcanologist",
+    "emoji": "🌋",
+    "category": "thinker",
+    "description": "I study volcanoes and earthquakes! I predict when volcanoes will erupt to keep people safe.",
+    "dailyWork": [
+      "08:00 - Field survey",
+      "10:00 - Monitor volcano activity",
+      "12:00 - Lunch break",
+      "14:00 - Data analysis",
+      "16:00 - Prediction research"
+    ],
+    "requirements": {
+      "education": "Geology or Earth Science degree",
+      "skills": ["Field research", "Analysis", "Earth science knowledge"],
+      "personality": ["Brave", "Curious", "Adventurous"]
+    },
+    "preparation": {
+      "elementary": ["Get interested in volcanoes", "Study Earth science"],
+      "middle": ["Focus on Earth science", "Go on geology trips"],
+      "high": ["Prepare for Geology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Volcanoes", "author": "Earth Tales"}
+      ],
+      "videos": [
+        {"title": "Volcano Eruption Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Geology museum", "Volcanic region field trip"]
+    },
+    "funFacts": [
+      "There are over 1,500 active volcanoes on Earth",
+      "Volcanic ash makes excellent fertilizer for growing crops"
+    ],
+    "tags": {
+      "interests": ["science", "nature", "geology", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  }
+]

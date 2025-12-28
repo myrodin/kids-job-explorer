@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { useQuiz } from '../context/QuizContext';
 import { getJobRecommendations } from '../utils/matching';
 import { saveResult } from '../utils/storage';
@@ -14,6 +15,7 @@ const getJobIcon = (categoryId: string): string => {
 
 export function ResultPage() {
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
   const { state, resetQuiz, markResultSaved } = useQuiz();
   const [results, setResults] = useState<MatchingResult[]>([]);
   const saveAttempted = useRef(false);
@@ -24,7 +26,7 @@ export function ResultPage() {
       return;
     }
 
-    const recommendations = getJobRecommendations(state.scores);
+    const recommendations = getJobRecommendations(state.scores, i18n.language);
     setResults(recommendations);
 
     // Auto-save result only once per quiz completion
@@ -42,7 +44,7 @@ export function ResultPage() {
       });
       markResultSaved();
     }
-  }, [state.scores, state.answers, state.resultSaved, navigate, markResultSaved]);
+  }, [state.scores, state.answers, state.resultSaved, navigate, markResultSaved, i18n.language]);
 
   const [shareMessage, setShareMessage] = useState('');
 
@@ -55,14 +57,14 @@ export function ResultPage() {
     if (results.length === 0) return;
 
     const topJob = results[0];
-    const shareText = `나에게 어울리는 직업은 "${topJob.job.name}"이래요! (${topJob.matchScore}% 매칭)\n\n내 꿈 찾기에서 나만의 직업을 찾아보세요!`;
+    const shareText = t('pages:result.shareText', { jobName: topJob.job.name, score: topJob.matchScore });
     const shareUrl = window.location.origin + import.meta.env.BASE_URL;
 
     // Web Share API 지원 확인
     if (navigator.share) {
       try {
         await navigator.share({
-          title: '내 꿈 찾기 - 결과',
+          title: t('common:nav.title') + ' - ' + t('pages:result.title'),
           text: shareText,
           url: shareUrl,
         });
@@ -80,10 +82,10 @@ export function ResultPage() {
   const copyToClipboard = async (text: string) => {
     try {
       await navigator.clipboard.writeText(text);
-      setShareMessage('복사되었어요!');
+      setShareMessage(t('common:messages.copied'));
       setTimeout(() => setShareMessage(''), 2000);
     } catch {
-      setShareMessage('복사에 실패했어요');
+      setShareMessage(t('common:messages.copyFailed'));
       setTimeout(() => setShareMessage(''), 2000);
     }
   };
@@ -123,7 +125,7 @@ export function ResultPage() {
           <Icon name="trophy" size="3x" className="text-accent-600" />
         </motion.div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-          짠! 너에게 어울리는 직업은?
+          {t('pages:result.title')}
         </h1>
       </motion.div>
 
@@ -137,11 +139,11 @@ export function ResultPage() {
           <div className="flex items-center gap-2 mb-4">
             <span className="bg-primary-500 text-white px-3 py-1 rounded-full text-sm font-bold flex items-center gap-1">
               <Icon name="medal" size="sm" />
-              1등 추천
+              {t('pages:result.topRecommend')}
             </span>
             <span className="text-primary-600 font-bold text-lg flex items-center gap-1">
               <Icon name="star" size="sm" />
-              {topResult.matchScore}% 매칭!
+              {t('pages:result.matchScore', { score: topResult.matchScore })}
             </span>
           </div>
 
@@ -159,7 +161,7 @@ export function ResultPage() {
               <div className="mb-4">
                 <h3 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
                   <Icon name="lightbulb" className="text-accent-500" />
-                  너랑 잘 맞는 이유:
+                  {t('pages:result.matchReasons')}
                 </h3>
                 <ul className="space-y-1">
                   {topResult.matchReasons.map((reason, i) => (
@@ -173,7 +175,7 @@ export function ResultPage() {
 
               <Link to={`/jobs/${topResult.job.id}`}>
                 <Button variant="primary">
-                  자세히 보기
+                  {t('common:buttons.viewDetail')}
                   <Icon name="arrow-right" size="sm" />
                 </Button>
               </Link>
@@ -190,7 +192,7 @@ export function ResultPage() {
       >
         <h3 className="text-xl font-bold text-gray-700 mb-4 flex items-center gap-2">
           <Icon name="thumbs-up" className="text-secondary-500" />
-          다른 추천 직업들
+          {t('pages:result.otherJobs')}
         </h3>
 
         <StaggerContainer className="grid md:grid-cols-2 gap-8">
@@ -235,7 +237,7 @@ export function ResultPage() {
         <div className="relative">
           <Button variant="primary" onClick={handleShare} className="px-10 py-3">
             <Icon name="share" size="sm" />
-            결과 공유하기
+            {t('common:buttons.share')}
           </Button>
           {shareMessage && (
             <motion.p
@@ -253,18 +255,18 @@ export function ResultPage() {
         <div className="flex flex-wrap justify-center gap-3 mt-2">
           <Button variant="outline" onClick={handleRetry}>
             <Icon name="sync" size="sm" />
-            다시 해보기
+            {t('common:buttons.retry')}
           </Button>
           <Link to="/jobs">
             <Button variant="outline">
               <Icon name="book-open" size="sm" />
-              직업 둘러보기
+              {t('common:buttons.viewJobs')}
             </Button>
           </Link>
           <Link to="/">
             <Button variant="outline">
               <Icon name="home" size="sm" />
-              홈으로
+              {t('common:buttons.goHome')}
             </Button>
           </Link>
         </div>
@@ -278,7 +280,7 @@ export function ResultPage() {
         className="text-center text-gray-400 text-sm mt-8 flex items-center justify-center gap-2"
       >
         <Icon name="circle-check" className="text-green-500" />
-        결과가 자동으로 저장되었어요!
+        {t('common:messages.savedAuto')}
       </motion.p>
     </div>
   );

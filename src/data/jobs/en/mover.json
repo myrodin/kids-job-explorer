@@ -1,0 +1,554 @@
+[
+  {
+    "id": "pro-gamer",
+    "name": "Pro Gamer",
+    "emoji": "🎮",
+    "category": "mover",
+    "description": "I compete in gaming tournaments as a professional player. My goal is to win championships around the world!",
+    "dailyWork": [
+      "10:00 - Wake up at team house",
+      "11:00 - Team practice begins",
+      "13:00 - Lunch break",
+      "14:00 - Individual practice and game analysis",
+      "22:00 - Practice ends"
+    ],
+    "requirements": {
+      "education": "No degree required (skill-based career)",
+      "skills": ["Gaming skills", "Teamwork", "Fast reflexes"],
+      "personality": ["Competitive spirit", "Patience", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Develop interest in games", "Practice fundamentals"],
+      "middle": ["Participate in amateur tournaments", "Join a team"],
+      "high": ["Try out for professional teams"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Dreaming of Being a Pro Gamer", "author": "Esports Stories"}
+      ],
+      "videos": [
+        {"title": "A Day of a Pro Gamer", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Watch gaming tournaments", "Join amateur competitions"]
+    },
+    "funFacts": [
+      "Top pro gamers can earn millions of dollars a year",
+      "Pro gamers practice more than 10 hours every day"
+    ],
+    "tags": {
+      "interests": ["game", "tech", "action"],
+      "workStyle": ["team", "action", "analytical"],
+      "environment": ["indoor", "office"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "youtuber",
+    "name": "YouTube Creator",
+    "emoji": "📹",
+    "category": "mover",
+    "description": "I make fun videos on YouTube. I share my content with subscribers from all around the world!",
+    "dailyWork": [
+      "10:00 - Planning and brainstorming ideas",
+      "12:00 - Prepare for filming",
+      "13:00 - Lunch break",
+      "14:00 - Filming",
+      "16:00 - Video editing"
+    ],
+    "requirements": {
+      "education": "No degree required",
+      "skills": ["Video production", "Communication", "Creative ideas"],
+      "personality": ["Creative", "Persistent", "Relatable"]
+    },
+    "preparation": {
+      "elementary": ["Make simple videos", "Practice presenting"],
+      "middle": ["Start your own channel", "Learn video editing"],
+      "high": ["Develop content planning skills"]
+    },
+    "resources": {
+      "books": [
+        {"title": "I Want to Be a YouTuber!", "author": "Media Stories"}
+      ],
+      "videos": [
+        {"title": "YouTuber Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Video making camps", "Creator festivals"]
+    },
+    "funFacts": [
+      "Reaching 10 million subscribers earns you a Diamond Play Button",
+      "The most watched video on YouTube has over 10 billion views"
+    ],
+    "tags": {
+      "interests": ["media", "creative", "social"],
+      "workStyle": ["creative", "solo", "action"],
+      "environment": ["studio", "outdoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "stuntman",
+    "name": "Stuntman",
+    "emoji": "🦸",
+    "category": "mover",
+    "description": "I perform dangerous action scenes in movies. I do explosions, jumps, and fight scenes for the camera!",
+    "dailyWork": [
+      "06:00 - Arrive at film set",
+      "07:00 - Prepare and rehearse stunts",
+      "09:00 - Filming",
+      "12:00 - Lunch break",
+      "14:00 - Afternoon filming"
+    ],
+    "requirements": {
+      "education": "Action school or martial arts training",
+      "skills": ["Martial arts", "Physical fitness", "Safety awareness"],
+      "personality": ["Brave", "Calm under pressure", "Athletic"]
+    },
+    "preparation": {
+      "elementary": ["Learn martial arts", "Build physical strength"],
+      "middle": ["Train in various martial arts", "Interest in action films"],
+      "high": ["Enroll in action school"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Stuntmen", "author": "Action Stories"}
+      ],
+      "videos": [
+        {"title": "Behind the Scenes of Stunts", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Martial arts dojo", "Action experience programs"]
+    },
+    "funFacts": [
+      "Stuntmen prepare carefully so they never get hurt",
+      "They use mattresses and wires to film safely"
+    ],
+    "tags": {
+      "interests": ["action", "physical", "performance"],
+      "workStyle": ["action", "hands-on", "team"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "sports-trainer",
+    "name": "Sports Trainer",
+    "emoji": "💪",
+    "category": "mover",
+    "description": "I help athletes stay in top condition. I prevent injuries and guide their fitness training!",
+    "dailyWork": [
+      "07:00 - Arrive at training center",
+      "08:00 - Check athlete conditions",
+      "10:00 - Guide training sessions",
+      "12:00 - Lunch break",
+      "14:00 - Rehabilitation exercise guidance"
+    ],
+    "requirements": {
+      "education": "Physical Education or Sports Medicine degree",
+      "skills": ["Exercise knowledge", "Rehabilitation skills", "Communication"],
+      "personality": ["Athletic", "Patient", "Encouraging"]
+    },
+    "preparation": {
+      "elementary": ["Enjoy exercise", "Interest in the body"],
+      "middle": ["Try various sports", "Focus on physical education"],
+      "high": ["Prepare for Physical Education major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Becoming a Sports Trainer", "author": "Sports Stories"}
+      ],
+      "videos": [
+        {"title": "Trainer Daily Life", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Gym experience", "Sports center tour"]
+    },
+    "funFacts": [
+      "Professional athletes have dedicated personal trainers",
+      "Trainers arrive before the athletes do"
+    ],
+    "tags": {
+      "interests": ["physical", "helper", "sports"],
+      "workStyle": ["caring", "hands-on", "teaching"],
+      "environment": ["gym", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "taekwondo-master",
+    "name": "Taekwondo Master",
+    "emoji": "🥋",
+    "category": "mover",
+    "description": "I teach Taekwondo. I don't just teach kicks and punches - I also teach respect and discipline!",
+    "dailyWork": [
+      "14:00 - Arrive at dojo",
+      "15:00 - Teach preschool class",
+      "17:00 - Teach elementary class",
+      "19:00 - Teach adult class",
+      "21:00 - Clean up dojo"
+    ],
+    "requirements": {
+      "education": "Physical Education or Taekwondo degree",
+      "skills": ["Taekwondo techniques", "Teaching ability", "Leadership"],
+      "personality": ["Disciplined", "Patient", "Encouraging"]
+    },
+    "preparation": {
+      "elementary": ["Learn Taekwondo", "Practice forms (poomsae)"],
+      "middle": ["Earn black belt ranks", "Compete in tournaments"],
+      "high": ["Prepare for Taekwondo major", "Get instructor certification"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Spirit of Taekwondo", "author": "Martial Arts Stories"}
+      ],
+      "videos": [
+        {"title": "Taekwondo Demonstration", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Taekwondo dojo", "Taekwondo tournaments"]
+    },
+    "funFacts": [
+      "Taekwondo is a martial art that started in Korea",
+      "It is an official Olympic sport"
+    ],
+    "tags": {
+      "interests": ["physical", "teaching", "sports"],
+      "workStyle": ["teaching", "leadership", "hands-on"],
+      "environment": ["indoor", "gym"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "swim-coach",
+    "name": "Swim Coach",
+    "emoji": "🏊",
+    "category": "mover",
+    "description": "I teach swimming. I help people overcome their fear of water and learn different swimming strokes!",
+    "dailyWork": [
+      "06:00 - Arrive at pool (early morning class)",
+      "07:00 - Adult lessons",
+      "09:00 - Children's lessons",
+      "12:00 - Lunch break",
+      "14:00 - Afternoon lessons"
+    ],
+    "requirements": {
+      "education": "Sports Education degree or swimming certification",
+      "skills": ["Swimming techniques", "Teaching ability", "Safety management"],
+      "personality": ["Patient", "Athletic", "Kind"]
+    },
+    "preparation": {
+      "elementary": ["Learn to swim", "Get comfortable in water"],
+      "middle": ["Master different swimming strokes"],
+      "high": ["Get swimming instructor certification"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Swim Well", "author": "Sports Stories"}
+      ],
+      "videos": [
+        {"title": "Learn to Swim", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Swimming pool activities", "Swimming competitions"]
+    },
+    "funFacts": [
+      "Babies are born with a natural instinct to swim",
+      "Swimming is a full-body workout that's great for fitness"
+    ],
+    "tags": {
+      "interests": ["physical", "teaching", "sports"],
+      "workStyle": ["teaching", "caring", "hands-on"],
+      "environment": ["indoor", "pool"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "emoji": "👨‍🍳",
+    "category": "mover",
+    "description": "I cook delicious food. I create amazing dishes for guests at restaurants!",
+    "dailyWork": [
+      "09:00 - Arrive at kitchen",
+      "10:00 - Prepare ingredients",
+      "11:00 - Get ready for lunch service",
+      "12:00 - Lunch service",
+      "18:00 - Dinner service"
+    ],
+    "requirements": {
+      "education": "Culinary school or cooking academy",
+      "skills": ["Cooking techniques", "Taste sense", "Hygiene management"],
+      "personality": ["Creative", "Athletic", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Interest in cooking", "Cooking experiences"],
+      "middle": ["Learn cooking", "Taste different foods"],
+      "high": ["Prepare for culinary school", "Get cooking certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Chef's Dream", "author": "Cooking Stories"}
+      ],
+      "videos": [
+        {"title": "Chef Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Cooking classes", "Restaurant experiences"]
+    },
+    "funFacts": [
+      "A Michelin star is the highest honor for a chef",
+      "The taller the chef's hat, the more experience they have"
+    ],
+    "tags": {
+      "interests": ["cooking", "creative", "action"],
+      "workStyle": ["creative", "hands-on", "team"],
+      "environment": ["indoor", "kitchen"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "patissier",
+    "name": "Pastry Chef",
+    "emoji": "🍰",
+    "category": "mover",
+    "description": "I make cakes and desserts. I create sweet and beautiful treats that taste amazing!",
+    "dailyWork": [
+      "05:00 - Arrive at bakery (baking bread)",
+      "08:00 - Cake decorating",
+      "12:00 - Lunch break",
+      "13:00 - Afternoon work",
+      "18:00 - Clean up"
+    ],
+    "requirements": {
+      "education": "Pastry and baking school or academy",
+      "skills": ["Baking", "Decoration", "Taste sense"],
+      "personality": ["Delicate", "Creative", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Make cookies", "Baking experiences"],
+      "middle": ["Learn pastry making"],
+      "high": ["Get pastry and baking certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Become a Pastry Chef", "author": "Baking Stories"}
+      ],
+      "videos": [
+        {"title": "Making Cakes", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Baking classes", "Bakery visits"]
+    },
+    "funFacts": [
+      "A single French macaron takes 3 days to make",
+      "Some wedding cakes can cost thousands of dollars"
+    ],
+    "tags": {
+      "interests": ["cooking", "creative", "art"],
+      "workStyle": ["creative", "hands-on", "systematic"],
+      "environment": ["indoor", "kitchen"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "firefighter",
+    "name": "Firefighter",
+    "emoji": "🚒",
+    "category": "mover",
+    "description": "I put out fires and rescue people. I bravely respond to fires and disasters to save lives!",
+    "dailyWork": [
+      "08:00 - Arrive at fire station, check equipment",
+      "09:00 - Training",
+      "12:00 - Lunch break",
+      "14:00 - Stand by for calls",
+      "24-hour rotating shifts"
+    ],
+    "requirements": {
+      "education": "Pass firefighter civil service exam",
+      "skills": ["Physical fitness", "First aid", "Equipment operation"],
+      "personality": ["Brave", "Athletic", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Build physical strength", "Visit fire station"],
+      "middle": ["Physical training", "Volunteer work"],
+      "high": ["Prepare for firefighter exam"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Brave Firefighter", "author": "Career Stories"}
+      ],
+      "videos": [
+        {"title": "A Firefighter's Day", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Fire station tour", "Safety experience center"]
+    },
+    "funFacts": [
+      "A firefighter's gear weighs over 45 pounds",
+      "Firefighters do rescues, not just fight fires"
+    ],
+    "tags": {
+      "interests": ["helper", "action", "physical"],
+      "workStyle": ["action", "team", "hands-on"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "police-officer",
+    "name": "Police Officer",
+    "emoji": "👮",
+    "category": "mover",
+    "description": "I protect citizens and prevent crime. I'm a guardian who keeps our community safe!",
+    "dailyWork": [
+      "08:00 - Arrive at police station, briefing",
+      "09:00 - Patrol and respond to calls",
+      "12:00 - Lunch break",
+      "14:00 - Investigate cases or patrol",
+      "Rotating shifts"
+    ],
+    "requirements": {
+      "education": "Pass police civil service exam",
+      "skills": ["Physical fitness", "Law knowledge", "Judgment"],
+      "personality": ["Sense of justice", "Responsible", "Athletic"]
+    },
+    "preparation": {
+      "elementary": ["Build physical strength", "Live honestly"],
+      "middle": ["Physical training", "Study social studies"],
+      "high": ["Prepare for police exam"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day of a Police Officer", "author": "Career Stories"}
+      ],
+      "videos": [
+        {"title": "Police Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Police station tour", "Safety education"]
+    },
+    "funFacts": [
+      "911 is the emergency call number",
+      "Police dogs receive special training too"
+    ],
+    "tags": {
+      "interests": ["helper", "action", "physical"],
+      "workStyle": ["action", "leadership", "team"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "dance-choreographer",
+    "name": "Choreographer",
+    "emoji": "💃",
+    "category": "mover",
+    "description": "I create dance moves. I design the cool dances you see K-POP idols perform!",
+    "dailyWork": [
+      "11:00 - Arrive at practice studio",
+      "12:00 - Brainstorm choreography",
+      "13:00 - Lunch break",
+      "14:00 - Practice and teach choreography",
+      "20:00 - Finish work"
+    ],
+    "requirements": {
+      "education": "Dance major or proven skills",
+      "skills": ["Dance skills", "Creativity", "Teaching ability"],
+      "personality": ["Creative", "Athletic", "Leadership"]
+    },
+    "preparation": {
+      "elementary": ["Learn to dance", "Try different dance styles"],
+      "middle": ["Join dance clubs", "Compete in dance competitions"],
+      "high": ["Dance major or dance academy"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Choreographers", "author": "Dance Stories"}
+      ],
+      "videos": [
+        {"title": "How Choreography is Made", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Dance academy", "K-POP dance classes"]
+    },
+    "funFacts": [
+      "The BTS 'Dynamite' dance was copied by people all around the world",
+      "Choreographers express music through body movement"
+    ],
+    "tags": {
+      "interests": ["art", "physical", "music", "performance"],
+      "workStyle": ["creative", "hands-on", "teaching"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "flight-attendant",
+    "name": "Flight Attendant",
+    "emoji": "✈️",
+    "category": "mover",
+    "description": "I take care of passengers on airplanes. I help make their journey safe and comfortable!",
+    "dailyWork": [
+      "2 hours before departure - Arrive at airport",
+      "Before boarding - Pre-flight briefing",
+      "During flight - Passenger service",
+      "After landing - Safety check",
+      "After flight - Report"
+    ],
+    "requirements": {
+      "education": "Aviation Service degree or language skills",
+      "skills": ["Service mindset", "Foreign languages", "First aid"],
+      "personality": ["Friendly", "Athletic", "Calm under pressure"]
+    },
+    "preparation": {
+      "elementary": ["Interest in foreign languages", "Service mindset"],
+      "middle": ["Study English", "Learn proper manners"],
+      "high": ["Prepare for Aviation Service major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day of a Flight Attendant", "author": "Aviation Stories"}
+      ],
+      "videos": [
+        {"title": "Flight Attendant Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Flying experience", "Airline tours"]
+    },
+    "funFacts": [
+      "Flight attendants must help passengers escape during emergencies",
+      "You get to travel all around the world"
+    ],
+    "tags": {
+      "interests": ["helper", "social", "action"],
+      "workStyle": ["caring", "action", "team"],
+      "environment": ["airplane", "outdoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  }
+]

@@ -1,9 +1,10 @@
-import { createContext, useContext, useReducer } from 'react';
+import { createContext, useContext, useReducer, useMemo } from 'react';
 import type { ReactNode } from 'react';
+import { useTranslation } from 'react-i18next';
 import type { Question, Answer, UserScores, QuizState } from '../types';
 import questionsData from '../data/questions.json';
 
-const questions = questionsData as Question[];
+const baseQuestions = questionsData as Question[];
 
 type QuizAction =
   | { type: 'START_QUIZ' }
@@ -56,7 +57,7 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
       }
 
       // Calculate scores from the answer
-      const currentQuestion = questions.find((q) => q.id === payload.questionId);
+      const currentQuestion = baseQuestions.find((q) => q.id === payload.questionId);
       let newScores = { ...state.scores };
 
       if (currentQuestion) {
@@ -80,8 +81,8 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
     case 'NEXT_QUESTION': {
       const nextIndex = state.currentQuestionIndex + 1;
 
-      // Filter questions based on conditions
-      const availableQuestions = getAvailableQuestions(state.scores);
+      // Filter questions based on conditions (using base questions for structure)
+      const availableQuestions = getAvailableQuestionsBase(state.scores);
 
       if (nextIndex >= availableQuestions.length) {
         return { ...state, isComplete: true };
@@ -98,7 +99,7 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
     case 'PREV_QUESTION': {
       if (state.currentQuestionIndex <= 0) return state;
       const prevIndex = state.currentQuestionIndex - 1;
-      const prevQuestion = questions[prevIndex];
+      const prevQuestion = baseQuestions[prevIndex];
       return {
         ...state,
         currentQuestionIndex: prevIndex,
@@ -120,8 +121,18 @@ function quizReducer(state: QuizState, action: QuizAction): QuizState {
   }
 }
 
-function getAvailableQuestions(scores: UserScores): Question[] {
-  return questions.filter((question) => {
+// Used inside reducer (no translation needed, just structure)
+function getAvailableQuestionsBase(scores: UserScores): Question[] {
+  return baseQuestions.filter((question) => {
+    if (!question.condition) return true;
+    const { tag, minScore } = question.condition;
+    return (scores[tag] || 0) >= minScore;
+  });
+}
+
+// Used in provider (with translations)
+function getAvailableQuestions(scores: UserScores, translatedQuestions: Question[]): Question[] {
+  return translatedQuestions.filter((question) => {
     if (!question.condition) return true;
     const { tag, minScore } = question.condition;
     return (scores[tag] || 0) >= minScore;
@@ -132,8 +143,21 @@ const QuizContext = createContext<QuizContextType | undefined>(undefined);
 
 export function QuizProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(quizReducer, initialState);
+  const { t } = useTranslation('questions');
 
-  const availableQuestions = getAvailableQuestions(state.scores);
+  // Translate questions based on current language
+  const translatedQuestions = useMemo(() => {
+    return baseQuestions.map((q) => ({
+      ...q,
+      text: t(`${q.id}.text`, { defaultValue: q.text }),
+      options: q.options.map((opt) => ({
+        ...opt,
+        text: t(`${q.id}.options.${opt.id}`, { defaultValue: opt.text }),
+      })),
+    }));
+  }, [t]);
+
+  const availableQuestions = getAvailableQuestions(state.scores, translatedQuestions);
   const currentQuestion = availableQuestions[state.currentQuestionIndex] || null;
 
   const answerQuestion = (selectedOptionIds: string[], scaleValue?: number) => {

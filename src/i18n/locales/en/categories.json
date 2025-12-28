@@ -1,0 +1,34 @@
+{
+  "helper": {
+    "name": "Helping Others",
+    "description": "Jobs that help and care for other people"
+  },
+  "builder": {
+    "name": "Building & Fixing",
+    "description": "Jobs that make and repair things by hand"
+  },
+  "thinker": {
+    "name": "Thinking & Research",
+    "description": "Jobs that discover and research new things"
+  },
+  "artist": {
+    "name": "Art & Design",
+    "description": "Jobs that create and express beautiful things"
+  },
+  "mover": {
+    "name": "Active & Physical",
+    "description": "Jobs that involve lots of movement"
+  },
+  "communicator": {
+    "name": "Communication",
+    "description": "Jobs that share stories and information"
+  },
+  "nature": {
+    "name": "Nature & Animals",
+    "description": "Jobs working with animals, plants, and nature"
+  },
+  "tech": {
+    "name": "Technology",
+    "description": "Jobs using computers and technology"
+  }
+}

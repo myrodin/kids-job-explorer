@@ -1,0 +1,554 @@
+[
+  {
+    "id": "zoo-vet",
+    "name": "Zoo Veterinarian",
+    "emoji": "🦁",
+    "category": "nature",
+    "description": "I take care of zoo animals. I treat all kinds of animals from elephants to penguins!",
+    "dailyWork": [
+      "08:00 - Arrive at the zoo",
+      "09:00 - Check animals' health",
+      "12:00 - Lunch break",
+      "14:00 - Treatments and surgeries",
+      "16:00 - Meet with zookeepers"
+    ],
+    "requirements": {
+      "education": "Veterinary school graduate with wildlife specialty",
+      "skills": ["Animal treatment", "Wildlife knowledge", "Physical stamina"],
+      "personality": ["Animal lover", "Brave", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Visit zoos", "Observe animals"],
+      "middle": ["Study biology", "Volunteer with animals"],
+      "high": ["Prepare for veterinary school"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Zoo Vet Adventures", "author": "Animal Stories"}
+      ],
+      "videos": [
+        {"title": "A Day in the Life of a Zoo Vet", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Zoo experiences", "Animal volunteering"]
+    },
+    "funFacts": [
+      "Taking an elephant's temperature requires special methods",
+      "Zoo animals get health checkups just like us"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "science", "helper"],
+      "workStyle": ["caring", "hands-on", "analytical"],
+      "environment": ["zoo", "outdoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "marine-rescue",
+    "name": "Marine Rescue Team",
+    "emoji": "🌊",
+    "category": "nature",
+    "description": "I rescue people and animals in the ocean. I'm an excellent swimmer and diver!",
+    "dailyWork": [
+      "08:00 - Arrive at rescue station",
+      "09:00 - Equipment check and training",
+      "12:00 - Lunch break",
+      "14:00 - Beach patrol",
+      "On standby for emergencies"
+    ],
+    "requirements": {
+      "education": "Coast Guard or Marine Rescue certification",
+      "skills": ["Swimming", "Diving", "First aid"],
+      "personality": ["Brave", "Strong", "Calm under pressure"]
+    },
+    "preparation": {
+      "elementary": ["Learn swimming", "Get familiar with the ocean"],
+      "middle": ["Improve swimming skills", "Build physical fitness"],
+      "high": ["Get marine-related certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Ocean Heroes", "author": "Marine Stories"}
+      ],
+      "videos": [
+        {"title": "Marine Rescue Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Beach safety education", "Swim training"]
+    },
+    "funFacts": [
+      "Marine rescuers can swim even in big waves",
+      "Dolphins sometimes help rescue people too"
+    ],
+    "tags": {
+      "interests": ["nature", "action", "helper", "marine"],
+      "workStyle": ["action", "hands-on", "team"],
+      "environment": ["ocean", "outdoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "dog-trainer",
+    "name": "Dog Trainer",
+    "emoji": "🐕",
+    "category": "nature",
+    "description": "I train dogs! From basic commands like sit and stay to special training for service dogs!",
+    "dailyWork": [
+      "09:00 - Arrive at training center",
+      "10:00 - Individual training sessions",
+      "12:00 - Lunch break",
+      "14:00 - Group training classes",
+      "17:00 - Meet with pet owners"
+    ],
+    "requirements": {
+      "education": "Pet studies degree or trainer certification",
+      "skills": ["Animal behavior understanding", "Patience", "Training techniques"],
+      "personality": ["Animal lover", "Patient", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Have a pet", "Observe animals"],
+      "middle": ["Read animal behavior books"],
+      "high": ["Get trainer certification"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Dog Training Secrets", "author": "Animal Stories"}
+      ],
+      "videos": [
+        {"title": "Dog Training Tips", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Pet cafe visits", "Training center experience"]
+    },
+    "funFacts": [
+      "Dogs learn better when they get lots of praise",
+      "Police dogs and guide dogs are trained by professional trainers"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "teaching", "pets"],
+      "workStyle": ["teaching", "hands-on", "caring"],
+      "environment": ["outdoor", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "animal-behaviorist",
+    "name": "Animal Behaviorist",
+    "emoji": "🐘",
+    "category": "nature",
+    "description": "I study animal behavior. I scientifically analyze why animals act the way they do!",
+    "dailyWork": [
+      "08:00 - Field work or lab research",
+      "09:00 - Observe animals",
+      "12:00 - Lunch break",
+      "14:00 - Analyze data",
+      "16:00 - Write research reports"
+    ],
+    "requirements": {
+      "education": "Animal behavior or biology degree",
+      "skills": ["Observation", "Analysis", "Research abilities"],
+      "personality": ["Patient", "Curious", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Observe animals", "Watch animal documentaries"],
+      "middle": ["Study biology", "Keep observation journals"],
+      "high": ["Prepare for biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Animal Behavior", "author": "Animal Science"}
+      ],
+      "videos": [
+        {"title": "Animal Behavior Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Zoo observations", "Nature field trips"]
+    },
+    "funFacts": [
+      "Chimpanzees use tools just like humans",
+      "Ants farm crops and raise livestock too"
+    ],
+    "tags": {
+      "interests": ["animals", "science", "nature", "research"],
+      "workStyle": ["research", "analytical", "solo"],
+      "environment": ["outdoor", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "environmental-activist",
+    "name": "Environmental Activist",
+    "emoji": "🌍",
+    "category": "nature",
+    "description": "I protect Earth's environment. I spread awareness about environmental issues and create change!",
+    "dailyWork": [
+      "09:00 - Arrive at office",
+      "10:00 - Plan campaigns",
+      "12:00 - Lunch break",
+      "14:00 - Field activities or presentations",
+      "17:00 - Social media campaigns"
+    ],
+    "requirements": {
+      "education": "Environmental studies or related experience",
+      "skills": ["Planning", "Communication", "Environmental knowledge"],
+      "personality": ["Passionate", "Responsible", "Takes action"]
+    },
+    "preparation": {
+      "elementary": ["Care about the environment", "Practice recycling"],
+      "middle": ["Join environmental clubs", "Participate in campaigns"],
+      "high": ["Prepare for environmental studies major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Protecting Our Earth", "author": "Environmental Stories"}
+      ],
+      "videos": [
+        {"title": "Environmental Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Environmental camps", "Beach cleanups"]
+    },
+    "funFacts": [
+      "Greta Thunberg started environmental activism at age 15",
+      "One plastic straw can harm sea turtles"
+    ],
+    "tags": {
+      "interests": ["nature", "communication", "helper"],
+      "workStyle": ["leadership", "action", "teaching"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "botanist",
+    "name": "Botanist",
+    "emoji": "🌱",
+    "category": "nature",
+    "description": "I study plants. I discover new plants and analyze their special features!",
+    "dailyWork": [
+      "08:00 - Lab or field research",
+      "09:00 - Collect plants or run experiments",
+      "12:00 - Lunch break",
+      "14:00 - Analysis and research",
+      "16:00 - Write research papers"
+    ],
+    "requirements": {
+      "education": "Botany or biology degree",
+      "skills": ["Observation", "Research abilities", "Plant knowledge"],
+      "personality": ["Patient", "Curious", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Grow plants", "Observe plants"],
+      "middle": ["Study biology", "Visit botanical gardens"],
+      "high": ["Prepare for biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Plants", "author": "Nature Stories"}
+      ],
+      "videos": [
+        {"title": "Plant Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Botanical garden visits", "Forest exploration"]
+    },
+    "funFacts": [
+      "There are still tens of thousands of undiscovered plants",
+      "Some plants only bloom once every 100 years"
+    ],
+    "tags": {
+      "interests": ["nature", "science", "research"],
+      "workStyle": ["research", "hands-on", "analytical"],
+      "environment": ["outdoor", "lab"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "smart-farmer",
+    "name": "Smart Farmer",
+    "emoji": "🌾",
+    "category": "nature",
+    "description": "I farm using high-tech technology. I manage crops with computers and sensors!",
+    "dailyWork": [
+      "06:00 - Arrive at farm",
+      "07:00 - Check systems",
+      "09:00 - Manage crops",
+      "12:00 - Lunch break",
+      "14:00 - Analyze data and adjust settings"
+    ],
+    "requirements": {
+      "education": "Agriculture or IT combined studies",
+      "skills": ["Farming knowledge", "IT skills", "Data analysis"],
+      "personality": ["Detail-oriented", "Innovative", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Grow plants", "Be interested in technology"],
+      "middle": ["Study science", "Learn coding"],
+      "high": ["Study agriculture or IT"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Future Farming", "author": "Agriculture Stories"}
+      ],
+      "videos": [
+        {"title": "Introduction to Smart Farms", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Smart farm tours", "Farm experiences"]
+    },
+    "funFacts": [
+      "Smart farms can grow crops even in tall buildings",
+      "LED lights can replace sunlight to grow vegetables"
+    ],
+    "tags": {
+      "interests": ["nature", "tech", "science"],
+      "workStyle": ["analytical", "hands-on", "systematic"],
+      "environment": ["farm", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "landscape-architect",
+    "name": "Landscape Architect",
+    "emoji": "🏞️",
+    "category": "nature",
+    "description": "I design parks and gardens. I create beautiful spaces that blend with nature!",
+    "dailyWork": [
+      "09:00 - Arrive at office",
+      "10:00 - Design work",
+      "12:00 - Lunch break",
+      "14:00 - Site visits",
+      "16:00 - Client meetings"
+    ],
+    "requirements": {
+      "education": "Landscape architecture degree",
+      "skills": ["Design", "Plant knowledge", "Planning abilities"],
+      "personality": ["Artistic sense", "Creative", "Nature lover"]
+    },
+    "preparation": {
+      "elementary": ["Play in parks", "Observe nature"],
+      "middle": ["Study art", "Be interested in gardens"],
+      "high": ["Prepare for landscape architecture major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Garden Design", "author": "Landscape Stories"}
+      ],
+      "videos": [
+        {"title": "A Day as a Landscape Architect", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Botanical garden visits", "Park explorations"]
+    },
+    "funFacts": [
+      "Traditional palace gardens are a type of landscape design",
+      "Urban forests help reduce air pollution"
+    ],
+    "tags": {
+      "interests": ["nature", "art", "architecture"],
+      "workStyle": ["creative", "analytical", "hands-on"],
+      "environment": ["outdoor", "office"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "wildlife-ranger",
+    "name": "Wildlife Ranger",
+    "emoji": "🦌",
+    "category": "nature",
+    "description": "I protect wild animals. I stop poachers and keep animals safe in their homes!",
+    "dailyWork": [
+      "06:00 - Patrol protected areas",
+      "09:00 - Monitor animals",
+      "12:00 - Lunch break",
+      "14:00 - Anti-poaching activities",
+      "17:00 - Write reports"
+    ],
+    "requirements": {
+      "education": "Environmental or wildlife studies degree",
+      "skills": ["Wildlife knowledge", "Physical fitness", "Tracking skills"],
+      "personality": ["Brave", "Animal lover", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Care about animals", "Explore nature"],
+      "middle": ["Study biology", "Go camping"],
+      "high": ["Prepare for environmental studies major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Wildlife Ranger Adventures", "author": "Nature Stories"}
+      ],
+      "videos": [
+        {"title": "Wildlife Ranger Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Nature field trips", "Wildlife watching"]
+    },
+    "funFacts": [
+      "Rangers in Africa protect elephants from poachers",
+      "Sometimes they have to fight against illegal hunters"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "action", "wildlife"],
+      "workStyle": ["action", "hands-on", "solo"],
+      "environment": ["outdoor", "nature"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "aquarist",
+    "name": "Aquarist",
+    "emoji": "🐠",
+    "category": "nature",
+    "description": "I take care of fish and sea creatures in aquariums. I manage the tank environments!",
+    "dailyWork": [
+      "08:00 - Arrive at aquarium",
+      "09:00 - Check and clean tanks",
+      "11:00 - Feeding time",
+      "12:00 - Lunch break",
+      "14:00 - Check animal health"
+    ],
+    "requirements": {
+      "education": "Marine biology or related experience",
+      "skills": ["Marine life knowledge", "Water quality management", "Observation"],
+      "personality": ["Detail-oriented", "Animal lover", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Visit aquariums", "Keep fish at home"],
+      "middle": ["Study marine life"],
+      "high": ["Prepare for marine biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of the Aquarium", "author": "Ocean Stories"}
+      ],
+      "videos": [
+        {"title": "A Day as an Aquarist", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Aquarium tours", "Snorkeling"]
+    },
+    "funFacts": [
+      "Cleaning shark tanks requires special training",
+      "Jellyfish are 97% water"
+    ],
+    "tags": {
+      "interests": ["animals", "marine", "nature"],
+      "workStyle": ["caring", "hands-on", "systematic"],
+      "environment": ["aquarium", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "insect-breeder",
+    "name": "Insect Breeder",
+    "emoji": "🦗",
+    "category": "nature",
+    "description": "I raise and study insects. I breed edible insects and pet insects!",
+    "dailyWork": [
+      "08:00 - Arrive at breeding facility",
+      "09:00 - Check insect conditions",
+      "10:00 - Feeding and environment care",
+      "12:00 - Lunch break",
+      "14:00 - Manage breeding"
+    ],
+    "requirements": {
+      "education": "Entomology or biology degree",
+      "skills": ["Insect knowledge", "Breeding techniques", "Observation"],
+      "personality": ["Loves insects", "Detail-oriented", "Patient"]
+    },
+    "preparation": {
+      "elementary": ["Observe insects", "Raise beetles"],
+      "middle": ["Collect insects", "Gain breeding experience"],
+      "high": ["Prepare for biology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Raising Insects", "author": "Insect Stories"}
+      ],
+      "videos": [
+        {"title": "Insect Breeding Videos", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Insect museums", "Bug collecting trips"]
+    },
+    "funFacts": [
+      "Insects are being studied as future food sources",
+      "Caterpillars are rich in protein"
+    ],
+    "tags": {
+      "interests": ["nature", "insects", "science"],
+      "workStyle": ["caring", "hands-on", "research"],
+      "environment": ["farm", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "forest-ranger",
+    "name": "Forest Ranger",
+    "emoji": "🌲",
+    "category": "nature",
+    "description": "I protect forests and teach people about nature. I also help prevent forest fires!",
+    "dailyWork": [
+      "08:00 - Arrive at national park",
+      "09:00 - Patrol the forest",
+      "11:00 - Nature education programs",
+      "12:00 - Lunch break",
+      "14:00 - Forest management"
+    ],
+    "requirements": {
+      "education": "Forestry or environmental studies degree",
+      "skills": ["Forest knowledge", "Teaching skills", "Physical fitness"],
+      "personality": ["Nature lover", "Strong", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Play in forests", "Observe trees"],
+      "middle": ["Go hiking", "Study nature"],
+      "high": ["Prepare for forestry major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of the Forest", "author": "Nature Stories"}
+      ],
+      "videos": [
+        {"title": "A Day as a Forest Ranger", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Forest programs", "National park visits"]
+    },
+    "funFacts": [
+      "One tree absorbs about 48 pounds of carbon dioxide per year",
+      "Forests cover about 63% of Korea's land"
+    ],
+    "tags": {
+      "interests": ["nature", "teaching", "outdoor"],
+      "workStyle": ["teaching", "action", "hands-on"],
+      "environment": ["outdoor", "forest"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  }
+]

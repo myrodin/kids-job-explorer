@@ -1,0 +1,174 @@
+{
+  "q1": {
+    "text": "If you had a magic wand, what would you do?",
+    "options": {
+      "q1-1": "I'd heal sick people",
+      "q1-2": "I'd build an amazing castle or robot",
+      "q1-3": "I'd travel to space",
+      "q1-4": "I'd talk to animals"
+    }
+  },
+  "q2": {
+    "text": "What's your favorite thing to do on weekends?",
+    "options": {
+      "q2-1": "Play with friends",
+      "q2-2": "Play games or read books alone",
+      "q2-3": "Play outside and run around",
+      "q2-4": "Draw or make things"
+    }
+  },
+  "q3": {
+    "text": "What do you do during group projects at school?",
+    "options": {
+      "q3-1": "I lead the group and present",
+      "q3-2": "I research and organize information",
+      "q3-3": "I make drawings or presentations",
+      "q3-4": "I quietly do my part"
+    }
+  },
+  "q4": {
+    "text": "What do you do when you get a new toy?",
+    "options": {
+      "q4-1": "I take it apart to see inside",
+      "q4-2": "I read the instructions carefully first",
+      "q4-3": "I just start pressing buttons and playing",
+      "q4-4": "I go show it to my friends"
+    }
+  },
+  "q5": {
+    "text": "What do you watch most on YouTube?",
+    "options": {
+      "q5-1": "Gaming videos",
+      "q5-2": "Science experiments",
+      "q5-3": "Cooking/crafting videos",
+      "q5-4": "Animal videos",
+      "q5-5": "Vlogs/mukbang",
+      "q5-6": "Animation/webtoons"
+    }
+  },
+  "q6": {
+    "text": "What do you really dislike?",
+    "options": {
+      "q6-1": "Sitting still for a long time",
+      "q6-2": "Presenting in front of many people",
+      "q6-3": "Being alone",
+      "q6-4": "Doing the same thing over and over"
+    }
+  },
+  "q7": {
+    "text": "What are you good at?",
+    "options": {
+      "q7-1": "Drawing",
+      "q7-2": "Sports/P.E.",
+      "q7-3": "Solving math problems",
+      "q7-4": "Writing/storytelling",
+      "q7-5": "Computers/games",
+      "q7-6": "Helping friends",
+      "q7-7": "Making new things",
+      "q7-8": "Taking care of plants and animals"
+    }
+  },
+  "q8": {
+    "text": "In your dreams, what would you become?",
+    "options": {
+      "q8-1": "A hero who saves people",
+      "q8-2": "A scientist who invents amazing things",
+      "q8-3": "A famous person who meets fans",
+      "q8-4": "A wizard exploring magical worlds"
+    }
+  },
+  "q9": {
+    "text": "Where do you prefer to be?",
+    "options": {
+      "q9-1": "I prefer indoors",
+      "q9-2": "I slightly prefer indoors",
+      "q9-3": "I like both",
+      "q9-4": "I slightly prefer outdoors",
+      "q9-5": "I prefer outdoors"
+    }
+  },
+  "q10": {
+    "text": "Do you prefer working alone or with others?",
+    "options": {
+      "q10-1": "I prefer alone",
+      "q10-2": "I slightly prefer alone",
+      "q10-3": "Either is fine",
+      "q10-4": "I slightly prefer with others",
+      "q10-5": "I prefer with others"
+    }
+  },
+  "q11": {
+    "text": "Do you prefer thinking or taking action?",
+    "options": {
+      "q11-1": "I prefer thinking",
+      "q11-2": "I slightly prefer thinking",
+      "q11-3": "I like both",
+      "q11-4": "I slightly prefer action",
+      "q11-5": "I prefer action"
+    }
+  },
+  "q12": {
+    "text": "Do you prefer following rules or being free?",
+    "options": {
+      "q12-1": "I prefer rules",
+      "q12-2": "I slightly prefer rules",
+      "q12-3": "Either is fine",
+      "q12-4": "I slightly prefer freedom",
+      "q12-5": "I prefer freedom"
+    }
+  },
+  "q13": {
+    "text": "What kind of science interests you most?",
+    "options": {
+      "q13-1": "Animals, plants, our bodies (Biology)",
+      "q13-2": "Stars, space, rockets (Astronomy)",
+      "q13-3": "Experiments, chemicals, explosions (Chemistry)",
+      "q13-4": "Dinosaurs, fossils, ancient things (Paleontology)"
+    }
+  },
+  "q14": {
+    "text": "How do you like to express yourself?",
+    "options": {
+      "q14-1": "Drawing or comics",
+      "q14-2": "Singing or playing instruments",
+      "q14-3": "Videos or photography",
+      "q14-4": "Dancing or acting"
+    }
+  },
+  "q15": {
+    "text": "What would you like to do with computers?",
+    "options": {
+      "q15-1": "Make fun games",
+      "q15-2": "Build cool apps or websites",
+      "q15-3": "Create robots or AI",
+      "q15-4": "Stop hackers and protect security"
+    }
+  },
+  "q16": {
+    "text": "Who would you like to help?",
+    "options": {
+      "q16-1": "Sick or injured people",
+      "q16-2": "Young children",
+      "q16-3": "People with emotional struggles",
+      "q16-4": "Neighbors in difficult situations"
+    }
+  },
+  "q17": {
+    "text": "What kind of animals do you like most?",
+    "options": {
+      "q17-1": "Pets like dogs and cats",
+      "q17-2": "Sea creatures (dolphins, sharks, etc.)",
+      "q17-3": "Wild animals (lions, elephants, etc.)",
+      "q17-4": "Insects and small creatures"
+    }
+  },
+  "q18": {
+    "text": "What's most exciting to make?",
+    "options": {
+      "q18-1": "Building structures with LEGO or blocks",
+      "q18-2": "Assembling robots or machines",
+      "q18-3": "Cooking or baking",
+      "q18-4": "Crafts or DIY projects"
+    }
+  }
+}

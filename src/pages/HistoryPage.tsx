@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { getResults, deleteResult, clearAllResults } from '../utils/storage';
 import { getJobById } from '../data/jobs';
 import { useQuiz } from '../context/QuizContext';
@@ -15,6 +16,7 @@ const getJobIcon = (categoryId: string): string => {
 export function HistoryPage() {
   const navigate = useNavigate();
   const { resetQuiz } = useQuiz();
+  const { t, i18n } = useTranslation();
   const [results, setResults] = useState<SavedResult[]>([]);
   const [showConfirm, setShowConfirm] = useState(false);
 
@@ -40,7 +42,8 @@ export function HistoryPage() {
 
   const formatDate = (timestamp: string) => {
     const date = new Date(timestamp);
-    return date.toLocaleDateString('ko-KR', {
+    const locale = i18n.language === 'ko' ? 'ko-KR' : 'en-US';
+    return date.toLocaleDateString(locale, {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -61,9 +64,9 @@ export function HistoryPage() {
           <Icon name="history" size="2x" className="text-primary-500" />
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
-          이전 결과 보기
+          {t('pages:history.title')}
         </h1>
-        <p className="text-gray-500 text-lg">지금까지의 탐색 결과를 확인해보세요</p>
+        <p className="text-gray-500 text-lg">{t('pages:history.subtitle')}</p>
       </motion.div>
 
       {results.length > 0 ? (
@@ -77,22 +80,22 @@ export function HistoryPage() {
           >
             {showConfirm ? (
               <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">정말 삭제할까요?</span>
+                <span className="text-sm text-gray-500">{t('common:messages.confirmDelete')}</span>
                 <Button variant="outline" onClick={() => setShowConfirm(false)}>
-                  취소
+                  {t('common:buttons.cancel')}
                 </Button>
                 <Button
                   variant="primary"
                   onClick={handleClearAll}
                   className="bg-red-500 hover:bg-red-600"
                 >
-                  전체 삭제
+                  {t('common:buttons.deleteAll')}
                 </Button>
               </div>
             ) : (
               <Button variant="ghost" onClick={() => setShowConfirm(true)}>
                 <Icon name="trash" size="sm" />
-                전체 삭제
+                {t('common:buttons.deleteAll')}
               </Button>
             )}
           </motion.div>
@@ -101,7 +104,7 @@ export function HistoryPage() {
           <StaggerContainer className="space-y-6">
             {results.map((result) => {
               const topJob = result.topJobs[0];
-              const job = topJob ? getJobById(topJob.jobId) : null;
+              const job = topJob ? getJobById(topJob.jobId, i18n.language) : null;
 
               return (
                 <StaggerItem key={result.id}>
@@ -123,11 +126,11 @@ export function HistoryPage() {
                               {formatDate(result.timestamp)}
                             </p>
                             <h3 className="font-bold text-gray-800">
-                              {topJob?.jobName || '알 수 없는 직업'}
+                              {topJob?.jobName || t('common:messages.noResults')}
                             </h3>
                             <p className="text-primary-500 font-medium text-sm flex items-center gap-1">
                               <Icon name="star" size="xs" />
-                              {topJob?.matchScore}% 매칭
+                              {topJob?.matchScore}% {t('common:units.match')}
                             </p>
                           </div>
                         </div>
@@ -138,14 +141,14 @@ export function HistoryPage() {
                             <Link to={`/jobs/${topJob.jobId}`}>
                               <Button variant="outline" className="whitespace-nowrap">
                                 <Icon name="angle-right" size="sm" />
-                                자세히 보기
+                                {t('common:buttons.viewDetail')}
                               </Button>
                             </Link>
                           )}
                           <button
                             onClick={() => handleDelete(result.id)}
                             className="w-9 h-9 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 transition-colors flex items-center justify-center flex-shrink-0"
-                            aria-label="삭제"
+                            aria-label={t('common:buttons.delete')}
                           >
                             <Icon name="times" size="sm" />
                           </button>
@@ -157,10 +160,10 @@ export function HistoryPage() {
                         <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-gray-100">
                           <span className="text-xs text-gray-400 flex items-center gap-1 mr-1">
                             <Icon name="thumbs-up" size="xs" />
-                            다른 추천
+                            {t('pages:history.otherRecommend')}
                           </span>
                           {result.topJobs.slice(1, 4).map((jobResult, index) => {
-                            const otherJob = getJobById(jobResult.jobId);
+                            const otherJob = getJobById(jobResult.jobId, i18n.language);
                             return (
                               <Link
                                 key={index}
@@ -196,7 +199,7 @@ export function HistoryPage() {
             <Card className="inline-block">
               <p className="text-gray-500 flex items-center gap-2">
                 <Icon name="fire" className="text-accent-500" />
-                총 <span className="font-bold text-primary-500">{results.length}번</span>의 탐색을 했어요!
+                {t('pages:history.totalExplorations', { count: results.length })}
               </p>
             </Card>
           </motion.div>
@@ -215,14 +218,14 @@ export function HistoryPage() {
             <Icon name="inbox" size="3x" className="text-gray-400" />
           </motion.div>
           <h2 className="text-2xl font-bold text-gray-700 mb-3">
-            아직 탐색 결과가 없어요
+            {t('pages:history.empty.title')}
           </h2>
           <p className="text-gray-500 mb-8 text-lg">
-            나에게 맞는 직업을 찾아보러 갈까요?
+            {t('pages:history.empty.subtitle')}
           </p>
           <Button variant="primary" size="lg" className="text-lg px-8" onClick={handleStartNewQuiz}>
             <Icon name="wand-magic-sparkles" />
-            직업 탐색 시작하기
+            {t('common:buttons.startExploring')}
           </Button>
         </motion.div>
       )}
@@ -237,7 +240,7 @@ export function HistoryPage() {
         >
           <Button variant="primary" className="text-lg" onClick={handleStartNewQuiz}>
             <Icon name="sync" />
-            다시 탐색하기
+            {t('common:buttons.exploreAgain')}
           </Button>
         </motion.div>
       )}

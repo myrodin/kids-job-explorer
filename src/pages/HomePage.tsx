@@ -1,11 +1,13 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Button, Icon } from '../components/common';
 import { useQuiz } from '../context/QuizContext';
 
 export function HomePage() {
   const navigate = useNavigate();
   const { resetQuiz } = useQuiz();
+  const { t } = useTranslation();
 
   const handleStartQuiz = () => {
     resetQuiz();
@@ -36,19 +38,19 @@ export function HomePage() {
         >
           <img
             src={import.meta.env.BASE_URL + 'favicon.svg'}
-            alt="내 꿈 찾기"
+            alt={t('common:nav.title')}
             className="w-28 h-28 drop-shadow-lg"
           />
         </motion.div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
-          나의 꿈을 찾아보자!
+          {t('pages:home.title')}
         </h1>
 
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          재미있는 질문에 답하면
+          {t('pages:home.subtitle')}
           <br />
-          <span className="font-semibold text-primary-600">나에게 딱 맞는 직업</span>을 알려줄게!
+          <span className="font-semibold text-primary-600">{t('pages:home.highlight')}</span>{t('pages:home.subtitleEnd')}
         </p>
 
         {/* CTA Button */}
@@ -60,7 +62,7 @@ export function HomePage() {
           >
             <Icon name="rocket" />
           </motion.span>
-          시작하기
+          {t('common:buttons.start')}
         </Button>
         </div>
 
@@ -71,14 +73,14 @@ export function HomePage() {
             className="text-gray-500 hover:text-primary-600 transition-colors flex items-center gap-2"
           >
             <Icon name="book-open" size="sm" />
-            직업 둘러보기
+            {t('common:nav.jobs')}
           </Link>
           <Link
             to="/history"
             className="text-gray-500 hover:text-primary-600 transition-colors flex items-center gap-2"
           >
             <Icon name="clipboard-list" size="sm" />
-            이전 결과 보기
+            {t('common:nav.history')}
           </Link>
         </div>
       </motion.div>
@@ -94,22 +96,22 @@ export function HomePage() {
           icon="bullseye"
           iconColor="text-red-500"
           bgColor="bg-red-50"
-          title="쉬운 질문"
-          description="어렵지 않은 재미있는 질문들로 나를 알아가요"
+          title={t('pages:home.features.easyQuestions.title')}
+          description={t('pages:home.features.easyQuestions.description')}
         />
         <FeatureCard
           icon="briefcase"
           iconColor="text-amber-500"
           bgColor="bg-amber-50"
-          title="100가지 직업"
-          description="다양하고 구체적인 직업들을 추천받아요"
+          title={t('pages:home.features.manyJobs.title')}
+          description={t('pages:home.features.manyJobs.description')}
         />
         <FeatureCard
           icon="book-open"
           iconColor="text-blue-500"
           bgColor="bg-blue-50"
-          title="준비 방법"
-          description="꿈을 이루기 위해 뭘 해야 하는지 알려줘요"
+          title={t('pages:home.features.preparation.title')}
+          description={t('pages:home.features.preparation.description')}
         />
       </motion.div>
     </div>

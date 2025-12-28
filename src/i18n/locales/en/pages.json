@@ -1,0 +1,93 @@
+{
+  "home": {
+    "title": "Find Your Dream Job!",
+    "subtitle": "Answer fun questions and",
+    "highlight": "discover the perfect career",
+    "subtitleEnd": " for you!",
+    "features": {
+      "easyQuestions": {
+        "title": "Easy Questions",
+        "description": "Fun and simple questions to learn about yourself"
+      },
+      "manyJobs": {
+        "title": "100 Jobs",
+        "description": "Get recommendations from diverse careers"
+      },
+      "preparation": {
+        "title": "How to Prepare",
+        "description": "Learn what you need to do to achieve your dream"
+      }
+    }
+  },
+
+  "quiz": {
+    "loading": "Loading questions...",
+    "maxSelections": "You can select up to {{count}} options",
+    "phases": {
+      "warmup": "Warm-up",
+      "personality": "Personality",
+      "specific": "Interests"
+    },
+    "encouragement": {
+      "start": "Great start! Keep going!",
+      "quarter": "You're doing great! Almost halfway there!",
+      "half": "Amazing! Just a little more!",
+      "almostDone": "Almost there! You've got this!"
+    }
+  },
+
+  "result": {
+    "title": "Ta-da! Your perfect job is...",
+    "topRecommend": "#1 Match",
+    "matchScore": "{{score}}% Match!",
+    "matchReasons": "Why it's a great fit:",
+    "otherJobs": "Other Recommended Jobs",
+    "shareText": "My perfect job match is \"{{jobName}}\"! ({{score}}% match)\n\nFind your dream job at Find My Dream!"
+  },
+
+  "jobList": {
+    "title": "Explore All Jobs",
+    "subtitle": "Discover 100 different careers!",
+    "searchPlaceholder": "Search by job name...",
+    "foundJobs": "Found {{count}} jobs!",
+    "noResults": "No jobs found. Try a different keyword!",
+    "findMyJob": "Find the perfect job for me"
+  },
+
+  "jobDetail": {
+    "tabs": {
+      "intro": "About",
+      "preparation": "Preparation",
+      "resources": "Learn More"
+    },
+    "sections": {
+      "dailyWork": "A Day in the Life",
+      "requirements": "What You Need",
+      "education": "Education",
+      "skills": "Skills Needed",
+      "personality": "Good Personality Traits",
+      "funFacts": "Fun Facts"
+    },
+    "preparation": {
+      "elementary": "Elementary School",
+      "middle": "Middle School",
+      "high": "High School"
+    },
+    "hashtags": {
+      "kidsJob": "#KidsCareer",
+      "careerExplore": "#CareerExploration"
+    },
+    "otherJobs": "See Other Jobs"
+  },
+
+  "history": {
+    "title": "Your History",
+    "subtitle": "See your past exploration results",
+    "otherRecommend": "Other matches",
+    "empty": {
+      "title": "No results yet",
+      "subtitle": "Ready to find your perfect job?"
+    },
+    "totalExplorations": "You've explored {{count}} times!"
+  }
+}

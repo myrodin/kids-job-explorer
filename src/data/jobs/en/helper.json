@@ -1,0 +1,609 @@
+[
+  {
+    "id": "pediatrician",
+    "name": "Pediatrician",
+    "emoji": "👶",
+    "category": "helper",
+    "description": "I examine and treat sick children. I'm a doctor who helps kids grow up healthy!",
+    "dailyWork": [
+      "09:00 - Arrive at hospital, review patient charts",
+      "10:00 - Examine sick children",
+      "12:00 - Lunch break",
+      "14:00 - Afternoon checkups and vaccinations",
+      "17:00 - Organize medical records"
+    ],
+    "requirements": {
+      "education": "Medical school graduate with pediatric specialization",
+      "skills": ["Medical examination", "Medical knowledge", "Communication"],
+      "personality": ["Kind", "Patient", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Study science diligently", "Be curious about biology", "Volunteer work"],
+      "middle": ["Focus on biology and chemistry", "Read medical books"],
+      "high": ["Choose science track", "Prepare for medical school", "Hospital volunteering"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Human Body Adventure", "author": "DK Publishing"},
+        {"title": "I Want to Be a Doctor!", "author": "Career Stories Series"}
+      ],
+      "videos": [
+        {"title": "A Day in the Life of a Pediatrician", "url": "https://youtube.com"},
+        {"title": "How Does Our Body Work?", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Hospital job shadowing", "Children's doctor experience center", "Life science museum visit"]
+    },
+    "funFacts": [
+      "Pediatricians use lots of toys to comfort children during checkups",
+      "Kids need specialized doctors because they grow differently than adults"
+    ],
+    "tags": {
+      "interests": ["science", "helper", "medical", "children"],
+      "workStyle": ["caring", "analytical", "hands-on"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "veterinarian",
+    "name": "Veterinarian",
+    "emoji": "🐾",
+    "category": "helper",
+    "description": "I treat sick animals. From dogs and cats to large animals, I take care of all their health!",
+    "dailyWork": [
+      "09:00 - Arrive at animal hospital",
+      "10:00 - Examine sick animals",
+      "12:00 - Lunch break",
+      "14:00 - Surgery or treatments",
+      "17:00 - Consult with pet owners"
+    ],
+    "requirements": {
+      "education": "Veterinary school graduate",
+      "skills": ["Animal treatment", "Surgical skills", "Animal behavior understanding"],
+      "personality": ["Animal lover", "Calm", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Observe animals", "Study science", "Read animal books"],
+      "middle": ["Focus on biology", "Volunteer at animal shelters"],
+      "high": ["Prepare for veterinary school", "Animal-related activities"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Animal Hospital Vet", "author": "Career Stories"},
+        {"title": "I Want to Be an Animal Doctor!", "author": "Dreaming Kids"}
+      ],
+      "videos": [
+        {"title": "A Day in the Life of a Vet", "url": "https://youtube.com"},
+        {"title": "Animal Hospital Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Animal hospital visit", "Animal shelter volunteering", "Zoo vet experience"]
+    },
+    "funFacts": [
+      "Vets are like detectives - they have to figure out where it hurts since animals can't talk",
+      "There are zoo vets and wildlife vets who specialize in different animals"
+    ],
+    "tags": {
+      "interests": ["animals", "nature", "science", "helper"],
+      "workStyle": ["caring", "hands-on", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "paramedic",
+    "name": "Paramedic",
+    "emoji": "🚑",
+    "category": "helper",
+    "description": "I rescue people in emergencies. When 911 is called, I rush to the scene in an ambulance!",
+    "dailyWork": [
+      "08:00 - Arrive at fire station, check equipment",
+      "09:00 - Stand by for emergency calls",
+      "12:00 - Rotating lunch breaks",
+      "14:00 - First aid training",
+      "18:00 - Equipment maintenance and report writing"
+    ],
+    "requirements": {
+      "education": "Emergency Medical Services degree",
+      "skills": ["First aid", "Quick decision making", "Physical fitness"],
+      "personality": ["Brave", "Calm under pressure", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Physical activities", "Learn basic first aid", "Volunteer work"],
+      "middle": ["Build stamina", "Study biology"],
+      "high": ["Prepare for EMS program", "Fire station experience"]
+    },
+    "resources": {
+      "books": [
+        {"title": "911 Emergency Team", "author": "Career Stories"},
+        {"title": "First Aid Stories", "author": "Safety Education Association"}
+      ],
+      "videos": [
+        {"title": "Paramedic Vlog", "url": "https://youtube.com"},
+        {"title": "911 Rescue Documentary", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Fire station tour", "CPR training", "Safety experience center"]
+    },
+    "funFacts": [
+      "Paramedics work within the 'golden hour' where every second counts to save lives",
+      "Ambulances have lots of medical equipment inside, like a small hospital"
+    ],
+    "tags": {
+      "interests": ["helper", "action", "medical"],
+      "workStyle": ["hands-on", "leadership", "action"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "high",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "physical-therapist",
+    "name": "Physical Therapist",
+    "emoji": "💪",
+    "category": "helper",
+    "description": "I help injured or sick people move again. I treat them with exercises and massage!",
+    "dailyWork": [
+      "09:00 - Arrive at hospital",
+      "09:30 - Check patient conditions",
+      "10:00 - Exercise therapy and physical therapy",
+      "12:00 - Lunch",
+      "14:00 - Afternoon treatment sessions"
+    ],
+    "requirements": {
+      "education": "Physical Therapy degree",
+      "skills": ["Exercise therapy", "Patient communication", "Anatomy knowledge"],
+      "personality": ["Patient", "Encouraging", "Good stamina"]
+    },
+    "preparation": {
+      "elementary": ["Enjoy exercise", "Study science", "Help friends"],
+      "middle": ["Focus on biology", "Exercise regularly"],
+      "high": ["Prepare for PT program", "Rehab hospital volunteering"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Our Body's Muscle Story", "author": "Science Kids"},
+        {"title": "Becoming a Physical Therapist", "author": "Career Guide"}
+      ],
+      "videos": [
+        {"title": "Physical Therapist Job Introduction", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Rehab hospital visit", "Sports center experience"]
+    },
+    "funFacts": [
+      "Professional athletes get help from physical therapists to recover from injuries",
+      "Physical therapists are like coaches who exercise with patients and cheer them on"
+    ],
+    "tags": {
+      "interests": ["helper", "physical", "medical"],
+      "workStyle": ["caring", "hands-on", "teaching"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "nutritionist",
+    "name": "Nutritionist",
+    "emoji": "🥗",
+    "category": "helper",
+    "description": "I design healthy meal plans. I'm a food expert who plans school lunches and hospital meals!",
+    "dailyWork": [
+      "08:00 - Arrive, check meal preparations",
+      "09:00 - Plan menus",
+      "11:00 - Inspect cooking process",
+      "12:00 - Check meal service",
+      "14:00 - Nutrition counseling"
+    ],
+    "requirements": {
+      "education": "Food and Nutrition degree",
+      "skills": ["Nutrition knowledge", "Menu planning", "Hygiene management"],
+      "personality": ["Detail-oriented", "Responsible", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Interest in healthy food", "Cooking experiences"],
+      "middle": ["Focus on home economics", "Study nutrients"],
+      "high": ["Prepare for Nutrition program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Nutrient Character Adventure", "author": "Health Stories"},
+        {"title": "Secrets of the Cafeteria", "author": "School Life Series"}
+      ],
+      "videos": [
+        {"title": "Nutritionist Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Cafeteria tour", "Cooking class", "Food fair"]
+    },
+    "funFacts": [
+      "School lunch menus are calculated by nutritionists to have balanced nutrients",
+      "Eating only your favorite foods can throw off your nutritional balance"
+    ],
+    "tags": {
+      "interests": ["helper", "cooking", "science"],
+      "workStyle": ["systematic", "caring", "analytical"],
+      "environment": ["school", "hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "counselor",
+    "name": "Counselor",
+    "emoji": "💚",
+    "category": "helper",
+    "description": "I listen to people who are struggling and help them. I work through worries and concerns together!",
+    "dailyWork": [
+      "09:00 - Arrive at counseling center",
+      "10:00 - Individual counseling sessions",
+      "12:00 - Lunch",
+      "14:00 - Group counseling or psychological tests",
+      "16:00 - Organize counseling records"
+    ],
+    "requirements": {
+      "education": "Psychology or Counseling degree",
+      "skills": ["Listening skills", "Empathy", "Psychology knowledge"],
+      "personality": ["Warm", "Patient", "Keeps secrets"]
+    },
+    "preparation": {
+      "elementary": ["Listen well to friends", "Read many books"],
+      "middle": ["Read psychology books", "Peer counseling activities"],
+      "high": ["Prepare for Psychology major", "Volunteer work"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The Person Who Reads Minds", "author": "Psychology Stories"},
+        {"title": "The Secret of Emotions", "author": "Kids Psychology"}
+      ],
+      "videos": [
+        {"title": "Counselor Story", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Counseling center visit", "Peer counseling program"]
+    },
+    "funFacts": [
+      "Counselors promise to never tell others' secrets",
+      "Our minds need healing too, just like catching a cold"
+    ],
+    "tags": {
+      "interests": ["helper", "psychology", "counseling"],
+      "workStyle": ["caring", "analytical", "teaching"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "social-worker",
+    "name": "Social Worker",
+    "emoji": "🏠",
+    "category": "helper",
+    "description": "I help neighbors in need. I support people who need help to live happily!",
+    "dailyWork": [
+      "09:00 - Arrive at welfare center",
+      "10:00 - Home visits",
+      "12:00 - Lunch",
+      "14:00 - Run welfare programs",
+      "16:00 - Counseling and paperwork"
+    ],
+    "requirements": {
+      "education": "Social Work degree",
+      "skills": ["Counseling ability", "Documentation", "Networking"],
+      "personality": ["Service-minded", "Patient", "Warm"]
+    },
+    "preparation": {
+      "elementary": ["Participate in volunteering", "Help neighbors"],
+      "middle": ["Interest in social studies", "Youth volunteering"],
+      "high": ["Prepare for Social Work major", "Welfare center volunteering"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Warm Neighbor Stories", "author": "Welfare Stories"}
+      ],
+      "videos": [
+        {"title": "Social Worker Job Introduction", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Welfare center volunteering", "Charity market participation"]
+    },
+    "funFacts": [
+      "Social workers are society's safety net",
+      "They're like bridges connecting people to help when times are tough"
+    ],
+    "tags": {
+      "interests": ["helper", "welfare", "community"],
+      "workStyle": ["caring", "leadership", "teaching"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "special-ed-teacher",
+    "name": "Special Education Teacher",
+    "emoji": "🌈",
+    "category": "helper",
+    "description": "I teach friends who need extra help. We learn and grow together at each person's own pace!",
+    "dailyWork": [
+      "08:30 - Arrive at school",
+      "09:00 - Individualized lessons",
+      "12:00 - Lunch supervision",
+      "14:00 - Afternoon classes",
+      "16:00 - Parent consultations"
+    ],
+    "requirements": {
+      "education": "Special Education degree, Teacher certification",
+      "skills": ["Individualized teaching", "Patience", "Special education knowledge"],
+      "personality": ["Patient", "Loving", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Help friends", "Develop a service heart"],
+      "middle": ["Volunteer work", "Interest in education"],
+      "high": ["Prepare for Special Education major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Everyone Is Special", "author": "Character Stories"}
+      ],
+      "videos": [
+        {"title": "Special Ed Teacher Story", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Special class volunteering", "Disability awareness activities"]
+    },
+    "funFacts": [
+      "Every child learns at a different pace",
+      "Special education teachers teach with special methods tailored to each student"
+    ],
+    "tags": {
+      "interests": ["helper", "teaching", "children"],
+      "workStyle": ["caring", "teaching", "creative"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "kindergarten-teacher",
+    "name": "Kindergarten Teacher",
+    "emoji": "🧒",
+    "category": "helper",
+    "description": "I care for and teach young children. I help them learn about the world through play!",
+    "dailyWork": [
+      "08:00 - Greet arrivals",
+      "09:00 - Morning activities",
+      "10:00 - Play and learning",
+      "12:00 - Lunch supervision",
+      "14:00 - Naptime and afternoon activities"
+    ],
+    "requirements": {
+      "education": "Early Childhood Education degree",
+      "skills": ["Childcare", "Play guidance", "Creative lessons"],
+      "personality": ["Cheerful", "Patient", "Loving"]
+    },
+    "preparation": {
+      "elementary": ["Help care for younger siblings", "Play teacher games"],
+      "middle": ["Read about early childhood development"],
+      "high": ["Prepare for Early Childhood Education major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day of a Kindergarten Teacher", "author": "Career Stories"}
+      ],
+      "videos": [
+        {"title": "Kindergarten Teacher Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Kindergarten volunteering", "Childcare experience"]
+    },
+    "funFacts": [
+      "All the play at kindergarten has hidden learning inside",
+      "For kids, teachers are like a second mom"
+    ],
+    "tags": {
+      "interests": ["helper", "children", "teaching"],
+      "workStyle": ["caring", "creative", "teaching"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "nurse",
+    "name": "Nurse",
+    "emoji": "👩‍⚕️",
+    "category": "helper",
+    "description": "I care for patients closely. I give shots, medicine, and check on patients' conditions!",
+    "dailyWork": [
+      "07:00 - Arrive at hospital, shift handover",
+      "08:00 - Check patient conditions",
+      "10:00 - Medication and treatments",
+      "12:00 - Rotating lunch",
+      "14:00 - Patient care and documentation"
+    ],
+    "requirements": {
+      "education": "Nursing degree",
+      "skills": ["Patient care", "Medical skills", "Communication"],
+      "personality": ["Attentive", "Patient", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Volunteer work", "Interest in biology"],
+      "middle": ["Study biology and chemistry"],
+      "high": ["Prepare for Nursing major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "I Want to Be a Nurse!", "author": "Career Stories"}
+      ],
+      "videos": [
+        {"title": "Nurse Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Hospital tour", "Red Cross activities"]
+    },
+    "funFacts": [
+      "Nurses work in shifts 24 hours to care for patients",
+      "They are the medical professionals closest to patients"
+    ],
+    "tags": {
+      "interests": ["helper", "medical", "caring"],
+      "workStyle": ["caring", "hands-on", "systematic"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "speech-therapist",
+    "name": "Speech Therapist",
+    "emoji": "🗣️",
+    "category": "helper",
+    "description": "I help people who have difficulty speaking. I treat pronunciation, stuttering, and language development!",
+    "dailyWork": [
+      "09:00 - Arrive at therapy room",
+      "10:00 - Language assessment",
+      "11:00 - Individual therapy",
+      "12:00 - Lunch",
+      "14:00 - Therapy and consultations"
+    ],
+    "requirements": {
+      "education": "Speech-Language Pathology degree",
+      "skills": ["Language assessment", "Therapy techniques", "Patience"],
+      "personality": ["Patient", "Encouraging", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Practice clear pronunciation", "Talk a lot with friends"],
+      "middle": ["Study language arts", "Read psychology books"],
+      "high": ["Prepare for Speech Therapy major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "My Friend Who Has Trouble Speaking", "author": "Understanding Stories"}
+      ],
+      "videos": [
+        {"title": "Speech Therapist Introduction", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Therapy center visit"]
+    },
+    "funFacts": [
+      "Singing can help with speech practice",
+      "Practicing mouth shapes in a mirror is important"
+    ],
+    "tags": {
+      "interests": ["helper", "communication", "children"],
+      "workStyle": ["caring", "teaching", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "play-therapist",
+    "name": "Play Therapist",
+    "emoji": "🧸",
+    "category": "helper",
+    "description": "I heal children's hearts through play. I help heal wounded hearts by playing with toys!",
+    "dailyWork": [
+      "09:00 - Prepare therapy room",
+      "10:00 - Play therapy sessions",
+      "12:00 - Lunch",
+      "14:00 - Afternoon therapy",
+      "16:00 - Parent consultations"
+    ],
+    "requirements": {
+      "education": "Psychology or Play Therapy degree",
+      "skills": ["Play observation", "Psychology understanding", "Communicating with children"],
+      "personality": ["Warm", "Observant", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Play well with friends", "Express emotions"],
+      "middle": ["Read psychology books"],
+      "high": ["Prepare for Psychology major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Play That Heals Hearts", "author": "Psychology Stories"}
+      ],
+      "videos": [
+        {"title": "Play Therapist Story", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Counseling center visit"]
+    },
+    "funFacts": [
+      "Play is children's language",
+      "Kids express their inner feelings through doll play"
+    ],
+    "tags": {
+      "interests": ["helper", "children", "psychology"],
+      "workStyle": ["caring", "creative", "analytical"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "dental-hygienist",
+    "name": "Dental Hygienist",
+    "emoji": "🦷",
+    "category": "helper",
+    "description": "I keep teeth clean and healthy. I do cleanings and teach proper brushing techniques!",
+    "dailyWork": [
+      "09:00 - Arrive at dental office",
+      "09:30 - Patient teeth cleaning",
+      "12:00 - Lunch",
+      "14:00 - Assist with treatments",
+      "16:00 - Oral hygiene education"
+    ],
+    "requirements": {
+      "education": "Dental Hygiene degree",
+      "skills": ["Teeth cleaning", "Oral care", "Patient education"],
+      "personality": ["Delicate", "Friendly", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Brush teeth well", "Don't be scared of the dentist"],
+      "middle": ["Study science"],
+      "high": ["Prepare for Dental Hygiene program"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Tooth Health Guardian", "author": "Health Stories"}
+      ],
+      "videos": [
+        {"title": "Dental Hygienist Job Introduction", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Dental office tour", "Oral health education"]
+    },
+    "funFacts": [
+      "Brushing 3 times a day for 3 minutes can prevent cavities",
+      "Teeth don't grow back, so taking care of them is important"
+    ],
+    "tags": {
+      "interests": ["helper", "medical"],
+      "workStyle": ["caring", "hands-on", "teaching"],
+      "environment": ["hospital", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]

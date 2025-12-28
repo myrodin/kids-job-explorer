@@ -1,0 +1,99 @@
+{
+  "siteName": "Find My Dream",
+  "siteDescription": "Career exploration service for kids",
+  "siteTagline": "Answer questions to find the perfect job for you!",
+
+  "nav": {
+    "title": "Find My Dream",
+    "home": "Home",
+    "jobs": "Explore Jobs",
+    "history": "History",
+    "quiz": "Start Quiz"
+  },
+
+  "footer": {
+    "tagline": "Career exploration service for elementary students",
+    "description": "Answer questions to find the perfect job for you!"
+  },
+
+  "buttons": {
+    "start": "Start",
+    "next": "Next",
+    "prev": "Back",
+    "retry": "Try Again",
+    "share": "Share Results",
+    "viewDetail": "View Details",
+    "viewJobs": "Explore Jobs",
+    "goHome": "Home",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleteAll": "Delete All",
+    "search": "Search",
+    "findMyJob": "Find My Perfect Job",
+    "startExploring": "Start Exploring",
+    "exploreAgain": "Explore Again"
+  },
+
+  "messages": {
+    "copied": "Copied!",
+    "copyFailed": "Failed to copy",
+    "confirmDelete": "Are you sure you want to delete?",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "savedAuto": "Results saved automatically!"
+  },
+
+  "filters": {
+    "all": "All"
+  },
+
+  "units": {
+    "percent": "%",
+    "match": "match"
+  },
+
+  "resources": {
+    "books": {
+      "title": "Find Related Books",
+      "description": "Search for books about \"{{jobName}}\" at your library or bookstore!",
+      "amazon": "Search on Amazon",
+      "kyobo": "Search on Kyobo",
+      "worldcat": "Search on WorldCat",
+      "library": "Search Library"
+    },
+    "videos": {
+      "title": "Recommended Videos",
+      "searchOnYoutube": "Search on YouTube"
+    },
+    "experiences": {
+      "title": "Hands-on Activities"
+    }
+  },
+
+  "matchReasons": {
+    "science": "You're interested in science",
+    "art": "You have artistic sense",
+    "tech": "You love technology",
+    "nature": "You love nature",
+    "helper": "You want to help others",
+    "animals": "You love animals",
+    "creative": "You're very creative",
+    "game": "You're interested in games",
+    "social": "You enjoy being with people",
+    "solo": "You like to focus alone",
+    "newThings": "You love creating new things",
+    "physical": "You enjoy physical activities"
+  },
+
+  "strengths": {
+    "leadership": "Leadership",
+    "research": "Research skills",
+    "creative": "Creativity",
+    "analytical": "Analytical skills",
+    "social": "Communication",
+    "physical": "Physical fitness",
+    "curious": "Curiosity",
+    "helper": "Caring",
+    "systematic": "Attention to detail"
+  }
+}

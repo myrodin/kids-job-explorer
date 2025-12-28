@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Icon } from '../common';
 
 interface QuizProgressProps {
@@ -7,15 +8,17 @@ interface QuizProgressProps {
   phase: 'warmup' | 'personality' | 'specific';
 }
 
-const phaseInfo = {
-  warmup: { label: '워밍업', color: 'bg-secondary-400', textColor: 'text-secondary-500', icon: 'bullseye' },
-  personality: { label: '성향 파악', color: 'bg-primary-500', textColor: 'text-primary-500', icon: 'brain' },
-  specific: { label: '세부 관심사', color: 'bg-accent-500', textColor: 'text-accent-500', icon: 'star' },
+const phaseStyles = {
+  warmup: { color: 'bg-secondary-400', textColor: 'text-secondary-500', icon: 'bullseye' },
+  personality: { color: 'bg-primary-500', textColor: 'text-primary-500', icon: 'brain' },
+  specific: { color: 'bg-accent-500', textColor: 'text-accent-500', icon: 'star' },
 };
 
 export function QuizProgress({ current, total, phase }: QuizProgressProps) {
+  const { t } = useTranslation();
   const percentage = (current / total) * 100;
-  const { label, color, textColor, icon } = phaseInfo[phase];
+  const { color, textColor, icon } = phaseStyles[phase];
+  const label = t(`pages:quiz.phases.${phase}`);
 
   return (
     <div className="w-full mb-8">

@@ -1,0 +1,6 @@
+{
+  "_note": "직업 데이터는 src/data/jobs/*.json에서 직접 로드됩니다. 이 파일은 동적 텍스트 번역용입니다.",
+  "searchKeyword": {
+    "suffix": "어린이"
+  }
+}

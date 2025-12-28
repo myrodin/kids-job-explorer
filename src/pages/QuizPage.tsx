@@ -1,12 +1,14 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { useQuiz } from '../context/QuizContext';
 import { QuestionCard, QuizProgress } from '../components/quiz';
 import { Card, Icon } from '../components/common';
 
 export function QuizPage() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const {
     state,
     currentQuestion,
@@ -30,7 +32,7 @@ export function QuizPage() {
         <Card className="text-center">
           <div className="flex items-center gap-3 justify-center">
             <Icon name="star" spin className="text-primary-500" />
-            <p className="text-xl text-gray-600">질문을 불러오는 중...</p>
+            <p className="text-xl text-gray-600">{t('pages:quiz.loading')}</p>
           </div>
         </Card>
       </div>
@@ -74,42 +76,43 @@ export function QuizPage() {
         className="text-center"
       >
         <p className="text-gray-400 flex items-center justify-center gap-2">
-          {getEncouragement(state.currentQuestionIndex, questions.length)}
+          <EncouragementMessage current={state.currentQuestionIndex} total={questions.length} />
         </p>
       </motion.div>
     </div>
   );
 }
 
-function getEncouragement(current: number, total: number): React.ReactNode {
+function EncouragementMessage({ current, total }: { current: number; total: number }) {
+  const { t } = useTranslation();
   const progress = current / total;
 
   if (progress < 0.25) {
     return (
       <>
         <Icon name="rocket" className="text-secondary-400" />
-        좋은 시작이야! 계속 가보자
+        {t('pages:quiz.encouragement.start')}
       </>
     );
   } else if (progress < 0.5) {
     return (
       <>
         <Icon name="dumbbell" className="text-primary-400" />
-        잘하고 있어! 벌써 반 가까이 왔어
+        {t('pages:quiz.encouragement.quarter')}
       </>
     );
   } else if (progress < 0.75) {
     return (
       <>
         <Icon name="star" className="text-accent-400" />
-        대단해! 조금만 더 힘내자
+        {t('pages:quiz.encouragement.half')}
       </>
     );
   } else {
     return (
       <>
         <Icon name="trophy" className="text-accent-500" />
-        거의 다 왔어! 마지막까지 파이팅!
+        {t('pages:quiz.encouragement.almostDone')}
       </>
     );
   }

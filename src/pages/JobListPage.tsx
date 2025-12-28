@@ -1,8 +1,8 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { jobs, getJobsByCategory } from '../data/jobs';
-import categories from '../data/categories.json';
+import { useTranslation } from 'react-i18next';
+import { getTranslatedJobs, getJobsByCategory } from '../data/jobs';
 import type { Job } from '../types';
 import { Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
 
@@ -11,24 +11,27 @@ const getJobIcon = (categoryId: string): string => {
   return CategoryIcons[categoryId as keyof typeof CategoryIcons] || 'briefcase';
 };
 
-// Category icon mapping (matches categories.json IDs)
-const categoryIcons: Record<string, string> = {
-  helper: 'heart-pulse',
-  builder: 'tools',
-  thinker: 'flask',
-  artist: 'paint-brush',
-  mover: 'running',
-  communicator: 'microphone',
-  nature: 'paw',
-  tech: 'laptop-code',
-};
+// Category data with i18n keys
+const categoryData = [
+  { id: 'helper', icon: 'heart-pulse' },
+  { id: 'builder', icon: 'tools' },
+  { id: 'thinker', icon: 'flask' },
+  { id: 'artist', icon: 'paint-brush' },
+  { id: 'mover', icon: 'running' },
+  { id: 'communicator', icon: 'microphone' },
+  { id: 'nature', icon: 'paw' },
+  { id: 'tech', icon: 'laptop-code' },
+];
 
 export function JobListPage() {
+  const { t, i18n } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
+  const jobs = getTranslatedJobs(i18n.language);
+
   const filteredJobs = useMemo(() => {
-    let result: Job[] = selectedCategory ? getJobsByCategory(selectedCategory) : jobs;
+    let result: Job[] = selectedCategory ? getJobsByCategory(selectedCategory, i18n.language) : jobs;
 
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
@@ -41,7 +44,7 @@ export function JobListPage() {
     }
 
     return result;
-  }, [selectedCategory, searchQuery]);
+  }, [selectedCategory, searchQuery, jobs, i18n.language]);
 
   return (
     <div className="space-y-8">
@@ -55,9 +58,9 @@ export function JobListPage() {
           <Icon name="compass" size="2x" className="text-primary-500" />
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
-          모든 직업 둘러보기
+          {t('pages:jobList.title')}
         </h1>
-        <p className="text-gray-500 text-lg">100가지 다양한 직업을 탐색해보세요!</p>
+        <p className="text-gray-500 text-lg">{t('pages:jobList.subtitle')}</p>
       </motion.div>
 
       {/* Search */}
@@ -72,7 +75,7 @@ export function JobListPage() {
           </span>
           <input
             type="text"
-            placeholder="직업 이름으로 검색해보세요..."
+            placeholder={t('pages:jobList.searchPlaceholder')}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full pl-14 pr-6 py-4 rounded-2xl border-2 border-gray-200 focus:border-primary-400 focus:ring-4 focus:ring-primary-100 outline-none transition-all text-gray-700 text-lg bg-white shadow-sm"
@@ -96,12 +99,11 @@ export function JobListPage() {
             }`}
           >
             <Icon name="list" size="sm" />
-            <span>전체</span>
+            <span>{t('common:filters.all')}</span>
             <span className="text-xs opacity-70">({jobs.length})</span>
           </button>
-          {categories.map((category) => {
-            const count = getJobsByCategory(category.id).length;
-            const iconName = categoryIcons[category.id] || 'star';
+          {categoryData.map((category) => {
+            const count = getJobsByCategory(category.id, i18n.language).length;
             return (
               <button
                 key={category.id}
@@ -112,8 +114,8 @@ export function JobListPage() {
                     : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
                 }`}
               >
-                <Icon name={iconName} size="sm" />
-                <span>{category.name}</span>
+                <Icon name={category.icon} size="sm" />
+                <span>{t(`categories:${category.id}.name`)}</span>
                 <span className="text-xs opacity-70">({count})</span>
               </button>
             );
@@ -129,7 +131,7 @@ export function JobListPage() {
         className="text-gray-500 text-center flex items-center justify-center gap-2"
       >
         <Icon name="briefcase" size="sm" />
-        <span>{filteredJobs.length}개의 직업을 찾았어요!</span>
+        <span>{t('pages:jobList.foundJobs', { count: filteredJobs.length })}</span>
       </motion.p>
 
       {/* Job Grid */}
@@ -180,7 +182,7 @@ export function JobListPage() {
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gray-100 mb-4">
             <Icon name="search" size="2x" className="text-gray-400" />
           </div>
-          <p className="text-gray-500">검색 결과가 없어요. 다른 키워드로 검색해보세요!</p>
+          <p className="text-gray-500">{t('pages:jobList.noResults')}</p>
         </motion.div>
       )}
 
@@ -198,7 +200,7 @@ export function JobListPage() {
             className="px-10 py-5 bg-primary-500 hover:bg-primary-600 text-white font-bold rounded-2xl shadow-lg inline-flex items-center gap-3 text-lg transition-colors"
           >
             <Icon name="wand-magic-sparkles" />
-            나에게 맞는 직업 찾아보기
+            {t('pages:jobList.findMyJob')}
           </motion.button>
         </Link>
       </motion.div>

@@ -1,0 +1,554 @@
+[
+  {
+    "id": "kids-show-host",
+    "name": "Kids Show Host",
+    "emoji": "📺",
+    "category": "communicator",
+    "description": "I host TV shows for children. I play with kids on screen and make fun programs!",
+    "dailyWork": [
+      "08:00 - Arrive at broadcasting station",
+      "09:00 - Rehearsal",
+      "11:00 - Record the main show",
+      "13:00 - Lunch",
+      "14:00 - Prepare for next episode"
+    ],
+    "requirements": {
+      "education": "Broadcasting and entertainment studies or acting experience",
+      "skills": ["Hosting ability", "Connecting with kids", "Quick thinking"],
+      "personality": ["Cheerful", "Energetic", "Friendly"]
+    },
+    "preparation": {
+      "elementary": ["Practice presentations", "Join drama activities"],
+      "middle": ["Join broadcasting club", "Practice being an MC"],
+      "high": ["Prepare for broadcasting and entertainment major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "I Want to Be a TV Host!", "author": "Media Stories"}
+      ],
+      "videos": [
+        {"title": "Behind the Scenes of Kids Shows", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Broadcasting station tour", "Announcer camp"]
+    },
+    "funFacts": [
+      "Kids show hosts need to have really good stamina",
+      "Animated character voices are actually performed by real people"
+    ],
+    "tags": {
+      "interests": ["media", "children", "performance"],
+      "workStyle": ["performance", "leadership", "creative"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "medium",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "youtube-pd",
+    "name": "YouTube Producer",
+    "emoji": "🎬",
+    "category": "communicator",
+    "description": "I plan and create YouTube videos. I manage all the content for a channel!",
+    "dailyWork": [
+      "10:00 - Arrive at office",
+      "11:00 - Content planning meeting",
+      "13:00 - Lunch",
+      "14:00 - Filming or supervising editing",
+      "18:00 - Content review"
+    ],
+    "requirements": {
+      "education": "Video production studies or experience",
+      "skills": ["Planning", "Video editing", "Trend analysis"],
+      "personality": ["Creative", "Leadership", "Good communication"]
+    },
+    "preparation": {
+      "elementary": ["Make videos", "Come up with ideas"],
+      "middle": ["Learn editing", "Run a channel"],
+      "high": ["Prepare for media studies"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Become a Content Producer", "author": "Media Guide"}
+      ],
+      "videos": [
+        {"title": "A Day as a YouTube Producer", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Video camp", "Channel management experience"]
+    },
+    "funFacts": [
+      "Popular YouTube channels can have dozens of employees",
+      "One video can take hundreds of hours to prepare"
+    ],
+    "tags": {
+      "interests": ["media", "creative", "tech"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "studio"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "podcaster",
+    "name": "Podcaster",
+    "emoji": "🎙️",
+    "category": "communicator",
+    "description": "I tell stories like on the radio. I connect with people on all kinds of topics!",
+    "dailyWork": [
+      "Flexible hours - Research topics",
+      "Prepare for recording",
+      "Record the podcast",
+      "Edit the episode",
+      "Upload and promote"
+    ],
+    "requirements": {
+      "education": "No specific degree required (expertise is important)",
+      "skills": ["Speaking", "Hosting", "Content planning"],
+      "personality": ["Witty", "Curious", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Practice speaking", "Develop many interests"],
+      "middle": ["Explore radio", "Practice interviewing"],
+      "high": ["Try starting a podcast"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Starting Your Own Podcast", "author": "Media Guide"}
+      ],
+      "videos": [
+        {"title": "Podcast Recording Process", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Radio station tour", "Recording experience"]
+    },
+    "funFacts": [
+      "Many people listen to podcasts while commuting",
+      "Having a specialty topic makes podcasts more popular"
+    ],
+    "tags": {
+      "interests": ["media", "communication", "creative"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "translator",
+    "name": "Translator",
+    "emoji": "📚",
+    "category": "communicator",
+    "description": "I change foreign languages into English. I translate books, movies, and documents!",
+    "dailyWork": [
+      "Flexible hours - Often work from home",
+      "Analyze source text",
+      "Translation work",
+      "Proofreading and editing",
+      "Submit finished work"
+    ],
+    "requirements": {
+      "education": "Foreign language major or native-level fluency",
+      "skills": ["Foreign languages", "Strong writing skills", "Subject expertise"],
+      "personality": ["Detail-oriented", "Patient", "Language sense"]
+    },
+    "preparation": {
+      "elementary": ["Learn a foreign language", "Read lots of books"],
+      "middle": ["Focus on language study", "Practice translating"],
+      "high": ["Study foreign languages or translation"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day in the Life of a Translator", "author": "Language Stories"}
+      ],
+      "videos": [
+        {"title": "Translator Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Language camp", "Translation club"]
+    },
+    "funFacts": [
+      "It took one year to translate Harry Potter into Korean",
+      "Different translators translate the same sentence differently"
+    ],
+    "tags": {
+      "interests": ["communication", "language", "creative"],
+      "workStyle": ["solo", "analytical", "creative"],
+      "environment": ["home", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "author",
+    "name": "Author",
+    "emoji": "✍️",
+    "category": "communicator",
+    "description": "I write books. I create novels, children's stories, essays, and all kinds of writing!",
+    "dailyWork": [
+      "Flexible hours - Write when inspired",
+      "Research materials",
+      "Writing time",
+      "Editing and revising",
+      "Publisher meetings"
+    ],
+    "requirements": {
+      "education": "Creative writing major or self-taught",
+      "skills": ["Writing", "Storytelling", "Imagination"],
+      "personality": ["Creative", "Persistent", "Observant"]
+    },
+    "preparation": {
+      "elementary": ["Read lots of books", "Keep a diary"],
+      "middle": ["Join writing club", "Enter writing contests"],
+      "high": ["Prepare for creative writing major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "I Want to Be a Writer!", "author": "Literature Stories"}
+      ],
+      "videos": [
+        {"title": "Author Interview", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Writing camp", "Meet an author"]
+    },
+    "funFacts": [
+      "The Harry Potter author was rejected 12 times before getting published",
+      "Even bestselling authors practice writing every day"
+    ],
+    "tags": {
+      "interests": ["creative", "communication", "thinking"],
+      "workStyle": ["creative", "solo", "analytical"],
+      "environment": ["home", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "journalist",
+    "name": "Journalist",
+    "emoji": "📰",
+    "category": "communicator",
+    "description": "I investigate and write news stories. I tell people the facts accurately!",
+    "dailyWork": [
+      "09:00 - Arrive at newspaper office",
+      "10:00 - Story meeting",
+      "11:00 - Field reporting",
+      "15:00 - Write article",
+      "18:00 - Deadline"
+    ],
+    "requirements": {
+      "education": "Journalism or media studies, or journalism experience",
+      "skills": ["Reporting", "Writing", "Analysis"],
+      "personality": ["Curious", "Sense of justice", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Watch the news", "Practice writing"],
+      "middle": ["Join school newspaper", "Follow current events"],
+      "high": ["Prepare for journalism major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "A Day in the Life of a Reporter", "author": "Media Stories"}
+      ],
+      "videos": [
+        {"title": "Journalist Vlog", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Newspaper office tour", "Reporter experience"]
+    },
+    "funFacts": [
+      "Journalists must always meet their deadlines",
+      "Getting an exclusive story is super exciting"
+    ],
+    "tags": {
+      "interests": ["communication", "media", "research"],
+      "workStyle": ["analytical", "action", "solo"],
+      "environment": ["office", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "medium",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "announcer",
+    "name": "Announcer",
+    "emoji": "🎤",
+    "category": "communicator",
+    "description": "I deliver news and information on TV or radio. I speak clearly and correctly!",
+    "dailyWork": [
+      "05:00 - Arrive at station (morning news)",
+      "06:00 - News rehearsal",
+      "07:00 - Live broadcast",
+      "09:00 - Prepare for next show",
+      "Various broadcasts throughout the day"
+    ],
+    "requirements": {
+      "education": "Broadcasting studies or announcer exam",
+      "skills": ["Pronunciation", "Voice projection", "Quick thinking"],
+      "personality": ["Calm", "Accurate", "Professional"]
+    },
+    "preparation": {
+      "elementary": ["Read books aloud", "Practice presentations"],
+      "middle": ["Speech classes", "Join broadcasting club"],
+      "high": ["Announcer academy"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Become an Announcer", "author": "Broadcasting Stories"}
+      ],
+      "videos": [
+        {"title": "Announcer Voice Training", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Broadcasting station tour", "Speech camp"]
+    },
+    "funFacts": [
+      "Announcer exam competition can be hundreds to one",
+      "If you make a mistake during live broadcast, the whole country sees it"
+    ],
+    "tags": {
+      "interests": ["communication", "media", "performance"],
+      "workStyle": ["performance", "systematic", "solo"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "ad-planner",
+    "name": "Advertising Planner",
+    "emoji": "💡",
+    "category": "communicator",
+    "description": "I create fun advertisements. I think of ideas that grab people's attention!",
+    "dailyWork": [
+      "10:00 - Arrive at ad agency",
+      "11:00 - Brainstorming meeting",
+      "13:00 - Lunch",
+      "14:00 - Write proposals",
+      "16:00 - Client meeting"
+    ],
+    "requirements": {
+      "education": "Advertising or marketing major",
+      "skills": ["Creativity", "Planning", "Presentations"],
+      "personality": ["Creative", "Popular appeal", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Analyze ads", "Come up with ideas"],
+      "middle": ["Study advertising", "Explore marketing"],
+      "high": ["Prepare for advertising major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of Advertising", "author": "Marketing Stories"}
+      ],
+      "videos": [
+        {"title": "Advertising Planning Process", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Ad analysis", "Marketing camp"]
+    },
+    "funFacts": [
+      "A 30-second Super Bowl ad costs millions of dollars",
+      "Great ad slogans are remembered for decades"
+    ],
+    "tags": {
+      "interests": ["creative", "communication", "media"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  },
+  {
+    "id": "tour-guide",
+    "name": "Tour Guide",
+    "emoji": "🗺️",
+    "category": "communicator",
+    "description": "I show people around travel destinations. I tell tourists fun stories about places!",
+    "dailyWork": [
+      "07:00 - Hotel pickup",
+      "08:00 - Travel to attraction",
+      "09:00 - Give tour",
+      "12:00 - Lunch",
+      "18:00 - Tour ends"
+    ],
+    "requirements": {
+      "education": "Tourism major or tour guide license",
+      "skills": ["Foreign languages", "History knowledge", "Communication"],
+      "personality": ["Friendly", "Good stamina", "Sense of humor"]
+    },
+    "preparation": {
+      "elementary": ["Interest in travel", "Study history"],
+      "middle": ["Learn foreign languages", "Visit historic sites"],
+      "high": ["Prepare for tourism major", "Get tour guide license"]
+    },
+    "resources": {
+      "books": [
+        {"title": "World Travel Guide", "author": "Travel Stories"}
+      ],
+      "videos": [
+        {"title": "Tour Guide Daily Life", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Travel locally", "Historic site visits"]
+    },
+    "funFacts": [
+      "Tour guides walk dozens of kilometers every day",
+      "The same place feels different depending on the guide"
+    ],
+    "tags": {
+      "interests": ["communication", "history", "outdoor"],
+      "workStyle": ["leadership", "action", "teaching"],
+      "environment": ["outdoor", "field"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "high",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "museum-curator",
+    "name": "Museum Curator",
+    "emoji": "🏛️",
+    "category": "communicator",
+    "description": "I plan museum exhibits. I decide how to display artifacts and artworks!",
+    "dailyWork": [
+      "09:00 - Arrive at museum",
+      "10:00 - Exhibition planning meeting",
+      "12:00 - Lunch",
+      "14:00 - Research and manage artifacts",
+      "16:00 - Plan educational programs"
+    ],
+    "requirements": {
+      "education": "Museum studies, art history, or history major",
+      "skills": ["Exhibition planning", "Research ability", "Communication"],
+      "personality": ["Detail-oriented", "Curious", "Good at planning"]
+    },
+    "preparation": {
+      "elementary": ["Visit museums", "Interest in history"],
+      "middle": ["Study history and art", "Volunteer at museum"],
+      "high": ["Prepare for related major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Secrets of the Museum", "author": "History Stories"}
+      ],
+      "videos": [
+        {"title": "Curator Interview", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Museum experience", "Exhibition visits"]
+    },
+    "funFacts": [
+      "It takes over a year to prepare one exhibition",
+      "Curators also design the walking path through exhibits"
+    ],
+    "tags": {
+      "interests": ["art", "history", "communication"],
+      "workStyle": ["analytical", "creative", "research"],
+      "environment": ["museum", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "interpreter",
+    "name": "Interpreter",
+    "emoji": "🎧",
+    "category": "communicator",
+    "description": "I interpret languages in real-time. At international meetings, I translate speech instantly!",
+    "dailyWork": [
+      "Arrive 2 hours before meeting",
+      "Review materials",
+      "Real-time interpreting",
+      "Breaks (switch every 15 minutes)",
+      "Wrap up after meeting"
+    ],
+    "requirements": {
+      "education": "Graduate school for interpretation",
+      "skills": ["Perfect language skills", "Quick thinking", "Focus"],
+      "personality": ["Focused", "Calm", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Start learning languages", "Practice listening"],
+      "middle": ["Focus on languages", "Study various subjects"],
+      "high": ["Prepare for interpretation graduate school"]
+    },
+    "resources": {
+      "books": [
+        {"title": "The World of Interpreters", "author": "Language Stories"}
+      ],
+      "videos": [
+        {"title": "Simultaneous Interpretation in Action", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Language camp", "Interpretation experience"]
+    },
+    "funFacts": [
+      "Interpreters say it feels like using 100% of their brain",
+      "UN interpreters must know at least 2 of the 6 official languages"
+    ],
+    "tags": {
+      "interests": ["communication", "language", "analytical"],
+      "workStyle": ["solo", "analytical", "action"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "low"
+    }
+  },
+  {
+    "id": "science-communicator",
+    "name": "Science Communicator",
+    "emoji": "🔬",
+    "category": "communicator",
+    "description": "I explain difficult science in easy ways. I help people find science fun and interesting!",
+    "dailyWork": [
+      "09:00 - Work from lab or home",
+      "10:00 - Plan content",
+      "12:00 - Lunch",
+      "14:00 - Give lectures or create videos",
+      "17:00 - Social media engagement"
+    ],
+    "requirements": {
+      "education": "Science major plus communication skills",
+      "skills": ["Science knowledge", "Writing", "Presentation"],
+      "personality": ["Curious", "Friendly", "Creative"]
+    },
+    "preparation": {
+      "elementary": ["Get interested in science", "Practice explaining things"],
+      "middle": ["Study science", "Practice presentations"],
+      "high": ["Science major plus media activities"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Talking About Science", "author": "Science Stories"}
+      ],
+      "videos": [
+        {"title": "Science YouTuber", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Science museum visit", "Science lectures"]
+    },
+    "funFacts": [
+      "Scientists in Netflix documentaries are also science communicators",
+      "Explaining hard things simply is actually the hardest thing to do"
+    ],
+    "tags": {
+      "interests": ["science", "communication", "teaching"],
+      "workStyle": ["creative", "teaching", "research"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "medium"
+    }
+  }
+]

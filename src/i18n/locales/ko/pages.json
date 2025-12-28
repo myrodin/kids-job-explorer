@@ -1,0 +1,93 @@
+{
+  "home": {
+    "title": "나의 꿈을 찾아보자!",
+    "subtitle": "재미있는 질문에 답하면",
+    "highlight": "나에게 딱 맞는 직업",
+    "subtitleEnd": "을 알려줄게!",
+    "features": {
+      "easyQuestions": {
+        "title": "쉬운 질문",
+        "description": "어렵지 않은 재미있는 질문들로 나를 알아가요"
+      },
+      "manyJobs": {
+        "title": "100가지 직업",
+        "description": "다양하고 구체적인 직업들을 추천받아요"
+      },
+      "preparation": {
+        "title": "준비 방법",
+        "description": "꿈을 이루기 위해 뭘 해야 하는지 알려줘요"
+      }
+    }
+  },
+
+  "quiz": {
+    "loading": "질문을 불러오는 중...",
+    "maxSelections": "최대 {{count}}개까지 선택할 수 있어요",
+    "phases": {
+      "warmup": "워밍업",
+      "personality": "성향 파악",
+      "specific": "세부 관심사"
+    },
+    "encouragement": {
+      "start": "좋은 시작이야! 계속 가보자",
+      "quarter": "잘하고 있어! 벌써 반 가까이 왔어",
+      "half": "대단해! 조금만 더 힘내자",
+      "almostDone": "거의 다 왔어! 마지막까지 파이팅!"
+    }
+  },
+
+  "result": {
+    "title": "짠! 너에게 어울리는 직업은?",
+    "topRecommend": "1등 추천",
+    "matchScore": "{{score}}% 매칭!",
+    "matchReasons": "너랑 잘 맞는 이유:",
+    "otherJobs": "다른 추천 직업들",
+    "shareText": "나에게 어울리는 직업은 \"{{jobName}}\"이래요! ({{score}}% 매칭)\n\n내 꿈 찾기에서 나만의 직업을 찾아보세요!"
+  },
+
+  "jobList": {
+    "title": "모든 직업 둘러보기",
+    "subtitle": "100가지 다양한 직업을 탐색해보세요!",
+    "searchPlaceholder": "직업 이름으로 검색해보세요...",
+    "foundJobs": "{{count}}개의 직업을 찾았어요!",
+    "noResults": "검색 결과가 없어요. 다른 키워드로 검색해보세요!",
+    "findMyJob": "나에게 맞는 직업 찾아보기"
+  },
+
+  "jobDetail": {
+    "tabs": {
+      "intro": "직업 소개",
+      "preparation": "준비 방법",
+      "resources": "더 알아보기"
+    },
+    "sections": {
+      "dailyWork": "하루 일과",
+      "requirements": "이런 능력이 필요해요",
+      "education": "학력",
+      "skills": "필요한 능력",
+      "personality": "이런 성격이면 좋아요",
+      "funFacts": "재미있는 사실"
+    },
+    "preparation": {
+      "elementary": "초등학교 때 준비할 것",
+      "middle": "중학교 때 준비할 것",
+      "high": "고등학교 때 준비할 것"
+    },
+    "hashtags": {
+      "kidsJob": "#어린이직업",
+      "careerExplore": "#진로탐색"
+    },
+    "otherJobs": "다른 직업 보기"
+  },
+
+  "history": {
+    "title": "이전 결과 보기",
+    "subtitle": "지금까지의 탐색 결과를 확인해보세요",
+    "otherRecommend": "다른 추천",
+    "empty": {
+      "title": "아직 탐색 결과가 없어요",
+      "subtitle": "나에게 맞는 직업을 찾아보러 갈까요?"
+    },
+    "totalExplorations": "총 {{count}}번의 탐색을 했어요!"
+  }
+}

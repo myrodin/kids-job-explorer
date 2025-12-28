@@ -1,0 +1,99 @@
+{
+  "siteName": "내 꿈 찾기",
+  "siteDescription": "초등학생을 위한 장래희망 탐색 서비스",
+  "siteTagline": "질문에 답하면 나에게 맞는 직업을 찾아줘요!",
+
+  "nav": {
+    "title": "내 꿈 찾기",
+    "home": "홈",
+    "jobs": "직업 둘러보기",
+    "history": "이전 결과",
+    "quiz": "테스트 시작"
+  },
+
+  "footer": {
+    "tagline": "초등학생을 위한 장래희망 탐색 서비스",
+    "description": "질문에 답하면 나에게 맞는 직업을 찾아줘요!"
+  },
+
+  "buttons": {
+    "start": "시작하기",
+    "next": "다음",
+    "prev": "이전",
+    "retry": "다시 해보기",
+    "share": "결과 공유하기",
+    "viewDetail": "자세히 보기",
+    "viewJobs": "직업 둘러보기",
+    "goHome": "홈으로",
+    "cancel": "취소",
+    "delete": "삭제",
+    "deleteAll": "전체 삭제",
+    "search": "검색",
+    "findMyJob": "나에게 맞는 직업 찾기",
+    "startExploring": "직업 탐색 시작하기",
+    "exploreAgain": "다시 탐색하기"
+  },
+
+  "messages": {
+    "copied": "복사되었어요!",
+    "copyFailed": "복사에 실패했어요",
+    "confirmDelete": "정말 삭제할까요?",
+    "loading": "불러오는 중...",
+    "noResults": "검색 결과가 없어요",
+    "savedAuto": "결과가 자동으로 저장되었어요!"
+  },
+
+  "filters": {
+    "all": "전체"
+  },
+
+  "units": {
+    "percent": "%",
+    "match": "매칭"
+  },
+
+  "resources": {
+    "books": {
+      "title": "관련 도서 찾기",
+      "description": "도서관이나 서점에서 \"{{jobName}}\" 관련 책을 찾아보세요!",
+      "amazon": "Amazon에서 검색",
+      "kyobo": "교보문고에서 검색",
+      "worldcat": "WorldCat에서 검색",
+      "library": "국립중앙도서관 검색"
+    },
+    "videos": {
+      "title": "추천 영상",
+      "searchOnYoutube": "YouTube에서 검색하기"
+    },
+    "experiences": {
+      "title": "체험 활동"
+    }
+  },
+
+  "matchReasons": {
+    "science": "과학에 관심이 많아요",
+    "art": "예술적 감각이 있어요",
+    "tech": "기술을 좋아해요",
+    "nature": "자연을 사랑해요",
+    "helper": "다른 사람을 돕고 싶어해요",
+    "animals": "동물을 좋아해요",
+    "creative": "창의력이 뛰어나요",
+    "game": "게임에 관심이 많아요",
+    "social": "사람들과 어울리는 걸 좋아해요",
+    "solo": "혼자 집중하는 걸 좋아해요",
+    "newThings": "새로운 것을 만드는 걸 좋아해요",
+    "physical": "몸을 움직이는 활동을 좋아해요"
+  },
+
+  "strengths": {
+    "leadership": "리더십",
+    "research": "탐구력",
+    "creative": "창의력",
+    "analytical": "분석력",
+    "social": "소통 능력",
+    "physical": "체력",
+    "curious": "호기심",
+    "helper": "배려심",
+    "systematic": "꼼꼼함"
+  }
+}

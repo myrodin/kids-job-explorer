@@ -1,0 +1,600 @@
+[
+  {
+    "id": "game-developer",
+    "name": "Game Developer",
+    "emoji": "🎮",
+    "category": "tech",
+    "description": "I program video games! I make characters move and collect items in games.",
+    "dailyWork": [
+      "10:00 - Arrive at the office",
+      "11:00 - Team standup meeting",
+      "11:30 - Coding work",
+      "13:00 - Lunch",
+      "14:00 - Bug fixing and testing"
+    ],
+    "requirements": {
+      "education": "Computer Science or Game Development degree",
+      "skills": ["Programming", "Game engines", "Math"],
+      "personality": ["Problem-solving", "Creative", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Love playing games", "Learn coding basics"],
+      "middle": ["Study programming", "Make simple games"],
+      "high": ["Prepare for Game Development major", "Build a portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "How to Become a Game Developer", "author": "Game Stories"}
+      ],
+      "videos": [
+        {"title": "Making Games with Unity", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding camp", "Game jam participation"]
+    },
+    "funFacts": [
+      "Minecraft was first created by just one person!",
+      "Making one video game can take several years"
+    ],
+    "tags": {
+      "interests": ["tech", "game", "creative", "gamedev"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "app-developer",
+    "name": "App Developer",
+    "emoji": "📱",
+    "category": "tech",
+    "description": "I create smartphone apps! I build the apps we use every day on our phones.",
+    "dailyWork": [
+      "09:30 - Arrive at the office",
+      "10:00 - Code review",
+      "11:00 - Development work",
+      "13:00 - Lunch",
+      "14:00 - Testing and deployment"
+    ],
+    "requirements": {
+      "education": "Computer Science degree",
+      "skills": ["Programming", "App development", "UI understanding"],
+      "personality": ["Logical thinking", "Detail-oriented", "Love learning"]
+    },
+    "preparation": {
+      "elementary": ["Learn coding basics", "Be interested in apps"],
+      "middle": ["Learn programming languages"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "First Steps in App Development", "author": "Coding Stories"}
+      ],
+      "videos": [
+        {"title": "How to Make an App", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding class", "App competition"]
+    },
+    "funFacts": [
+      "There are millions of apps in the app store!",
+      "TikTok has been downloaded over 3 billion times worldwide"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "webdev"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "web-developer",
+    "name": "Web Developer",
+    "emoji": "🌐",
+    "category": "tech",
+    "description": "I build websites! I create all the pages you see on the internet.",
+    "dailyWork": [
+      "09:00 - Arrive at the office",
+      "10:00 - Frontend development",
+      "12:00 - Lunch",
+      "13:00 - Backend development",
+      "17:00 - Deployment"
+    ],
+    "requirements": {
+      "education": "Computer Science degree or self-taught",
+      "skills": ["HTML/CSS/JS", "Server development", "Databases"],
+      "personality": ["Logical thinking", "Problem-solving", "Consistent"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in computers", "Learn coding basics"],
+      "middle": ["Learn web coding", "Make your own website"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to Web Development", "author": "IT Stories"}
+      ],
+      "videos": [
+        {"title": "HTML Basics", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding bootcamp", "Web development camp"]
+    },
+    "funFacts": [
+      "There are over 2 billion websites in the world!",
+      "The first website was created in 1991"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "webdev"],
+      "workStyle": ["analytical", "creative", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "cybersecurity-expert",
+    "name": "Cybersecurity Expert",
+    "emoji": "🔒",
+    "category": "tech",
+    "description": "I stop hackers! I keep computers and the internet safe from bad guys.",
+    "dailyWork": [
+      "09:00 - Arrive at the office",
+      "10:00 - Security check",
+      "12:00 - Lunch",
+      "14:00 - Vulnerability analysis",
+      "16:00 - Security report"
+    ],
+    "requirements": {
+      "education": "Information Security or Computer Science degree",
+      "skills": ["Network knowledge", "Hacking defense", "Programming"],
+      "personality": ["Detail-oriented", "Logical thinking", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in computers", "Understand why security matters"],
+      "middle": ["Learn programming", "Study networks"],
+      "high": ["Prepare for Information Security major", "Get certifications"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Hacking and Security", "author": "Security Stories"}
+      ],
+      "videos": [
+        {"title": "White Hat Hacker Stories", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Security camp", "CTF competition"]
+    },
+    "funFacts": [
+      "Good hackers are called 'white hat hackers'!",
+      "The longer and more complex your password, the safer it is"
+    ],
+    "tags": {
+      "interests": ["tech", "security", "analytical"],
+      "workStyle": ["analytical", "systematic", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist",
+    "emoji": "📊",
+    "category": "tech",
+    "description": "I predict the future using data! I find meaning in lots of information.",
+    "dailyWork": [
+      "09:00 - Arrive at the office",
+      "10:00 - Data collection and cleaning",
+      "12:00 - Lunch",
+      "14:00 - Analysis and modeling",
+      "17:00 - Present results"
+    ],
+    "requirements": {
+      "education": "Statistics or Computer Science degree",
+      "skills": ["Statistics", "Programming", "Machine learning"],
+      "personality": ["Analytical", "Curious", "Detail-oriented"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in math", "Find patterns in things"],
+      "middle": ["Study statistics", "Learn coding"],
+      "high": ["Prepare for Data Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to Data Science", "author": "IT Stories"}
+      ],
+      "videos": [
+        {"title": "Data Analysis Basics", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Data analysis camp", "Statistics competition"]
+    },
+    "funFacts": [
+      "Netflix uses data to recommend movies to you!",
+      "Big data can even help predict diseases"
+    ],
+    "tags": {
+      "interests": ["tech", "science", "analytical"],
+      "workStyle": ["analytical", "research", "systematic"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "vr-developer",
+    "name": "VR/AR Developer",
+    "emoji": "🥽",
+    "category": "tech",
+    "description": "I create virtual and augmented reality! I help people experience new worlds.",
+    "dailyWork": [
+      "10:00 - Arrive at the office",
+      "11:00 - 3D environment development",
+      "13:00 - Lunch",
+      "14:00 - Interaction development",
+      "17:00 - VR testing"
+    ],
+    "requirements": {
+      "education": "Computer Science or Game Development degree",
+      "skills": ["3D development", "Programming", "Game engines"],
+      "personality": ["Creative", "Problem-solving", "Innovative"]
+    },
+    "preparation": {
+      "elementary": ["Try VR experiences", "Be interested in 3D"],
+      "middle": ["Learn Unity/Unreal", "3D modeling"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Creating VR Worlds", "author": "IT Stories"}
+      ],
+      "videos": [
+        {"title": "VR Development Tutorial", "url": "https://youtube.com"}
+      ],
+      "experiences": ["VR experience center", "VR development camp"]
+    },
+    "funFacts": [
+      "VR is even used to treat fears and phobias!",
+      "AR lets you see how furniture looks in your room before buying it"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "game"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "studio"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "video-editor",
+    "name": "Video Editor",
+    "emoji": "🎬",
+    "category": "tech",
+    "description": "I edit videos! I take filmed footage and make it look amazing.",
+    "dailyWork": [
+      "10:00 - Start work",
+      "11:00 - Video editing",
+      "13:00 - Lunch",
+      "14:00 - Effects and color correction",
+      "18:00 - Final rendering"
+    ],
+    "requirements": {
+      "education": "Film Studies or self-taught",
+      "skills": ["Editing software", "Color correction", "Sound"],
+      "personality": ["Detail-oriented", "Creative", "Meets deadlines"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in videos", "Try simple editing"],
+      "middle": ["Learn editing software"],
+      "high": ["Study Film or build a portfolio"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to Video Editing", "author": "Media Stories"}
+      ],
+      "videos": [
+        {"title": "Premiere Pro Tutorial", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Video camp", "Run a YouTube channel"]
+    },
+    "funFacts": [
+      "Editing just 1 minute of a movie can take several hours!",
+      "Even a 1-minute YouTube video might need dozens of minutes of filming"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "media", "video"],
+      "workStyle": ["creative", "solo", "systematic"],
+      "environment": ["studio", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "ux-designer",
+    "name": "UI/UX Designer",
+    "emoji": "🎨",
+    "category": "tech",
+    "description": "I design apps and websites to be easy to use! I create great experiences for users.",
+    "dailyWork": [
+      "10:00 - Arrive at the office",
+      "11:00 - User research",
+      "13:00 - Lunch",
+      "14:00 - Wireframes and design",
+      "17:00 - Apply feedback"
+    ],
+    "requirements": {
+      "education": "Design or Human-Computer Interaction degree",
+      "skills": ["UI design", "User research", "Prototyping"],
+      "personality": ["Empathetic", "Creative", "Analytical"]
+    },
+    "preparation": {
+      "elementary": ["Analyze good apps", "Draw and sketch"],
+      "middle": ["Learn design tools"],
+      "high": ["Prepare for Design major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to UX Design", "author": "Design Stories"}
+      ],
+      "videos": [
+        {"title": "Figma Tutorial", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Design camp", "App analysis activities"]
+    },
+    "funFacts": [
+      "Good UX is so smooth that users don't even notice it!",
+      "Even the position of a single button is decided after lots of research"
+    ],
+    "tags": {
+      "interests": ["tech", "art", "design", "creative"],
+      "workStyle": ["creative", "analytical", "team"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "emoji": "☁️",
+    "category": "tech",
+    "description": "I manage internet servers! I store and process data safely in the cloud.",
+    "dailyWork": [
+      "09:00 - Arrive at the office",
+      "10:00 - Server monitoring",
+      "12:00 - Lunch",
+      "14:00 - Infrastructure setup and management",
+      "17:00 - Security check"
+    ],
+    "requirements": {
+      "education": "Computer Science degree",
+      "skills": ["Cloud platforms", "Networking", "Security"],
+      "personality": ["Detail-oriented", "Logical thinking", "Responsible"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in computers", "Understand the internet"],
+      "middle": ["Study networking"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to Cloud", "author": "IT Stories"}
+      ],
+      "videos": [
+        {"title": "AWS Basics", "url": "https://youtube.com"}
+      ],
+      "experiences": ["IT camp", "Server building experience"]
+    },
+    "funFacts": [
+      "Netflix, YouTube, and many services all use the cloud!",
+      "Data centers around the world use a huge amount of electricity"
+    ],
+    "tags": {
+      "interests": ["tech", "analytical"],
+      "workStyle": ["analytical", "systematic", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "low",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "robot-programmer",
+    "name": "Robot Programmer",
+    "emoji": "🤖",
+    "category": "tech",
+    "description": "I code robots to make them move! I give commands to robots.",
+    "dailyWork": [
+      "09:00 - Arrive at the lab",
+      "10:00 - Algorithm development",
+      "12:00 - Lunch",
+      "14:00 - Robot testing",
+      "17:00 - Analyze results"
+    ],
+    "requirements": {
+      "education": "Robotics or Computer Science degree",
+      "skills": ["Programming", "Robot control", "AI"],
+      "personality": ["Logical thinking", "Creative", "Persistent"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in robots", "Learn coding basics"],
+      "middle": ["Learn robot coding", "Robot competitions"],
+      "high": ["Prepare for Robotics major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Introduction to Robot Programming", "author": "Robot Stories"}
+      ],
+      "videos": [
+        {"title": "Robot Coding Tutorial", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Robot competition", "Coding camp"]
+    },
+    "funFacts": [
+      "Boston Dynamics robots can even dance!",
+      "Surgical robots are more precise than human hands"
+    ],
+    "tags": {
+      "interests": ["tech", "robot", "ai"],
+      "workStyle": ["analytical", "creative", "research"],
+      "environment": ["lab", "indoor"],
+      "socialLevel": "medium",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "metaverse-planner",
+    "name": "Metaverse Planner",
+    "emoji": "🌐",
+    "category": "tech",
+    "description": "I plan virtual worlds! I create worlds where people can live as avatars.",
+    "dailyWork": [
+      "10:00 - Arrive at the office",
+      "11:00 - Concept planning",
+      "13:00 - Lunch",
+      "14:00 - Content design",
+      "17:00 - Team meeting"
+    ],
+    "requirements": {
+      "education": "Game Design or IT-related degree",
+      "skills": ["Planning ability", "3D understanding", "Trend analysis"],
+      "personality": ["Creative", "Innovative", "Good communicator"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in games/VR", "Develop imagination"],
+      "middle": ["Experience the metaverse", "Practice planning"],
+      "high": ["Prepare for Game Design major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "What is the Metaverse?", "author": "Future Stories"}
+      ],
+      "videos": [
+        {"title": "Exploring the Metaverse World", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Try Zepeto, Roblox"]
+    },
+    "funFacts": [
+      "Zepeto has over 300 million users!",
+      "Virtual concerts can make billions of dollars"
+    ],
+    "tags": {
+      "interests": ["tech", "creative", "game"],
+      "workStyle": ["creative", "leadership", "analytical"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "high",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "blockchain-developer",
+    "name": "Blockchain Developer",
+    "emoji": "🔗",
+    "category": "tech",
+    "description": "I develop blockchain technology! I create new tech like cryptocurrency and NFTs.",
+    "dailyWork": [
+      "10:00 - Arrive at the office",
+      "11:00 - Smart contract development",
+      "13:00 - Lunch",
+      "14:00 - Security testing",
+      "17:00 - Code review"
+    ],
+    "requirements": {
+      "education": "Computer Science degree",
+      "skills": ["Programming", "Cryptography", "Distributed systems"],
+      "personality": ["Logical thinking", "Innovative", "Love learning"]
+    },
+    "preparation": {
+      "elementary": ["Be interested in computers", "Like math"],
+      "middle": ["Learn programming"],
+      "high": ["Prepare for Computer Science major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Understanding Blockchain", "author": "IT Stories"}
+      ],
+      "videos": [
+        {"title": "Blockchain Basics", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding camp", "Blockchain lecture"]
+    },
+    "funFacts": [
+      "The person who created Bitcoin is still a mystery!",
+      "One NFT artwork sold for hundreds of millions of dollars"
+    ],
+    "tags": {
+      "interests": ["tech", "analytical"],
+      "workStyle": ["analytical", "research", "solo"],
+      "environment": ["office", "indoor"],
+      "socialLevel": "low",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  },
+  {
+    "id": "it-teacher",
+    "name": "Coding Teacher",
+    "emoji": "👨‍🏫",
+    "category": "tech",
+    "description": "I teach coding! I show kids how fun programming can be.",
+    "dailyWork": [
+      "09:00 - Arrive at school",
+      "10:00 - Elementary class",
+      "12:00 - Lunch",
+      "14:00 - Middle school class",
+      "17:00 - Prepare lessons"
+    ],
+    "requirements": {
+      "education": "Computer Education or IT-related degree",
+      "skills": ["Programming", "Teaching ability", "Communication"],
+      "personality": ["Patient", "Kind", "Good at explaining"]
+    },
+    "preparation": {
+      "elementary": ["Learn coding", "Try teaching friends"],
+      "middle": ["Improve programming skills"],
+      "high": ["Prepare for Computer Education major"]
+    },
+    "resources": {
+      "books": [
+        {"title": "Becoming a Coding Teacher", "author": "Education Stories"}
+      ],
+      "videos": [
+        {"title": "How to Teach Coding", "url": "https://youtube.com"}
+      ],
+      "experiences": ["Coding volunteering", "Education volunteering"]
+    },
+    "funFacts": [
+      "Coding is called the English of the future!",
+      "Starting with block coding makes it easy"
+    ],
+    "tags": {
+      "interests": ["tech", "teaching", "children"],
+      "workStyle": ["teaching", "caring", "creative"],
+      "environment": ["school", "indoor"],
+      "socialLevel": "high",
+      "creativityLevel": "medium",
+      "physicalLevel": "low",
+      "techLevel": "high"
+    }
+  }
+]
