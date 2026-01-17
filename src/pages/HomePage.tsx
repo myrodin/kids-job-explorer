@@ -21,11 +21,11 @@ export function HomePage() {
       <SEO
         title={isKorean ? undefined : 'Kids Job Explorer'}
         description={isKorean
-          ? '어린이를 위한 직업 탐색 서비스. 18개의 재미있는 질문에 답하고 100가지 직업 중 나에게 맞는 꿈을 찾아보세요!'
-          : 'Career exploration for kids. Answer 18 fun questions and discover your dream job from 100 careers!'}
+          ? '어린이를 위한 무료 직업 적성 테스트. 18개의 재미있는 질문에 답하면 AI가 100가지 직업 중 나에게 맞는 꿈을 추천해드립니다. 초등학생, 중학생 진로 탐색에 최적화된 서비스입니다.'
+          : 'Free career aptitude test for kids. Answer 18 fun questions and AI will recommend your ideal job from 100 careers. Perfect for elementary and middle school students.'}
         keywords={isKorean
-          ? '어린이 직업, 직업 탐색, 진로 탐색, 초등학생 직업, 꿈 찾기, 직업 테스트, 적성 검사'
-          : 'kids careers, job exploration, career test, aptitude test, find your dream job'}
+          ? '어린이 직업 테스트, 초등학생 적성검사, 무료 진로탐색, 직업 추천, 꿈 찾기, AI 직업 테스트, 어린이 진로교육'
+          : 'kids career test, free aptitude test, career exploration, AI job recommendation, find your dream job'}
         url="/"
       />
       <div className="min-h-[calc(100vh-8rem)] flex flex-col items-center justify-center py-12">

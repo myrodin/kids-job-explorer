@@ -83,23 +83,38 @@ export function SEO({
   );
 }
 
-// Job Detail Page SEO Props Generator
+// Job Detail Page SEO Props Generator (GEO optimized)
 export function generateJobSEO(job: {
   id: string;
   name: string;
   description: string;
   category: string;
+  dailyWork?: string[];
+  requirements?: {
+    education: string;
+    skills: string[];
+    personality: string[];
+  };
+  preparation?: {
+    elementary: string[];
+    middle: string[];
+    high: string[];
+  };
 }, lang: string) {
   const title = lang === 'ko'
-    ? `${job.name} - 직업 정보`
-    : `${job.name} - Career Information`;
+    ? `${job.name} - 하는 일, 준비 방법, 필요한 능력 | 어린이 직업 정보`
+    : `${job.name} - Daily Tasks, Preparation, Required Skills | Kids Career Info`;
 
-  const description = job.description;
+  // GEO: 더 상세하고 AI 친화적인 설명
+  const description = lang === 'ko'
+    ? `${job.name}은(는) ${job.description} ${job.name}이(가) 되려면 어떤 준비가 필요한지, 어떤 능력이 필요한지 알아보세요. 초등학생부터 고등학생까지 단계별 진로 준비 가이드를 제공합니다.`
+    : `${job.name}: ${job.description} Learn what skills you need and how to prepare from elementary to high school.`;
 
   const keywords = lang === 'ko'
-    ? `${job.name}, ${job.category}, 직업 정보, 어린이 직업, 진로 탐색`
-    : `${job.name}, ${job.category}, career info, kids jobs, career exploration`;
+    ? `${job.name}, ${job.name} 되는 법, ${job.name} 하는 일, ${job.name} 연봉, ${job.category}, 직업 정보, 어린이 직업, 진로 탐색, 진로 준비`
+    : `${job.name}, how to become ${job.name}, ${job.name} career, ${job.category}, career info, kids jobs, career exploration`;
 
+  // GEO: 더 풍부한 구조화된 데이터
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Occupation',
@@ -109,6 +124,25 @@ export function generateJobSEO(job: {
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': `${BASE_URL}/jobs/${job.id}`,
+    },
+    // GEO: 교육 요구사항
+    ...(job.requirements && {
+      'educationRequirements': {
+        '@type': 'EducationalOccupationalCredential',
+        'credentialCategory': job.requirements.education,
+      },
+      'skills': job.requirements.skills.join(', '),
+      'qualifications': job.requirements.personality.join(', '),
+    }),
+    // GEO: 작업 설명
+    ...(job.dailyWork && {
+      'responsibilities': job.dailyWork.join('. '),
+    }),
+    // GEO: 대상 청중
+    'audience': {
+      '@type': 'EducationalAudience',
+      'educationalRole': 'student',
+      'audienceType': lang === 'ko' ? '초등학생, 중학생, 고등학생' : 'Elementary, Middle, High school students',
     },
   };
 
