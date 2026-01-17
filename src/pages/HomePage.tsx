@@ -1,21 +1,34 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Button, Icon } from '../components/common';
+import { Button, Icon, SEO } from '../components/common';
 import { useQuiz } from '../context/QuizContext';
 
 export function HomePage() {
   const navigate = useNavigate();
   const { resetQuiz } = useQuiz();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const handleStartQuiz = () => {
     resetQuiz();
     navigate('/quiz');
   };
 
+  const isKorean = i18n.language === 'ko';
+
   return (
-    <div className="min-h-[calc(100vh-8rem)] flex flex-col items-center justify-center py-12">
+    <>
+      <SEO
+        title={isKorean ? undefined : 'Kids Job Explorer'}
+        description={isKorean
+          ? '어린이를 위한 직업 탐색 서비스. 18개의 재미있는 질문에 답하고 100가지 직업 중 나에게 맞는 꿈을 찾아보세요!'
+          : 'Career exploration for kids. Answer 18 fun questions and discover your dream job from 100 careers!'}
+        keywords={isKorean
+          ? '어린이 직업, 직업 탐색, 진로 탐색, 초등학생 직업, 꿈 찾기, 직업 테스트, 적성 검사'
+          : 'kids careers, job exploration, career test, aptitude test, find your dream job'}
+        url="/"
+      />
+      <div className="min-h-[calc(100vh-8rem)] flex flex-col items-center justify-center py-12">
       {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -115,6 +128,7 @@ export function HomePage() {
         />
       </motion.div>
     </div>
+    </>
   );
 }
 

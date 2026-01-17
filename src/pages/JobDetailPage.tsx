@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { getJobById } from '../data/jobs';
 import type { Job } from '../types';
-import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
+import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons, SEO, generateJobSEO } from '../components/common';
 
 // Get icon for job based on category
 const getJobIcon = (categoryId: string): string => {
@@ -43,6 +43,8 @@ export function JobDetailPage() {
     );
   }
 
+  const seoProps = generateJobSEO(job, i18n.language);
+
   const tabs = [
     { id: 'overview', label: t('pages:jobDetail.tabs.intro'), icon: 'clipboard-list' },
     { id: 'preparation', label: t('pages:jobDetail.tabs.preparation'), icon: 'book-open' },
@@ -50,7 +52,9 @@ export function JobDetailPage() {
   ] as const;
 
   return (
-    <div className="space-y-12">
+    <>
+      <SEO {...seoProps} />
+      <div className="space-y-12">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -400,6 +404,7 @@ export function JobDetailPage() {
         </Link>
       </motion.div>
     </div>
+    </>
   );
 }
 

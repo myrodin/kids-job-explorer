@@ -15,14 +15,23 @@ export function Layout({ children }: LayoutProps) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* Skip to main content link for accessibility */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-[100] focus:bg-primary-600 focus:text-white focus:p-4"
+      >
+        {t('common:accessibility.skipToMain', '본문으로 바로가기')}
+      </a>
+
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+      <header className="bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50" role="banner">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center gap-2 group" aria-label={t('common:nav.title')}>
             <motion.div
               animate={{ rotate: [0, 10, -10, 0] }}
               transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
               className="text-primary-500"
+              aria-hidden="true"
             >
               <Icon name="wand-magic-sparkles" size="xl" />
             </motion.div>
@@ -31,7 +40,7 @@ export function Layout({ children }: LayoutProps) {
             </span>
           </Link>
 
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-6" role="navigation" aria-label={t('common:nav.mainNav', '메인 내비게이션')}>
             <Link
               to="/jobs"
               className={`flex items-center gap-2 font-medium transition-colors ${
@@ -60,14 +69,14 @@ export function Layout({ children }: LayoutProps) {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1">
+      <main className="flex-1" id="main-content" role="main" tabIndex={-1}>
         <div className={`max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 ${isHome ? 'py-8' : 'py-12'}`}>
           {children}
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-white/50 border-t border-gray-100 py-6 mt-auto">
+      <footer className="bg-white/50 border-t border-gray-100 py-6 mt-auto" role="contentinfo">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center text-gray-500 text-sm">
           <p className="flex items-center justify-center gap-2">
             <Icon name="graduation-cap" className="text-primary-400" />

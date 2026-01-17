@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { getTranslatedJobs, getJobsByCategory } from '../data/jobs';
 import type { Job } from '../types';
-import { Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
+import { Card, Icon, StaggerContainer, StaggerItem, CategoryIcons, SEO } from '../components/common';
 
 // Get icon for job based on category
 const getJobIcon = (categoryId: string): string => {
@@ -27,6 +27,7 @@ export function JobListPage() {
   const { t, i18n } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const isKorean = i18n.language === 'ko';
 
   const jobs = getTranslatedJobs(i18n.language);
 
@@ -47,7 +48,33 @@ export function JobListPage() {
   }, [selectedCategory, searchQuery, jobs, i18n.language]);
 
   return (
-    <div className="space-y-8">
+    <>
+      <SEO
+        title={isKorean ? '100가지 직업 탐색' : 'Explore 100 Careers'}
+        description={isKorean
+          ? '의사, 프로그래머, 아티스트 등 100가지 직업을 탐색해보세요. 각 직업별 하는 일, 필요한 능력, 준비 방법을 자세히 알아볼 수 있습니다.'
+          : 'Explore 100 different careers including doctors, programmers, artists and more. Learn about daily tasks, required skills, and preparation methods.'}
+        keywords={isKorean
+          ? '직업 목록, 직업 탐색, 직업 정보, 어린이 직업, 진로 정보, 100가지 직업'
+          : 'job list, career exploration, career information, kids careers, 100 jobs'}
+        url="/jobs"
+        structuredData={{
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          'name': isKorean ? '100가지 직업 목록' : '100 Career List',
+          'description': isKorean
+            ? '어린이를 위한 100가지 직업 탐색 목록'
+            : '100 career exploration list for kids',
+          'numberOfItems': jobs.length,
+          'itemListElement': jobs.slice(0, 10).map((job, index) => ({
+            '@type': 'ListItem',
+            'position': index + 1,
+            'name': job.name,
+            'url': `https://myrodin.github.io/kids-job-explorer/jobs/${job.id}`,
+          })),
+        }}
+      />
+      <div className="space-y-8">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -205,6 +232,7 @@ export function JobListPage() {
         </Link>
       </motion.div>
     </div>
+    </>
   );
 }
 

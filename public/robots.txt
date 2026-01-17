@@ -1,4 +1,14 @@
+# robots.txt for kids-job-explorer
+# https://myrodin.github.io/kids-job-explorer/
+
 User-agent: *
 Allow: /
 
+# Disallow unnecessary paths
+Disallow: /design
+
+# Sitemap location
 Sitemap: https://myrodin.github.io/kids-job-explorer/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1

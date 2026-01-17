@@ -4,11 +4,12 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useQuiz } from '../context/QuizContext';
 import { QuestionCard, QuizProgress } from '../components/quiz';
-import { Card, Icon } from '../components/common';
+import { Card, Icon, SEO } from '../components/common';
 
 export function QuizPage() {
   const navigate = useNavigate();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isKorean = i18n.language === 'ko';
   const {
     state,
     currentQuestion,
@@ -42,7 +43,19 @@ export function QuizPage() {
   const existingAnswer = getAnswerForQuestion(currentQuestion.id);
 
   return (
-    <div className="min-h-[calc(100vh-16rem)] flex flex-col items-center justify-center space-y-8">
+    <>
+      <SEO
+        title={isKorean ? '직업 적성 테스트' : 'Career Aptitude Test'}
+        description={isKorean
+          ? '18개의 재미있는 질문에 답하고 나에게 맞는 직업을 찾아보세요. 어린이를 위한 무료 적성 검사입니다.'
+          : 'Answer 18 fun questions to find your ideal career. Free aptitude test for kids.'}
+        keywords={isKorean
+          ? '직업 테스트, 적성 검사, 진로 탐색, 어린이 테스트'
+          : 'career test, aptitude test, career exploration, kids test'}
+        url="/quiz"
+        noindex={true}
+      />
+      <div className="min-h-[calc(100vh-16rem)] flex flex-col items-center justify-center space-y-8">
       {/* Progress */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -80,6 +93,7 @@ export function QuizPage() {
         </p>
       </motion.div>
     </div>
+    </>
   );
 }
 

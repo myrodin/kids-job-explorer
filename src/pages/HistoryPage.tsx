@@ -6,7 +6,7 @@ import { getResults, deleteResult, clearAllResults } from '../utils/storage';
 import { getJobById } from '../data/jobs';
 import { useQuiz } from '../context/QuizContext';
 import type { SavedResult } from '../types';
-import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
+import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons, SEO } from '../components/common';
 
 // Get icon for job based on category
 const getJobIcon = (categoryId: string): string => {
@@ -17,6 +17,7 @@ export function HistoryPage() {
   const navigate = useNavigate();
   const { resetQuiz } = useQuiz();
   const { t, i18n } = useTranslation();
+  const isKorean = i18n.language === 'ko';
   const [results, setResults] = useState<SavedResult[]>([]);
   const [showConfirm, setShowConfirm] = useState(false);
 
@@ -53,7 +54,19 @@ export function HistoryPage() {
   };
 
   return (
-    <div className="space-y-8">
+    <>
+      <SEO
+        title={isKorean ? '탐색 기록' : 'Exploration History'}
+        description={isKorean
+          ? '내가 탐색한 직업 결과를 확인해보세요. 지금까지 받은 모든 직업 추천 기록을 한눈에 볼 수 있습니다.'
+          : 'Check your career exploration results. View all your job recommendations at a glance.'}
+        keywords={isKorean
+          ? '탐색 기록, 직업 추천 기록, 테스트 결과, 진로 기록'
+          : 'exploration history, job recommendation history, test results, career history'}
+        url="/history"
+        noindex={true}
+      />
+      <div className="space-y-8">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -245,6 +258,7 @@ export function HistoryPage() {
         </motion.div>
       )}
     </div>
+    </>
   );
 }
 

@@ -6,7 +6,7 @@ import { useQuiz } from '../context/QuizContext';
 import { getJobRecommendations } from '../utils/matching';
 import { saveResult } from '../utils/storage';
 import type { MatchingResult } from '../types';
-import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons } from '../components/common';
+import { Button, Card, Icon, StaggerContainer, StaggerItem, CategoryIcons, SEO } from '../components/common';
 
 // Get icon for job based on category
 const getJobIcon = (categoryId: string): string => {
@@ -16,6 +16,7 @@ const getJobIcon = (categoryId: string): string => {
 export function ResultPage() {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
+  const isKorean = i18n.language === 'ko';
   const { state, resetQuiz, markResultSaved } = useQuiz();
   const [results, setResults] = useState<MatchingResult[]>([]);
   const saveAttempted = useRef(false);
@@ -107,7 +108,19 @@ export function ResultPage() {
   const topResult = results[0];
 
   return (
-    <div className="space-y-12">
+    <>
+      <SEO
+        title={isKorean ? `나에게 맞는 직업: ${topResult.job.name}` : `Your Match: ${topResult.job.name}`}
+        description={isKorean
+          ? `${topResult.job.name}이(가) ${topResult.matchScore}% 매칭되었습니다! ${topResult.job.description}`
+          : `${topResult.job.name} matched ${topResult.matchScore}%! ${topResult.job.description}`}
+        keywords={isKorean
+          ? '직업 테스트 결과, 적성 검사 결과, 진로 추천, 직업 매칭'
+          : 'career test result, aptitude test result, job recommendation, job matching'}
+        url="/result"
+        noindex={true}
+      />
+      <div className="space-y-12">
       {/* Celebration */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
@@ -283,6 +296,7 @@ export function ResultPage() {
         {t('common:messages.savedAuto')}
       </motion.p>
     </div>
+    </>
   );
 }
 
